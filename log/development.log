@@ -1,0 +1,1048 @@
+Started GET "/" for ::1 at 2022-10-06 22:44:34 -0500
+  
+ActiveRecord::ConnectionNotEstablished (connection to server on socket "/var/run/postgresql/.s.PGSQL.5432" failed: FATAL:  role "netwerth" does not exist
+):
+  
+activerecord (7.0.4) lib/active_record/connection_adapters/postgresql_adapter.rb:87:in `rescue in new_client'
+activerecord (7.0.4) lib/active_record/connection_adapters/postgresql_adapter.rb:77:in `new_client'
+activerecord (7.0.4) lib/active_record/connection_adapters/postgresql_adapter.rb:37:in `postgresql_connection'
+activerecord (7.0.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:656:in `public_send'
+activerecord (7.0.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:656:in `new_connection'
+activerecord (7.0.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:700:in `checkout_new_connection'
+activerecord (7.0.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:679:in `try_to_checkout_new_connection'
+activerecord (7.0.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:640:in `acquire_connection'
+activerecord (7.0.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:341:in `checkout'
+activerecord (7.0.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:181:in `connection'
+activerecord (7.0.4) lib/active_record/connection_adapters/abstract/connection_handler.rb:211:in `retrieve_connection'
+activerecord (7.0.4) lib/active_record/connection_handling.rb:313:in `retrieve_connection'
+activerecord (7.0.4) lib/active_record/connection_handling.rb:280:in `connection'
+activerecord (7.0.4) lib/active_record/migration.rb:613:in `connection'
+activerecord (7.0.4) lib/active_record/migration.rb:608:in `build_watcher'
+activerecord (7.0.4) lib/active_record/migration.rb:590:in `block in call'
+activerecord (7.0.4) lib/active_record/migration.rb:589:in `synchronize'
+activerecord (7.0.4) lib/active_record/migration.rb:589:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (7.0.4) lib/active_support/callbacks.rb:99:in `run_callbacks'
+actionpack (7.0.4) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/actionable_exceptions.rb:17:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/debug_exceptions.rb:28:in `call'
+web-console (4.2.0) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.2.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.2.0) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.2.0) lib/web_console/middleware.rb:17:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/show_exceptions.rb:26:in `call'
+railties (7.0.4) lib/rails/rack/logger.rb:40:in `call_app'
+railties (7.0.4) lib/rails/rack/logger.rb:25:in `block in call'
+activesupport (7.0.4) lib/active_support/tagged_logging.rb:99:in `block in tagged'
+activesupport (7.0.4) lib/active_support/tagged_logging.rb:37:in `tagged'
+activesupport (7.0.4) lib/active_support/tagged_logging.rb:99:in `tagged'
+railties (7.0.4) lib/rails/rack/logger.rb:25:in `call'
+sprockets-rails (3.4.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/remote_ip.rb:93:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/request_id.rb:26:in `call'
+rack (2.2.4) lib/rack/method_override.rb:24:in `call'
+rack (2.2.4) lib/rack/runtime.rb:22:in `call'
+activesupport (7.0.4) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/server_timing.rb:61:in `block in call'
+actionpack (7.0.4) lib/action_dispatch/middleware/server_timing.rb:26:in `collect_events'
+actionpack (7.0.4) lib/action_dispatch/middleware/server_timing.rb:60:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/static.rb:23:in `call'
+rack (2.2.4) lib/rack/sendfile.rb:110:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/host_authorization.rb:137:in `call'
+railties (7.0.4) lib/rails/engine.rb:530:in `call'
+puma (4.3.12) lib/puma/configuration.rb:228:in `call'
+puma (4.3.12) lib/puma/server.rb:727:in `handle_request'
+puma (4.3.12) lib/puma/server.rb:476:in `process_client'
+puma (4.3.12) lib/puma/server.rb:332:in `block in run'
+puma (4.3.12) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/" for ::1 at 2022-10-06 22:48:04 -0500
+  
+ActiveRecord::ConnectionNotEstablished (connection to server on socket "/var/run/postgresql/.s.PGSQL.5432" failed: FATAL:  role "netwerth" does not exist
+):
+  
+activerecord (7.0.4) lib/active_record/connection_adapters/postgresql_adapter.rb:87:in `rescue in new_client'
+activerecord (7.0.4) lib/active_record/connection_adapters/postgresql_adapter.rb:77:in `new_client'
+activerecord (7.0.4) lib/active_record/connection_adapters/postgresql_adapter.rb:37:in `postgresql_connection'
+activerecord (7.0.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:656:in `public_send'
+activerecord (7.0.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:656:in `new_connection'
+activerecord (7.0.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:700:in `checkout_new_connection'
+activerecord (7.0.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:679:in `try_to_checkout_new_connection'
+activerecord (7.0.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:640:in `acquire_connection'
+activerecord (7.0.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:341:in `checkout'
+activerecord (7.0.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:181:in `connection'
+activerecord (7.0.4) lib/active_record/connection_adapters/abstract/connection_handler.rb:211:in `retrieve_connection'
+activerecord (7.0.4) lib/active_record/connection_handling.rb:313:in `retrieve_connection'
+activerecord (7.0.4) lib/active_record/connection_handling.rb:280:in `connection'
+activerecord (7.0.4) lib/active_record/migration.rb:613:in `connection'
+activerecord (7.0.4) lib/active_record/migration.rb:608:in `build_watcher'
+activerecord (7.0.4) lib/active_record/migration.rb:590:in `block in call'
+activerecord (7.0.4) lib/active_record/migration.rb:589:in `synchronize'
+activerecord (7.0.4) lib/active_record/migration.rb:589:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (7.0.4) lib/active_support/callbacks.rb:99:in `run_callbacks'
+actionpack (7.0.4) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/actionable_exceptions.rb:17:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/debug_exceptions.rb:28:in `call'
+web-console (4.2.0) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.2.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.2.0) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.2.0) lib/web_console/middleware.rb:17:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/show_exceptions.rb:26:in `call'
+railties (7.0.4) lib/rails/rack/logger.rb:40:in `call_app'
+railties (7.0.4) lib/rails/rack/logger.rb:25:in `block in call'
+activesupport (7.0.4) lib/active_support/tagged_logging.rb:99:in `block in tagged'
+activesupport (7.0.4) lib/active_support/tagged_logging.rb:37:in `tagged'
+activesupport (7.0.4) lib/active_support/tagged_logging.rb:99:in `tagged'
+railties (7.0.4) lib/rails/rack/logger.rb:25:in `call'
+sprockets-rails (3.4.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/remote_ip.rb:93:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/request_id.rb:26:in `call'
+rack (2.2.4) lib/rack/method_override.rb:24:in `call'
+rack (2.2.4) lib/rack/runtime.rb:22:in `call'
+activesupport (7.0.4) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/server_timing.rb:61:in `block in call'
+actionpack (7.0.4) lib/action_dispatch/middleware/server_timing.rb:26:in `collect_events'
+actionpack (7.0.4) lib/action_dispatch/middleware/server_timing.rb:60:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/static.rb:23:in `call'
+rack (2.2.4) lib/rack/sendfile.rb:110:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/host_authorization.rb:137:in `call'
+railties (7.0.4) lib/rails/engine.rb:530:in `call'
+puma (4.3.12) lib/puma/configuration.rb:228:in `call'
+puma (4.3.12) lib/puma/server.rb:727:in `handle_request'
+puma (4.3.12) lib/puma/server.rb:476:in `process_client'
+puma (4.3.12) lib/puma/server.rb:332:in `block in run'
+puma (4.3.12) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/" for ::1 at 2022-10-06 22:50:29 -0500
+  
+ActiveRecord::ConnectionNotEstablished (connection to server on socket "/var/run/postgresql/.s.PGSQL.5432" failed: FATAL:  role "netwerth" does not exist
+):
+  
+activerecord (7.0.4) lib/active_record/connection_adapters/postgresql_adapter.rb:87:in `rescue in new_client'
+activerecord (7.0.4) lib/active_record/connection_adapters/postgresql_adapter.rb:77:in `new_client'
+activerecord (7.0.4) lib/active_record/connection_adapters/postgresql_adapter.rb:37:in `postgresql_connection'
+activerecord (7.0.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:656:in `public_send'
+activerecord (7.0.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:656:in `new_connection'
+activerecord (7.0.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:700:in `checkout_new_connection'
+activerecord (7.0.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:679:in `try_to_checkout_new_connection'
+activerecord (7.0.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:640:in `acquire_connection'
+activerecord (7.0.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:341:in `checkout'
+activerecord (7.0.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:181:in `connection'
+activerecord (7.0.4) lib/active_record/connection_adapters/abstract/connection_handler.rb:211:in `retrieve_connection'
+activerecord (7.0.4) lib/active_record/connection_handling.rb:313:in `retrieve_connection'
+activerecord (7.0.4) lib/active_record/connection_handling.rb:280:in `connection'
+activerecord (7.0.4) lib/active_record/migration.rb:613:in `connection'
+activerecord (7.0.4) lib/active_record/migration.rb:608:in `build_watcher'
+activerecord (7.0.4) lib/active_record/migration.rb:590:in `block in call'
+activerecord (7.0.4) lib/active_record/migration.rb:589:in `synchronize'
+activerecord (7.0.4) lib/active_record/migration.rb:589:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (7.0.4) lib/active_support/callbacks.rb:99:in `run_callbacks'
+actionpack (7.0.4) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/actionable_exceptions.rb:17:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/debug_exceptions.rb:28:in `call'
+web-console (4.2.0) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.2.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.2.0) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.2.0) lib/web_console/middleware.rb:17:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/show_exceptions.rb:26:in `call'
+railties (7.0.4) lib/rails/rack/logger.rb:40:in `call_app'
+railties (7.0.4) lib/rails/rack/logger.rb:25:in `block in call'
+activesupport (7.0.4) lib/active_support/tagged_logging.rb:99:in `block in tagged'
+activesupport (7.0.4) lib/active_support/tagged_logging.rb:37:in `tagged'
+activesupport (7.0.4) lib/active_support/tagged_logging.rb:99:in `tagged'
+railties (7.0.4) lib/rails/rack/logger.rb:25:in `call'
+sprockets-rails (3.4.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/remote_ip.rb:93:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/request_id.rb:26:in `call'
+rack (2.2.4) lib/rack/method_override.rb:24:in `call'
+rack (2.2.4) lib/rack/runtime.rb:22:in `call'
+activesupport (7.0.4) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/server_timing.rb:61:in `block in call'
+actionpack (7.0.4) lib/action_dispatch/middleware/server_timing.rb:26:in `collect_events'
+actionpack (7.0.4) lib/action_dispatch/middleware/server_timing.rb:60:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/static.rb:23:in `call'
+rack (2.2.4) lib/rack/sendfile.rb:110:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/host_authorization.rb:137:in `call'
+railties (7.0.4) lib/rails/engine.rb:530:in `call'
+puma (4.3.12) lib/puma/configuration.rb:228:in `call'
+puma (4.3.12) lib/puma/server.rb:727:in `handle_request'
+puma (4.3.12) lib/puma/server.rb:476:in `process_client'
+puma (4.3.12) lib/puma/server.rb:332:in `block in run'
+puma (4.3.12) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/" for ::1 at 2022-10-06 23:09:10 -0500
+  
+ActiveRecord::ConnectionNotEstablished (connection to server on socket "/var/run/postgresql/.s.PGSQL.5432" failed: FATAL:  role "netwerth" does not exist
+):
+  
+activerecord (7.0.4) lib/active_record/connection_adapters/postgresql_adapter.rb:87:in `rescue in new_client'
+activerecord (7.0.4) lib/active_record/connection_adapters/postgresql_adapter.rb:77:in `new_client'
+activerecord (7.0.4) lib/active_record/connection_adapters/postgresql_adapter.rb:37:in `postgresql_connection'
+activerecord (7.0.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:656:in `public_send'
+activerecord (7.0.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:656:in `new_connection'
+activerecord (7.0.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:700:in `checkout_new_connection'
+activerecord (7.0.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:679:in `try_to_checkout_new_connection'
+activerecord (7.0.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:640:in `acquire_connection'
+activerecord (7.0.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:341:in `checkout'
+activerecord (7.0.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:181:in `connection'
+activerecord (7.0.4) lib/active_record/connection_adapters/abstract/connection_handler.rb:211:in `retrieve_connection'
+activerecord (7.0.4) lib/active_record/connection_handling.rb:313:in `retrieve_connection'
+activerecord (7.0.4) lib/active_record/connection_handling.rb:280:in `connection'
+activerecord (7.0.4) lib/active_record/migration.rb:613:in `connection'
+activerecord (7.0.4) lib/active_record/migration.rb:608:in `build_watcher'
+activerecord (7.0.4) lib/active_record/migration.rb:590:in `block in call'
+activerecord (7.0.4) lib/active_record/migration.rb:589:in `synchronize'
+activerecord (7.0.4) lib/active_record/migration.rb:589:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (7.0.4) lib/active_support/callbacks.rb:99:in `run_callbacks'
+actionpack (7.0.4) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/actionable_exceptions.rb:17:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/debug_exceptions.rb:28:in `call'
+web-console (4.2.0) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.2.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.2.0) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.2.0) lib/web_console/middleware.rb:17:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/show_exceptions.rb:26:in `call'
+railties (7.0.4) lib/rails/rack/logger.rb:40:in `call_app'
+railties (7.0.4) lib/rails/rack/logger.rb:25:in `block in call'
+activesupport (7.0.4) lib/active_support/tagged_logging.rb:99:in `block in tagged'
+activesupport (7.0.4) lib/active_support/tagged_logging.rb:37:in `tagged'
+activesupport (7.0.4) lib/active_support/tagged_logging.rb:99:in `tagged'
+railties (7.0.4) lib/rails/rack/logger.rb:25:in `call'
+sprockets-rails (3.4.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/remote_ip.rb:93:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/request_id.rb:26:in `call'
+rack (2.2.4) lib/rack/method_override.rb:24:in `call'
+rack (2.2.4) lib/rack/runtime.rb:22:in `call'
+activesupport (7.0.4) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/server_timing.rb:61:in `block in call'
+actionpack (7.0.4) lib/action_dispatch/middleware/server_timing.rb:26:in `collect_events'
+actionpack (7.0.4) lib/action_dispatch/middleware/server_timing.rb:60:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/static.rb:23:in `call'
+rack (2.2.4) lib/rack/sendfile.rb:110:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/host_authorization.rb:137:in `call'
+railties (7.0.4) lib/rails/engine.rb:530:in `call'
+puma (4.3.12) lib/puma/configuration.rb:228:in `call'
+puma (4.3.12) lib/puma/server.rb:727:in `handle_request'
+puma (4.3.12) lib/puma/server.rb:476:in `process_client'
+puma (4.3.12) lib/puma/server.rb:332:in `block in run'
+puma (4.3.12) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/" for ::1 at 2022-10-06 23:09:46 -0500
+  
+ActiveRecord::ConnectionNotEstablished (connection to server on socket "/var/run/postgresql/.s.PGSQL.5432" failed: FATAL:  role "netwerth" does not exist
+):
+  
+activerecord (7.0.4) lib/active_record/connection_adapters/postgresql_adapter.rb:87:in `rescue in new_client'
+activerecord (7.0.4) lib/active_record/connection_adapters/postgresql_adapter.rb:77:in `new_client'
+activerecord (7.0.4) lib/active_record/connection_adapters/postgresql_adapter.rb:37:in `postgresql_connection'
+activerecord (7.0.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:656:in `public_send'
+activerecord (7.0.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:656:in `new_connection'
+activerecord (7.0.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:700:in `checkout_new_connection'
+activerecord (7.0.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:679:in `try_to_checkout_new_connection'
+activerecord (7.0.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:640:in `acquire_connection'
+activerecord (7.0.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:341:in `checkout'
+activerecord (7.0.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:181:in `connection'
+activerecord (7.0.4) lib/active_record/connection_adapters/abstract/connection_handler.rb:211:in `retrieve_connection'
+activerecord (7.0.4) lib/active_record/connection_handling.rb:313:in `retrieve_connection'
+activerecord (7.0.4) lib/active_record/connection_handling.rb:280:in `connection'
+activerecord (7.0.4) lib/active_record/migration.rb:613:in `connection'
+activerecord (7.0.4) lib/active_record/migration.rb:608:in `build_watcher'
+activerecord (7.0.4) lib/active_record/migration.rb:590:in `block in call'
+activerecord (7.0.4) lib/active_record/migration.rb:589:in `synchronize'
+activerecord (7.0.4) lib/active_record/migration.rb:589:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (7.0.4) lib/active_support/callbacks.rb:99:in `run_callbacks'
+actionpack (7.0.4) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/actionable_exceptions.rb:17:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/debug_exceptions.rb:28:in `call'
+web-console (4.2.0) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.2.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.2.0) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.2.0) lib/web_console/middleware.rb:17:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/show_exceptions.rb:26:in `call'
+railties (7.0.4) lib/rails/rack/logger.rb:40:in `call_app'
+railties (7.0.4) lib/rails/rack/logger.rb:25:in `block in call'
+activesupport (7.0.4) lib/active_support/tagged_logging.rb:99:in `block in tagged'
+activesupport (7.0.4) lib/active_support/tagged_logging.rb:37:in `tagged'
+activesupport (7.0.4) lib/active_support/tagged_logging.rb:99:in `tagged'
+railties (7.0.4) lib/rails/rack/logger.rb:25:in `call'
+sprockets-rails (3.4.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/remote_ip.rb:93:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/request_id.rb:26:in `call'
+rack (2.2.4) lib/rack/method_override.rb:24:in `call'
+rack (2.2.4) lib/rack/runtime.rb:22:in `call'
+activesupport (7.0.4) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/server_timing.rb:61:in `block in call'
+actionpack (7.0.4) lib/action_dispatch/middleware/server_timing.rb:26:in `collect_events'
+actionpack (7.0.4) lib/action_dispatch/middleware/server_timing.rb:60:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/static.rb:23:in `call'
+rack (2.2.4) lib/rack/sendfile.rb:110:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/host_authorization.rb:137:in `call'
+railties (7.0.4) lib/rails/engine.rb:530:in `call'
+puma (4.3.12) lib/puma/configuration.rb:228:in `call'
+puma (4.3.12) lib/puma/server.rb:727:in `handle_request'
+puma (4.3.12) lib/puma/server.rb:476:in `process_client'
+puma (4.3.12) lib/puma/server.rb:332:in `block in run'
+puma (4.3.12) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/" for ::1 at 2022-10-06 23:11:48 -0500
+  
+ActiveRecord::ConnectionNotEstablished (connection to server on socket "/var/run/postgresql/.s.PGSQL.5432" failed: FATAL:  role "netwerth" is not permitted to log in
+):
+  
+activerecord (7.0.4) lib/active_record/connection_adapters/postgresql_adapter.rb:87:in `rescue in new_client'
+activerecord (7.0.4) lib/active_record/connection_adapters/postgresql_adapter.rb:77:in `new_client'
+activerecord (7.0.4) lib/active_record/connection_adapters/postgresql_adapter.rb:37:in `postgresql_connection'
+activerecord (7.0.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:656:in `public_send'
+activerecord (7.0.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:656:in `new_connection'
+activerecord (7.0.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:700:in `checkout_new_connection'
+activerecord (7.0.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:679:in `try_to_checkout_new_connection'
+activerecord (7.0.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:640:in `acquire_connection'
+activerecord (7.0.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:341:in `checkout'
+activerecord (7.0.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:181:in `connection'
+activerecord (7.0.4) lib/active_record/connection_adapters/abstract/connection_handler.rb:211:in `retrieve_connection'
+activerecord (7.0.4) lib/active_record/connection_handling.rb:313:in `retrieve_connection'
+activerecord (7.0.4) lib/active_record/connection_handling.rb:280:in `connection'
+activerecord (7.0.4) lib/active_record/migration.rb:613:in `connection'
+activerecord (7.0.4) lib/active_record/migration.rb:608:in `build_watcher'
+activerecord (7.0.4) lib/active_record/migration.rb:590:in `block in call'
+activerecord (7.0.4) lib/active_record/migration.rb:589:in `synchronize'
+activerecord (7.0.4) lib/active_record/migration.rb:589:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (7.0.4) lib/active_support/callbacks.rb:99:in `run_callbacks'
+actionpack (7.0.4) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/actionable_exceptions.rb:17:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/debug_exceptions.rb:28:in `call'
+web-console (4.2.0) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.2.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.2.0) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.2.0) lib/web_console/middleware.rb:17:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/show_exceptions.rb:26:in `call'
+railties (7.0.4) lib/rails/rack/logger.rb:40:in `call_app'
+railties (7.0.4) lib/rails/rack/logger.rb:25:in `block in call'
+activesupport (7.0.4) lib/active_support/tagged_logging.rb:99:in `block in tagged'
+activesupport (7.0.4) lib/active_support/tagged_logging.rb:37:in `tagged'
+activesupport (7.0.4) lib/active_support/tagged_logging.rb:99:in `tagged'
+railties (7.0.4) lib/rails/rack/logger.rb:25:in `call'
+sprockets-rails (3.4.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/remote_ip.rb:93:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/request_id.rb:26:in `call'
+rack (2.2.4) lib/rack/method_override.rb:24:in `call'
+rack (2.2.4) lib/rack/runtime.rb:22:in `call'
+activesupport (7.0.4) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/server_timing.rb:61:in `block in call'
+actionpack (7.0.4) lib/action_dispatch/middleware/server_timing.rb:26:in `collect_events'
+actionpack (7.0.4) lib/action_dispatch/middleware/server_timing.rb:60:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/static.rb:23:in `call'
+rack (2.2.4) lib/rack/sendfile.rb:110:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/host_authorization.rb:137:in `call'
+railties (7.0.4) lib/rails/engine.rb:530:in `call'
+puma (4.3.12) lib/puma/configuration.rb:228:in `call'
+puma (4.3.12) lib/puma/server.rb:727:in `handle_request'
+puma (4.3.12) lib/puma/server.rb:476:in `process_client'
+puma (4.3.12) lib/puma/server.rb:332:in `block in run'
+puma (4.3.12) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/" for ::1 at 2022-10-06 23:11:57 -0500
+  
+ActiveRecord::ConnectionNotEstablished (connection to server on socket "/var/run/postgresql/.s.PGSQL.5432" failed: FATAL:  role "netwerth" is not permitted to log in
+):
+  
+activerecord (7.0.4) lib/active_record/connection_adapters/postgresql_adapter.rb:87:in `rescue in new_client'
+activerecord (7.0.4) lib/active_record/connection_adapters/postgresql_adapter.rb:77:in `new_client'
+activerecord (7.0.4) lib/active_record/connection_adapters/postgresql_adapter.rb:37:in `postgresql_connection'
+activerecord (7.0.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:656:in `public_send'
+activerecord (7.0.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:656:in `new_connection'
+activerecord (7.0.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:700:in `checkout_new_connection'
+activerecord (7.0.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:679:in `try_to_checkout_new_connection'
+activerecord (7.0.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:640:in `acquire_connection'
+activerecord (7.0.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:341:in `checkout'
+activerecord (7.0.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:181:in `connection'
+activerecord (7.0.4) lib/active_record/connection_adapters/abstract/connection_handler.rb:211:in `retrieve_connection'
+activerecord (7.0.4) lib/active_record/connection_handling.rb:313:in `retrieve_connection'
+activerecord (7.0.4) lib/active_record/connection_handling.rb:280:in `connection'
+activerecord (7.0.4) lib/active_record/migration.rb:613:in `connection'
+activerecord (7.0.4) lib/active_record/migration.rb:608:in `build_watcher'
+activerecord (7.0.4) lib/active_record/migration.rb:590:in `block in call'
+activerecord (7.0.4) lib/active_record/migration.rb:589:in `synchronize'
+activerecord (7.0.4) lib/active_record/migration.rb:589:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (7.0.4) lib/active_support/callbacks.rb:99:in `run_callbacks'
+actionpack (7.0.4) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/actionable_exceptions.rb:17:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/debug_exceptions.rb:28:in `call'
+web-console (4.2.0) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.2.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.2.0) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.2.0) lib/web_console/middleware.rb:17:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/show_exceptions.rb:26:in `call'
+railties (7.0.4) lib/rails/rack/logger.rb:40:in `call_app'
+railties (7.0.4) lib/rails/rack/logger.rb:25:in `block in call'
+activesupport (7.0.4) lib/active_support/tagged_logging.rb:99:in `block in tagged'
+activesupport (7.0.4) lib/active_support/tagged_logging.rb:37:in `tagged'
+activesupport (7.0.4) lib/active_support/tagged_logging.rb:99:in `tagged'
+railties (7.0.4) lib/rails/rack/logger.rb:25:in `call'
+sprockets-rails (3.4.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/remote_ip.rb:93:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/request_id.rb:26:in `call'
+rack (2.2.4) lib/rack/method_override.rb:24:in `call'
+rack (2.2.4) lib/rack/runtime.rb:22:in `call'
+activesupport (7.0.4) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/server_timing.rb:61:in `block in call'
+actionpack (7.0.4) lib/action_dispatch/middleware/server_timing.rb:26:in `collect_events'
+actionpack (7.0.4) lib/action_dispatch/middleware/server_timing.rb:60:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/static.rb:23:in `call'
+rack (2.2.4) lib/rack/sendfile.rb:110:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/host_authorization.rb:137:in `call'
+railties (7.0.4) lib/rails/engine.rb:530:in `call'
+puma (4.3.12) lib/puma/configuration.rb:228:in `call'
+puma (4.3.12) lib/puma/server.rb:727:in `handle_request'
+puma (4.3.12) lib/puma/server.rb:476:in `process_client'
+puma (4.3.12) lib/puma/server.rb:332:in `block in run'
+puma (4.3.12) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/" for ::1 at 2022-10-06 23:12:43 -0500
+  [1m[35m (14.6ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" character varying NOT NULL PRIMARY KEY)[0m
+  [1m[35m (2.9ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" character varying NOT NULL PRIMARY KEY, "value" character varying, "created_at" timestamp(6) NOT NULL, "updated_at" timestamp(6) NOT NULL)[0m
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  
+ActiveRecord::PendingMigrationError (
+
+Migrations are pending. To resolve this issue, run:
+
+        bin/rails db:migrate RAILS_ENV=development
+
+You have 1 pending migration:
+
+20220919134026_devise_create_users.rb
+
+
+):
+  
+activerecord (7.0.4) lib/active_record/migration.rb:627:in `check_pending!'
+activerecord (7.0.4) lib/active_record/migration.rb:592:in `block (2 levels) in call'
+activesupport (7.0.4) lib/active_support/file_update_checker.rb:83:in `execute'
+activerecord (7.0.4) lib/active_record/migration.rb:597:in `block in call'
+activerecord (7.0.4) lib/active_record/migration.rb:589:in `synchronize'
+activerecord (7.0.4) lib/active_record/migration.rb:589:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (7.0.4) lib/active_support/callbacks.rb:99:in `run_callbacks'
+actionpack (7.0.4) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/actionable_exceptions.rb:17:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/debug_exceptions.rb:28:in `call'
+web-console (4.2.0) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.2.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.2.0) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.2.0) lib/web_console/middleware.rb:17:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/show_exceptions.rb:26:in `call'
+railties (7.0.4) lib/rails/rack/logger.rb:40:in `call_app'
+railties (7.0.4) lib/rails/rack/logger.rb:25:in `block in call'
+activesupport (7.0.4) lib/active_support/tagged_logging.rb:99:in `block in tagged'
+activesupport (7.0.4) lib/active_support/tagged_logging.rb:37:in `tagged'
+activesupport (7.0.4) lib/active_support/tagged_logging.rb:99:in `tagged'
+railties (7.0.4) lib/rails/rack/logger.rb:25:in `call'
+sprockets-rails (3.4.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/remote_ip.rb:93:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/request_id.rb:26:in `call'
+rack (2.2.4) lib/rack/method_override.rb:24:in `call'
+rack (2.2.4) lib/rack/runtime.rb:22:in `call'
+activesupport (7.0.4) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/server_timing.rb:61:in `block in call'
+actionpack (7.0.4) lib/action_dispatch/middleware/server_timing.rb:26:in `collect_events'
+actionpack (7.0.4) lib/action_dispatch/middleware/server_timing.rb:60:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/static.rb:23:in `call'
+rack (2.2.4) lib/rack/sendfile.rb:110:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/host_authorization.rb:137:in `call'
+railties (7.0.4) lib/rails/engine.rb:530:in `call'
+puma (4.3.12) lib/puma/configuration.rb:228:in `call'
+puma (4.3.12) lib/puma/server.rb:727:in `handle_request'
+puma (4.3.12) lib/puma/server.rb:476:in `process_client'
+puma (4.3.12) lib/puma/server.rb:332:in `block in run'
+puma (4.3.12) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT pg_try_advisory_lock(2395261827956078025)[0m
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to DeviseCreateUsers (20220919134026)
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (14.1ms)[0m  [1m[35mCREATE TABLE "users" ("id" bigserial primary key, "percentToInvest" integer DEFAULT 35, "appName" character varying DEFAULT 'netwethCard' NOT NULL, "stripeCustomerID" character varying, "authentication_token" character varying, "accessPin" character varying DEFAULT 'customer' NOT NULL, "referredBy" character varying DEFAULT 'admin' NOT NULL, "uuid" character varying, "email" character varying NOT NULL, "encrypted_password" character varying DEFAULT '' NOT NULL, "phone" character varying, "twilioPhoneVerify" boolean DEFAULT NULL, "reset_password_token" character varying, "reset_password_sent_at" timestamp(6), "remember_created_at" timestamp(6), "sign_in_count" integer DEFAULT 0 NOT NULL, "current_sign_in_at" timestamp(6), "last_sign_in_at" timestamp(6), "current_sign_in_ip" inet, "last_sign_in_ip" inet, "created_at" timestamp(6) NOT NULL, "updated_at" timestamp(6) NOT NULL)[0m
+  [1m[35m (2.0ms)[0m  [1m[35mCREATE UNIQUE INDEX "index_users_on_email" ON "users" ("email")[0m
+  [1m[35m (1.2ms)[0m  [1m[35mCREATE UNIQUE INDEX "index_users_on_reset_password_token" ON "users" ("reset_password_token")[0m
+  [1m[36mActiveRecord::SchemaMigration Create (0.2ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20220919134026"]]
+  [1m[36mTRANSACTION (0.9ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.2ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mActiveRecord::InternalMetadata Create (0.3ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "key"[0m  [["key", "environment"], ["value", "development"], ["created_at", "2022-10-07 04:13:01.096842"], ["updated_at", "2022-10-07 04:13:01.096842"]]
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT pg_advisory_unlock(2395261827956078025)[0m
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Started GET "/" for ::1 at 2022-10-06 23:13:04 -0500
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Api::V2::RegistrationController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering api/v2/registration/new.html.erb within layouts/application
+  Rendered api/v2/registration/new.html.erb within layouts/application (Duration: 172.2ms | Allocations: 59027)
+  Rendered layout layouts/application.html.erb (Duration: 186.3ms | Allocations: 67110)
+Completed 500 Internal Server Error in 192ms (ActiveRecord: 0.0ms | Allocations: 71380)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `current_user' for #<ActionView::Base:0x00000000010310>
+Did you mean?  current_page?):
+    26:               </a>
+    27:             <!-- Header Content -->
+    28:               <div class="content-header">
+    29:             <% if current_user %>
+    30:                 <!-- Left Section -->
+    31:                 <div class="d-flex align-items-center">
+    32:                     <p>Login</p>
+  
+app/views/layouts/application.html.erb:29
+Started GET "/" for ::1 at 2022-10-06 23:13:06 -0500
+Processing by Api::V2::RegistrationController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering api/v2/registration/new.html.erb within layouts/application
+  Rendered api/v2/registration/new.html.erb within layouts/application (Duration: 2.3ms | Allocations: 2616)
+  Rendered layout layouts/application.html.erb (Duration: 10.8ms | Allocations: 9896)
+Completed 500 Internal Server Error in 11ms (ActiveRecord: 0.0ms | Allocations: 10208)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `current_user' for #<ActionView::Base:0x00000000010608>
+Did you mean?  current_page?):
+    26:               </a>
+    27:             <!-- Header Content -->
+    28:               <div class="content-header">
+    29:             <% if current_user %>
+    30:                 <!-- Left Section -->
+    31:                 <div class="d-flex align-items-center">
+    32:                     <p>Login</p>
+  
+app/views/layouts/application.html.erb:29
+Started GET "/" for ::1 at 2022-10-06 23:13:27 -0500
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Api::V2::RegistrationController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering api/v2/registration/new.html.erb within layouts/application
+  Rendered api/v2/registration/new.html.erb within layouts/application (Duration: 22.4ms | Allocations: 20033)
+  Rendered layout layouts/application.html.erb (Duration: 31.7ms | Allocations: 28976)
+Completed 500 Internal Server Error in 36ms (ActiveRecord: 0.0ms | Allocations: 34925)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `current_user' for #<ActionView::Base:0x0000000000ff00>
+Did you mean?  current_page?):
+    26:               </a>
+    27:             <!-- Header Content -->
+    28:               <div class="content-header">
+    29:             <% if current_user %>
+    30:                 <!-- Left Section -->
+    31:                 <div class="d-flex align-items-center">
+    32:                     <p>Login</p>
+  
+app/views/layouts/application.html.erb:29
+DEPRECATION WARNING: Rails 7.0 has deprecated Enumerable.sum in favor of Ruby's native implementation available since 2.4. Sum of non-numeric elements requires an initial argument. (called from block (4 levels) in <main> at (rdbg)//home/netwerth/code/netwerth/lib/tasks/issueProfit.rake:1)
+DEPRECATION WARNING: Rails 7.0 has deprecated Enumerable.sum in favor of Ruby's native implementation available since 2.4. Sum of non-numeric elements requires an initial argument. (called from block (4 levels) in <main> at (rdbg)//home/netwerth/code/netwerth/lib/tasks/issueProfit.rake:1)
+  [1m[35m (0.2ms)[0m  [1m[35mCREATE DATABASE "netwerth_development" ENCODING = 'unicode'[0m
+  [1m[35m (65.4ms)[0m  [1m[35mCREATE DATABASE "netwerth_test" ENCODING = 'unicode'[0m
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mActiveRecord::InternalMetadata Pluck (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mActiveRecord::InternalMetadata Pluck (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mActiveRecord::InternalMetadata Pluck (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35mSQL (0.1ms)[0m  [1m[35mCREATE EXTENSION IF NOT EXISTS "plpgsql"[0m
+  [1m[35m (1.5ms)[0m  [1m[35mDROP TABLE IF EXISTS "users" CASCADE[0m
+  [1m[35m (4.0ms)[0m  [1m[35mCREATE TABLE "users" ("id" bigserial primary key, "percentToInvest" integer DEFAULT 35, "appName" character varying DEFAULT 'netwethCard' NOT NULL, "stripeCustomerID" character varying, "authentication_token" character varying, "accessPin" character varying DEFAULT 'customer' NOT NULL, "referredBy" character varying DEFAULT 'admin' NOT NULL, "uuid" character varying, "email" character varying NOT NULL, "encrypted_password" character varying DEFAULT '' NOT NULL, "phone" character varying, "twilioPhoneVerify" boolean, "reset_password_token" character varying, "reset_password_sent_at" timestamp(6), "remember_created_at" timestamp(6), "sign_in_count" integer DEFAULT 0 NOT NULL, "current_sign_in_at" timestamp(6), "last_sign_in_at" timestamp(6), "current_sign_in_ip" inet, "last_sign_in_ip" inet, "created_at" timestamp(6) NOT NULL, "updated_at" timestamp(6) NOT NULL)[0m
+  [1m[35m (1.3ms)[0m  [1m[35mCREATE UNIQUE INDEX "index_users_on_email" ON "users" ("email")[0m
+  [1m[35m (1.4ms)[0m  [1m[35mCREATE UNIQUE INDEX "index_users_on_reset_password_token" ON "users" ("reset_password_token")[0m
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[36mActiveRecord::InternalMetadata Load (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[36mActiveRecord::InternalMetadata Load (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "schema_sha1"], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mActiveRecord::InternalMetadata Create (0.2ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "key"[0m  [["key", "schema_sha1"], ["value", "4101faecd00b233c25520561696378f906268f2b"], ["created_at", "2022-10-07 18:56:10.894124"], ["updated_at", "2022-10-07 18:56:10.894124"]]
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35mSQL (0.1ms)[0m  [1m[35mCREATE EXTENSION IF NOT EXISTS "plpgsql"[0m
+  [1m[35m (0.1ms)[0m  [1m[35mDROP TABLE IF EXISTS "users" CASCADE[0m
+  [1m[35m (4.9ms)[0m  [1m[35mCREATE TABLE "users" ("id" bigserial primary key, "percentToInvest" integer DEFAULT 35, "appName" character varying DEFAULT 'netwethCard' NOT NULL, "stripeCustomerID" character varying, "authentication_token" character varying, "accessPin" character varying DEFAULT 'customer' NOT NULL, "referredBy" character varying DEFAULT 'admin' NOT NULL, "uuid" character varying, "email" character varying NOT NULL, "encrypted_password" character varying DEFAULT '' NOT NULL, "phone" character varying, "twilioPhoneVerify" boolean, "reset_password_token" character varying, "reset_password_sent_at" timestamp(6), "remember_created_at" timestamp(6), "sign_in_count" integer DEFAULT 0 NOT NULL, "current_sign_in_at" timestamp(6), "last_sign_in_at" timestamp(6), "current_sign_in_ip" inet, "last_sign_in_ip" inet, "created_at" timestamp(6) NOT NULL, "updated_at" timestamp(6) NOT NULL)[0m
+  [1m[35m (1.4ms)[0m  [1m[35mCREATE UNIQUE INDEX "index_users_on_email" ON "users" ("email")[0m
+  [1m[35m (1.3ms)[0m  [1m[35mCREATE UNIQUE INDEX "index_users_on_reset_password_token" ON "users" ("reset_password_token")[0m
+  [1m[35m (2.7ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" character varying NOT NULL PRIMARY KEY)[0m
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.4ms)[0m  [1m[32mINSERT INTO "schema_migrations" (version) VALUES (20220919134026)[0m
+  [1m[35m (2.2ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" character varying NOT NULL PRIMARY KEY, "value" character varying, "created_at" timestamp(6) NOT NULL, "updated_at" timestamp(6) NOT NULL)[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.2ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mActiveRecord::InternalMetadata Create (0.2ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "key"[0m  [["key", "environment"], ["value", "development"], ["created_at", "2022-10-07 18:56:10.925993"], ["updated_at", "2022-10-07 18:56:10.925993"]]
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mActiveRecord::InternalMetadata Update (0.2ms)[0m  [1m[33mUPDATE "ar_internal_metadata" SET "value" = $1, "updated_at" = $2 WHERE "ar_internal_metadata"."key" = $3[0m  [["value", "test"], ["updated_at", "2022-10-07 18:56:10.929835"], ["key", "environment"]]
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "schema_sha1"], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mActiveRecord::InternalMetadata Create (0.1ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "key"[0m  [["key", "schema_sha1"], ["value", "4101faecd00b233c25520561696378f906268f2b"], ["created_at", "2022-10-07 18:56:10.933332"], ["updated_at", "2022-10-07 18:56:10.933332"]]
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Started POST "/api/v2/auth/sign-up" for 127.0.0.1 at 2022-10-07 13:59:17 -0500
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Api::V2::RegistrationController#create as JSON
+  Parameters: {"line1"=>"2423", "city"=>"milwaukee", "state"=>"wi", "country"=>nil, "postal_code"=>"54328", "type"=>"individual", "legalName"=>"asdfw", "email"=>"local@e.com", "phone_number"=>"2323232322", "percentToInvest"=>"23", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]", "registration"=>{"line1"=>"2423", "city"=>"milwaukee", "state"=>"wi", "country"=>nil, "postal_code"=>"54328", "type"=>"individual", "legalName"=>"asdfw", "email"=>"local@e.com", "phone_number"=>"2323232322", "percentToInvest"=>"23", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}}
+Can't verify CSRF token authenticity.
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/api/v2/registration_controller.rb:67:in `create'
+  [1m[36mUser Exists? (0.4ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "local@e.com"], ["LIMIT", 1]]
+  ↳ app/controllers/api/v2/registration_controller.rb:67:in `create'
+  [1m[36mUser Create (0.3ms)[0m  [1m[32mINSERT INTO "users" ("percentToInvest", "appName", "stripeCustomerID", "authentication_token", "accessPin", "referredBy", "uuid", "email", "encrypted_password", "phone", "twilioPhoneVerify", "reset_password_token", "reset_password_sent_at", "remember_created_at", "sign_in_count", "current_sign_in_at", "last_sign_in_at", "current_sign_in_ip", "last_sign_in_ip", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12, $13, $14, $15, $16, $17, $18, $19, $20, $21) RETURNING "id"[0m  [["percentToInvest", 23], ["appName", "netwethCard"], ["stripeCustomerID", "cus_MZUkUH5W5czAUn"], ["authentication_token", "[FILTERED]"], ["accessPin", "customer"], ["referredBy", "admin"], ["uuid", "cf9cf1b9"], ["email", "local@e.com"], ["encrypted_password", "[FILTERED]"], ["phone", "2323232322"], ["twilioPhoneVerify", nil], ["reset_password_token", "[FILTERED]"], ["reset_password_sent_at", "[FILTERED]"], ["remember_created_at", nil], ["sign_in_count", 0], ["current_sign_in_at", nil], ["last_sign_in_at", nil], ["current_sign_in_ip", nil], ["last_sign_in_ip", nil], ["created_at", "2022-10-07 18:59:19.996333"], ["updated_at", "2022-10-07 18:59:19.996333"]]
+  ↳ app/controllers/api/v2/registration_controller.rb:67:in `create'
+  [1m[36mTRANSACTION (9.1ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/api/v2/registration_controller.rb:67:in `create'
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/api/v2/registration_controller.rb:69:in `create'
+  [1m[36mUser Update (0.2ms)[0m  [1m[33mUPDATE "users" SET "authentication_token" = $1, "updated_at" = $2 WHERE "users"."id" = $3[0m  [["authentication_token", "[FILTERED]"], ["updated_at", "2022-10-07 18:59:20.007872"], ["id", 1]]
+  ↳ app/controllers/api/v2/registration_controller.rb:69:in `create'
+  [1m[36mTRANSACTION (1.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/api/v2/registration_controller.rb:69:in `create'
+Completed 200 OK in 2625ms (Views: 0.4ms | ActiveRecord: 15.8ms | Allocations: 57716)
+
+
+Started GET "/api/v2/customers/cus_MZUkUH5W5czAUn" for 127.0.0.1 at 2022-10-07 13:59:20 -0500
+Processing by Api::V2::StripeCustomersController#show as JSON
+  Parameters: {"id"=>"cus_MZUkUH5W5czAUn", "stripe_customer"=>{}}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."authentication_token" = $1 LIMIT $2[0m  [["authentication_token", "[FILTERED]"], ["LIMIT", 1]]
+  ↳ app/controllers/api_controller.rb:137:in `findUser'
+Completed 200 OK in 758ms (Views: 0.6ms | ActiveRecord: 0.6ms | Allocations: 5246)
+
+
+Started GET "/api/v2/customers/cus_MZUkUH5W5czAUn" for 127.0.0.1 at 2022-10-07 14:01:24 -0500
+Processing by Api::V2::StripeCustomersController#show as JSON
+  Parameters: {"id"=>"cus_MZUkUH5W5czAUn", "stripe_customer"=>{}}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."authentication_token" = $1 LIMIT $2[0m  [["authentication_token", "[FILTERED]"], ["LIMIT", 1]]
+  ↳ app/controllers/api_controller.rb:137:in `findUser'
+Completed 200 OK in 878ms (Views: 0.5ms | ActiveRecord: 0.2ms | Allocations: 4452)
+
+
+Started GET "/api/v2/customers/cus_MZUkUH5W5czAUn" for 127.0.0.1 at 2022-10-07 14:02:00 -0500
+Processing by Api::V2::StripeCustomersController#show as JSON
+  Parameters: {"id"=>"cus_MZUkUH5W5czAUn", "stripe_customer"=>{}}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."authentication_token" = $1 LIMIT $2[0m  [["authentication_token", "[FILTERED]"], ["LIMIT", 1]]
+  ↳ app/controllers/api_controller.rb:137:in `findUser'
+Completed 200 OK in 844ms (Views: 0.7ms | ActiveRecord: 0.4ms | Allocations: 4436)
+
+
+Started GET "/api/v2/customers/cus_MZUkUH5W5czAUn" for 127.0.0.1 at 2022-10-07 14:02:05 -0500
+Processing by Api::V2::StripeCustomersController#show as JSON
+  Parameters: {"id"=>"cus_MZUkUH5W5czAUn", "stripe_customer"=>{}}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."authentication_token" = $1 LIMIT $2[0m  [["authentication_token", "[FILTERED]"], ["LIMIT", 1]]
+  ↳ app/controllers/api_controller.rb:137:in `findUser'
+Completed 200 OK in 814ms (Views: 0.6ms | ActiveRecord: 0.4ms | Allocations: 4439)
+
+
+  [1m[36mUser Count (0.9ms)[0m  [1m[34mSELECT COUNT(*) FROM "users"[0m
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+Started POST "/api/v2/auth/login" for 127.0.0.1 at 2022-10-12 19:59:43 -0500
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Api::V2::SessionsController#create as JSON
+  Parameters: {"email"=>"local@e.com", "password"=>"[FILTERED]"}
+Can't verify CSRF token authenticity.
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "local@e.com"], ["LIMIT", 1]]
+  ↳ app/controllers/api/v2/sessions_controller.rb:9:in `create'
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/api/v2/sessions_controller.rb:12:in `create'
+  [1m[36mUser Update (0.3ms)[0m  [1m[33mUPDATE "users" SET "authentication_token" = $1, "updated_at" = $2 WHERE "users"."id" = $3[0m  [["authentication_token", "[FILTERED]"], ["updated_at", "2022-10-13 00:59:44.085065"], ["id", 1]]
+  ↳ app/controllers/api/v2/sessions_controller.rb:12:in `create'
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/api/v2/sessions_controller.rb:12:in `create'
+Completed 200 OK in 202ms (Views: 0.2ms | ActiveRecord: 3.6ms | Allocations: 41581)
+
+
+Started GET "/api/v2/customers/cus_MZUkUH5W5czAUn" for 127.0.0.1 at 2022-10-12 19:59:44 -0500
+Processing by Api::V2::StripeCustomersController#show as JSON
+  Parameters: {"id"=>"cus_MZUkUH5W5czAUn", "stripe_customer"=>{}}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."authentication_token" = $1 LIMIT $2[0m  [["authentication_token", "[FILTERED]"], ["LIMIT", 1]]
+  ↳ app/controllers/api_controller.rb:137:in `findUser'
+Completed 200 OK in 893ms (Views: 0.5ms | ActiveRecord: 0.2ms | Allocations: 6141)
+
+
+Started GET "/api/v2/customers/cus_MZUkUH5W5czAUn" for 127.0.0.1 at 2022-10-12 19:59:51 -0500
+Processing by Api::V2::StripeCustomersController#show as JSON
+  Parameters: {"id"=>"cus_MZUkUH5W5czAUn", "stripe_customer"=>{}}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."authentication_token" = $1 LIMIT $2[0m  [["authentication_token", "[FILTERED]"], ["LIMIT", 1]]
+  ↳ app/controllers/api_controller.rb:137:in `findUser'
+Completed 200 OK in 703ms (Views: 0.6ms | ActiveRecord: 0.3ms | Allocations: 4423)
+
+
+Started GET "/api/v2/customers/cus_MZUkUH5W5czAUn" for 127.0.0.1 at 2022-10-12 19:59:52 -0500
+Processing by Api::V2::StripeCustomersController#show as JSON
+  Parameters: {"id"=>"cus_MZUkUH5W5czAUn", "stripe_customer"=>{}}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."authentication_token" = $1 LIMIT $2[0m  [["authentication_token", "[FILTERED]"], ["LIMIT", 1]]
+  ↳ app/controllers/api_controller.rb:137:in `findUser'
+Completed 200 OK in 738ms (Views: 0.5ms | ActiveRecord: 0.4ms | Allocations: 4419)
+
+
+Started POST "/api/v2/stripe-tokens" for 127.0.0.1 at 2022-10-12 20:00:26 -0500
+Processing by Api::V2::StripeTokensController#create as JSON
+  Parameters: {"number"=>"4242424242424242", "exp_month"=>"09", "exp_year"=>"2022", "cvc"=>"232"}
+Can't verify CSRF token authenticity.
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."authentication_token" = $1 LIMIT $2[0m  [["authentication_token", "[FILTERED]"], ["LIMIT", 1]]
+  ↳ app/controllers/api_controller.rb:137:in `findUser'
+[31mUnpermitted parameter: :format. Context: { controller: Api::V2::StripeTokensController, action: create, request: #<ActionDispatch::Request:0x00007f378085c870>, params: {"number"=>"4242424242424242", "exp_month"=>"09", "exp_year"=>"2022", "cvc"=>"232", "format"=>:json, "controller"=>"api/v2/stripe_tokens", "action"=>"create"} }[0m
+[31mUnpermitted parameter: :format. Context: { controller: Api::V2::StripeTokensController, action: create, request: #<ActionDispatch::Request:0x00007f378085c870>, params: {"number"=>"4242424242424242", "exp_month"=>"09", "exp_year"=>"2022", "cvc"=>"232", "format"=>:json, "controller"=>"api/v2/stripe_tokens", "action"=>"create"} }[0m
+Completed 200 OK in 434ms (Views: 0.3ms | ActiveRecord: 0.2ms | Allocations: 3210)
+
+
+Started GET "/api/v2/customers/cus_MZUkUH5W5czAUn" for 127.0.0.1 at 2022-10-12 20:00:26 -0500
+Processing by Api::V2::StripeCustomersController#show as JSON
+  Parameters: {"id"=>"cus_MZUkUH5W5czAUn", "stripe_customer"=>{}}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."authentication_token" = $1 LIMIT $2[0m  [["authentication_token", "[FILTERED]"], ["LIMIT", 1]]
+  ↳ app/controllers/api_controller.rb:137:in `findUser'
+Completed 200 OK in 723ms (Views: 0.7ms | ActiveRecord: 0.4ms | Allocations: 4449)
+
+
+Started POST "/api/v2/stripe-tokens" for 127.0.0.1 at 2022-10-12 20:00:39 -0500
+Processing by Api::V2::StripeTokensController#create as JSON
+  Parameters: {"number"=>"4242424242424242", "exp_month"=>"09", "exp_year"=>"2025", "cvc"=>"232"}
+Can't verify CSRF token authenticity.
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."authentication_token" = $1 LIMIT $2[0m  [["authentication_token", "[FILTERED]"], ["LIMIT", 1]]
+  ↳ app/controllers/api_controller.rb:137:in `findUser'
+[31mUnpermitted parameter: :format. Context: { controller: Api::V2::StripeTokensController, action: create, request: #<ActionDispatch::Request:0x00007f3780a011f8>, params: {"number"=>"4242424242424242", "exp_month"=>"09", "exp_year"=>"2025", "cvc"=>"232", "format"=>:json, "controller"=>"api/v2/stripe_tokens", "action"=>"create"} }[0m
+[31mUnpermitted parameter: :format. Context: { controller: Api::V2::StripeTokensController, action: create, request: #<ActionDispatch::Request:0x00007f3780a011f8>, params: {"number"=>"4242424242424242", "exp_month"=>"09", "exp_year"=>"2025", "cvc"=>"232", "format"=>:json, "controller"=>"api/v2/stripe_tokens", "action"=>"create"} }[0m
+Completed 200 OK in 629ms (Views: 0.6ms | ActiveRecord: 0.4ms | Allocations: 3151)
+
+
+Started PATCH "/api/v2/customers/cf9cf1b9" for 127.0.0.1 at 2022-10-12 20:00:40 -0500
+Processing by Api::V2::StripeCustomersController#update as JSON
+  Parameters: {"source"=>"tok_1LsFmuHvKdEDURjLuk1qNQC3", "id"=>"cf9cf1b9"}
+Can't verify CSRF token authenticity.
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."authentication_token" = $1 LIMIT $2[0m  [["authentication_token", "[FILTERED]"], ["LIMIT", 1]]
+  ↳ app/controllers/api_controller.rb:137:in `findUser'
+[31mUnpermitted parameters: :format, :id. Context: { controller: Api::V2::StripeCustomersController, action: update, request: #<ActionDispatch::Request:0x00007f3780a8e2d8>, params: {"source"=>"tok_1LsFmuHvKdEDURjLuk1qNQC3", "format"=>:json, "controller"=>"api/v2/stripe_customers", "action"=>"update", "id"=>"cf9cf1b9"} }[0m
+[31mUnpermitted parameters: :format, :id. Context: { controller: Api::V2::StripeCustomersController, action: update, request: #<ActionDispatch::Request:0x00007f3780a8e2d8>, params: {"source"=>"tok_1LsFmuHvKdEDURjLuk1qNQC3", "format"=>:json, "controller"=>"api/v2/stripe_customers", "action"=>"update", "id"=>"cf9cf1b9"} }[0m
+[31mUnpermitted parameters: :format, :id. Context: { controller: Api::V2::StripeCustomersController, action: update, request: #<ActionDispatch::Request:0x00007f3780a8e2d8>, params: {"source"=>"tok_1LsFmuHvKdEDURjLuk1qNQC3", "format"=>:json, "controller"=>"api/v2/stripe_customers", "action"=>"update", "id"=>"cf9cf1b9"} }[0m
+Completed 200 OK in 1004ms (Views: 0.2ms | ActiveRecord: 0.3ms | Allocations: 3949)
+
+
+Started GET "/api/v2/customers/cus_MZUkUH5W5czAUn" for 127.0.0.1 at 2022-10-12 20:00:41 -0500
+Processing by Api::V2::StripeCustomersController#show as JSON
+  Parameters: {"id"=>"cus_MZUkUH5W5czAUn", "stripe_customer"=>{}}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."authentication_token" = $1 LIMIT $2[0m  [["authentication_token", "[FILTERED]"], ["LIMIT", 1]]
+  ↳ app/controllers/api_controller.rb:137:in `findUser'
+Started POST "/api/v2/stripe-webhooks" for 127.0.0.1 at 2022-10-12 20:00:41 -0500
+Processing by Api::V2::StripeWebhooksController#update as JSON
+  Parameters: {"id"=>"evt_1LsFmvHvKdEDURjLxFhHWs3p", "object"=>"event", "api_version"=>"2020-08-27", "created"=>1665622841, "data"=>{"object"=>{"id"=>"card_1LsFmtHvKdEDURjLjJvjgkZH", "object"=>"payment_method", "billing_details"=>{"address"=>{"city"=>nil, "country"=>nil, "line1"=>nil, "line2"=>nil, "postal_code"=>nil, "state"=>nil}, "email"=>nil, "name"=>nil, "phone"=>nil}, "card"=>{"brand"=>"visa", "checks"=>{"address_line1_check"=>nil, "address_postal_code_check"=>nil, "cvc_check"=>"pass"}, "country"=>"US", "exp_month"=>9, "exp_year"=>2025, "fingerprint"=>"wKSqdEGk3M7OXiXs", "funding"=>"credit", "generated_from"=>nil, "last4"=>"4242", "networks"=>{"available"=>["visa"], "preferred"=>nil}, "three_d_secure_usage"=>{"supported"=>true}, "wallet"=>nil}, "created"=>1665622839, "customer"=>"cus_MZUkUH5W5czAUn", "livemode"=>false, "metadata"=>{}, "type"=>"card"}}, "livemode"=>false, "pending_webhooks"=>3, "request"=>{"id"=>"req_2YwCJbnGzehYrA", "idempotency_key"=>"[FILTERED]"}, "type"=>"payment_method.attached", "stripe_webhook"=>{"id"=>"evt_1LsFmvHvKdEDURjLxFhHWs3p", "object"=>"event", "api_version"=>"2020-08-27", "created"=>1665622841, "data"=>{"object"=>{"id"=>"card_1LsFmtHvKdEDURjLjJvjgkZH", "object"=>"payment_method", "billing_details"=>{"address"=>{"city"=>nil, "country"=>nil, "line1"=>nil, "line2"=>nil, "postal_code"=>nil, "state"=>nil}, "email"=>nil, "name"=>nil, "phone"=>nil}, "card"=>{"brand"=>"visa", "checks"=>{"address_line1_check"=>nil, "address_postal_code_check"=>nil, "cvc_check"=>"pass"}, "country"=>"US", "exp_month"=>9, "exp_year"=>2025, "fingerprint"=>"wKSqdEGk3M7OXiXs", "funding"=>"credit", "generated_from"=>nil, "last4"=>"4242", "networks"=>{"available"=>["visa"], "preferred"=>nil}, "three_d_secure_usage"=>{"supported"=>true}, "wallet"=>nil}, "created"=>1665622839, "customer"=>"cus_MZUkUH5W5czAUn", "livemode"=>false, "metadata"=>{}, "type"=>"card"}}, "livemode"=>false, "pending_webhooks"=>3, "request"=>{"id"=>"req_2YwCJbnGzehYrA", "idempotency_key"=>"[FILTERED]"}, "type"=>"payment_method.attached"}}
+Can't verify CSRF token authenticity.
+No template found for Api::V2::StripeWebhooksController#update, rendering head :no_content
+Completed 204 No Content in 9ms (ActiveRecord: 0.0ms | Allocations: 1023)
+
+
+Started POST "/api/v2/stripe-webhooks" for 127.0.0.1 at 2022-10-12 20:00:41 -0500
+Processing by Api::V2::StripeWebhooksController#update as JSON
+  Parameters: {"id"=>"evt_1LsFmvHvKdEDURjLzKRzWDa8", "object"=>"event", "api_version"=>"2020-08-27", "created"=>1665622841, "data"=>{"object"=>{"id"=>"card_1LsFmtHvKdEDURjLjJvjgkZH", "object"=>"card", "address_city"=>nil, "address_country"=>nil, "address_line1"=>nil, "address_line1_check"=>nil, "address_line2"=>nil, "address_state"=>nil, "address_zip"=>nil, "address_zip_check"=>nil, "brand"=>"Visa", "country"=>"US", "customer"=>"cus_MZUkUH5W5czAUn", "cvc_check"=>"pass", "dynamic_last4"=>nil, "exp_month"=>9, "exp_year"=>2025, "fingerprint"=>"wKSqdEGk3M7OXiXs", "funding"=>"credit", "last4"=>"4242", "metadata"=>{}, "name"=>nil, "tokenization_method"=>"[FILTERED]"}}, "livemode"=>false, "pending_webhooks"=>3, "request"=>{"id"=>"req_2YwCJbnGzehYrA", "idempotency_key"=>"[FILTERED]"}, "type"=>"customer.source.created", "stripe_webhook"=>{"id"=>"evt_1LsFmvHvKdEDURjLzKRzWDa8", "object"=>"event", "api_version"=>"2020-08-27", "created"=>1665622841, "data"=>{"object"=>{"id"=>"card_1LsFmtHvKdEDURjLjJvjgkZH", "object"=>"card", "address_city"=>nil, "address_country"=>nil, "address_line1"=>nil, "address_line1_check"=>nil, "address_line2"=>nil, "address_state"=>nil, "address_zip"=>nil, "address_zip_check"=>nil, "brand"=>"Visa", "country"=>"US", "customer"=>"cus_MZUkUH5W5czAUn", "cvc_check"=>"pass", "dynamic_last4"=>nil, "exp_month"=>9, "exp_year"=>2025, "fingerprint"=>"wKSqdEGk3M7OXiXs", "funding"=>"credit", "last4"=>"4242", "metadata"=>{}, "name"=>nil, "tokenization_method"=>"[FILTERED]"}}, "livemode"=>false, "pending_webhooks"=>3, "request"=>{"id"=>"req_2YwCJbnGzehYrA", "idempotency_key"=>"[FILTERED]"}, "type"=>"customer.source.created"}}
+Can't verify CSRF token authenticity.
+No template found for Api::V2::StripeWebhooksController#update, rendering head :no_content
+Completed 204 No Content in 1ms (ActiveRecord: 0.0ms | Allocations: 279)
+
+
+Started POST "/api/v2/stripe-webhooks" for 127.0.0.1 at 2022-10-12 20:00:41 -0500
+Processing by Api::V2::StripeWebhooksController#update as JSON
+  Parameters: {"id"=>"evt_1LsFmvHvKdEDURjLAiQWWzlN", "object"=>"event", "api_version"=>"2020-08-27", "created"=>1665622841, "data"=>{"object"=>{"id"=>"cus_MZUkUH5W5czAUn", "object"=>"customer", "address"=>{"city"=>"milwaukee", "country"=>"US", "line1"=>"2423", "line2"=>nil, "postal_code"=>"54328", "state"=>"wi"}, "balance"=>0, "created"=>1665169158, "currency"=>nil, "default_currency"=>nil, "default_source"=>"card_1LsFmtHvKdEDURjLjJvjgkZH", "delinquent"=>false, "description"=>"Netwerth Debit Card Holder", "discount"=>nil, "email"=>"local@e.com", "invoice_prefix"=>"7D596258", "invoice_settings"=>{"custom_fields"=>nil, "default_payment_method"=>nil, "footer"=>nil, "rendering_options"=>nil}, "livemode"=>false, "metadata"=>{"issuedCard"=>"ic_1LqLlSHvKdEDURjLFsgTkvPZ", "cardHolder"=>"ich_1LqLlRHvKdEDURjL39r30qp5", "percentToInvest"=>"23"}, "name"=>"asdfw", "next_invoice_sequence"=>1, "phone"=>"2323232322", "preferred_locales"=>[], "shipping"=>nil, "tax_exempt"=>"none", "test_clock"=>nil}, "previous_attributes"=>{"default_source"=>nil}}, "livemode"=>false, "pending_webhooks"=>3, "request"=>{"id"=>"req_2YwCJbnGzehYrA", "idempotency_key"=>"[FILTERED]"}, "type"=>"customer.updated", "stripe_webhook"=>{"id"=>"evt_1LsFmvHvKdEDURjLAiQWWzlN", "object"=>"event", "api_version"=>"2020-08-27", "created"=>1665622841, "data"=>{"object"=>{"id"=>"cus_MZUkUH5W5czAUn", "object"=>"customer", "address"=>{"city"=>"milwaukee", "country"=>"US", "line1"=>"2423", "line2"=>nil, "postal_code"=>"54328", "state"=>"wi"}, "balance"=>0, "created"=>1665169158, "currency"=>nil, "default_currency"=>nil, "default_source"=>"card_1LsFmtHvKdEDURjLjJvjgkZH", "delinquent"=>false, "description"=>"Netwerth Debit Card Holder", "discount"=>nil, "email"=>"local@e.com", "invoice_prefix"=>"7D596258", "invoice_settings"=>{"custom_fields"=>nil, "default_payment_method"=>nil, "footer"=>nil, "rendering_options"=>nil}, "livemode"=>false, "metadata"=>{"issuedCard"=>"ic_1LqLlSHvKdEDURjLFsgTkvPZ", "cardHolder"=>"ich_1LqLlRHvKdEDURjL39r30qp5", "percentToInvest"=>"23"}, "name"=>"asdfw", "next_invoice_sequence"=>1, "phone"=>"2323232322", "preferred_locales"=>[], "shipping"=>nil, "tax_exempt"=>"none", "test_clock"=>nil}, "previous_attributes"=>{"default_source"=>nil}}, "livemode"=>false, "pending_webhooks"=>3, "request"=>{"id"=>"req_2YwCJbnGzehYrA", "idempotency_key"=>"[FILTERED]"}, "type"=>"customer.updated"}}
+Can't verify CSRF token authenticity.
+No template found for Api::V2::StripeWebhooksController#update, rendering head :no_content
+Completed 204 No Content in 1ms (ActiveRecord: 0.0ms | Allocations: 259)
+
+
+Completed 200 OK in 731ms (Views: 0.7ms | ActiveRecord: 0.2ms | Allocations: 15633)
+
+
+Started GET "/api/v2/stripe-charges" for 127.0.0.1 at 2022-10-12 20:00:47 -0500
+Processing by Api::V2::StripeChargesController#index as JSON
+  Parameters: {"stripe_charge"=>{}}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."authentication_token" = $1 LIMIT $2[0m  [["authentication_token", "[FILTERED]"], ["LIMIT", 1]]
+  ↳ app/controllers/api_controller.rb:137:in `findUser'
+Completed 200 OK in 623ms (Views: 0.3ms | ActiveRecord: 0.3ms | Allocations: 5124)
+
+
+Started POST "/api/v2/stripe-charges" for 127.0.0.1 at 2022-10-12 20:01:07 -0500
+Processing by Api::V2::StripeChargesController#create as JSON
+  Parameters: {"amount"=>"580", "stripe_charge"=>{"amount"=>"580"}}
+Can't verify CSRF token authenticity.
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."authentication_token" = $1 LIMIT $2[0m  [["authentication_token", "[FILTERED]"], ["LIMIT", 1]]
+  ↳ app/controllers/api_controller.rb:137:in `findUser'
+[31mUnpermitted parameters: :format, :stripe_charge. Context: { controller: Api::V2::StripeChargesController, action: create, request: #<ActionDispatch::Request:0x00007f376803be10>, params: {"amount"=>"580", "format"=>:json, "controller"=>"api/v2/stripe_charges", "action"=>"create", "stripe_charge"=>{"amount"=>"580"}} }[0m
+[31mUnpermitted parameters: :format, :stripe_charge. Context: { controller: Api::V2::StripeChargesController, action: create, request: #<ActionDispatch::Request:0x00007f376803be10>, params: {"amount"=>"580", "format"=>:json, "controller"=>"api/v2/stripe_charges", "action"=>"create", "stripe_charge"=>{"amount"=>"580"}} }[0m
+Completed 200 OK in 1717ms (Views: 0.7ms | ActiveRecord: 0.3ms | Allocations: 7852)
+
+
+Started POST "/api/v2/stripe-webhooks" for 127.0.0.1 at 2022-10-12 20:01:09 -0500
+Processing by Api::V2::StripeWebhooksController#update as JSON
+  Parameters: {"id"=>"evt_3LsFnLHvKdEDURjL0MMXVFHq", "object"=>"event", "api_version"=>"2020-08-27", "created"=>1665622868, "data"=>{"object"=>{"id"=>"ch_3LsFnLHvKdEDURjL0cnUohAh", "object"=>"charge", "amount"=>59710, "amount_captured"=>59710, "amount_refunded"=>0, "amount_updates"=>[], "application"=>nil, "application_fee"=>nil, "application_fee_amount"=>nil, "balance_transaction"=>"txn_3LsFnLHvKdEDURjL025hsFfb", "billing_details"=>{"address"=>{"city"=>nil, "country"=>nil, "line1"=>nil, "line2"=>nil, "postal_code"=>nil, "state"=>nil}, "email"=>nil, "name"=>nil, "phone"=>nil}, "calculated_statement_descriptor"=>"TEWCODE", "captured"=>true, "created"=>1665622867, "currency"=>"usd", "customer"=>"cus_MZUkUH5W5czAUn", "description"=>"Netwerth Card Deposit: ", "destination"=>nil, "dispute"=>nil, "disputed"=>false, "failure_balance_transaction"=>nil, "failure_code"=>nil, "failure_message"=>nil, "fraud_details"=>{}, "invoice"=>nil, "livemode"=>false, "metadata"=>{}, "on_behalf_of"=>nil, "order"=>nil, "outcome"=>{"network_status"=>"approved_by_network", "reason"=>nil, "risk_level"=>"normal", "risk_score"=>38, "seller_message"=>"Payment complete.", "type"=>"authorized"}, "paid"=>true, "payment_intent"=>"pi_3LsFnLHvKdEDURjL0tTxCEQl", "payment_method"=>"card_1LsFmtHvKdEDURjLjJvjgkZH", "payment_method_details"=>{"card"=>{"brand"=>"visa", "checks"=>{"address_line1_check"=>nil, "address_postal_code_check"=>nil, "cvc_check"=>"pass"}, "country"=>"US", "exp_month"=>9, "exp_year"=>2025, "fingerprint"=>"wKSqdEGk3M7OXiXs", "funding"=>"credit", "installments"=>nil, "last4"=>"4242", "mandate"=>nil, "network"=>"visa", "three_d_secure"=>nil, "wallet"=>nil}, "type"=>"card"}, "receipt_email"=>"local@e.com", "receipt_number"=>nil, "receipt_url"=>"https://pay.stripe.com/receipts/payment/CAcaFwoVYWNjdF8xSEdZaWtIdktkRURVUmpMKNTGnZoGMgb2bpUezbA6LBaxVbl6EOzoTBu0sI0w2jaygbi3i0e40QbIbwT8i6IrowZoNkQBmOt7OPG8", "refunded"=>false, "refunds"=>{"object"=>"list", "data"=>[], "has_more"=>false, "total_count"=>0, "url"=>"/v1/charges/ch_3LsFnLHvKdEDURjL0cnUohAh/refunds"}, "review"=>nil, "shipping"=>nil, "source"=>{"id"=>"card_1LsFmtHvKdEDURjLjJvjgkZH", "object"=>"card", "address_city"=>nil, "address_country"=>nil, "address_line1"=>nil, "address_line1_check"=>nil, "address_line2"=>nil, "address_state"=>nil, "address_zip"=>nil, "address_zip_check"=>nil, "brand"=>"Visa", "country"=>"US", "customer"=>"cus_MZUkUH5W5czAUn", "cvc_check"=>"pass", "dynamic_last4"=>nil, "exp_month"=>9, "exp_year"=>2025, "fingerprint"=>"wKSqdEGk3M7OXiXs", "funding"=>"credit", "last4"=>"4242", "metadata"=>{}, "name"=>nil, "tokenization_method"=>"[FILTERED]"}, "source_transfer"=>nil, "statement_descriptor"=>nil, "statement_descriptor_suffix"=>nil, "status"=>"succeeded", "transfer_data"=>nil, "transfer_group"=>nil}}, "livemode"=>false, "pending_webhooks"=>7, "request"=>{"id"=>"req_OnNEvopuCSNx8k", "idempotency_key"=>"[FILTERED]"}, "type"=>"charge.succeeded", "stripe_webhook"=>{"id"=>"evt_3LsFnLHvKdEDURjL0MMXVFHq", "object"=>"event", "api_version"=>"2020-08-27", "created"=>1665622868, "data"=>{"object"=>{"id"=>"ch_3LsFnLHvKdEDURjL0cnUohAh", "object"=>"charge", "amount"=>59710, "amount_captured"=>59710, "amount_refunded"=>0, "amount_updates"=>[], "application"=>nil, "application_fee"=>nil, "application_fee_amount"=>nil, "balance_transaction"=>"txn_3LsFnLHvKdEDURjL025hsFfb", "billing_details"=>{"address"=>{"city"=>nil, "country"=>nil, "line1"=>nil, "line2"=>nil, "postal_code"=>nil, "state"=>nil}, "email"=>nil, "name"=>nil, "phone"=>nil}, "calculated_statement_descriptor"=>"TEWCODE", "captured"=>true, "created"=>1665622867, "currency"=>"usd", "customer"=>"cus_MZUkUH5W5czAUn", "description"=>"Netwerth Card Deposit: ", "destination"=>nil, "dispute"=>nil, "disputed"=>false, "failure_balance_transaction"=>nil, "failure_code"=>nil, "failure_message"=>nil, "fraud_details"=>{}, "invoice"=>nil, "livemode"=>false, "metadata"=>{}, "on_behalf_of"=>nil, "order"=>nil, "outcome"=>{"network_status"=>"approved_by_network", "reason"=>nil, "risk_level"=>"normal", "risk_score"=>38, "seller_message"=>"Payment complete.", "type"=>"authorized"}, "paid"=>true, "payment_intent"=>"pi_3LsFnLHvKdEDURjL0tTxCEQl", "payment_method"=>"card_1LsFmtHvKdEDURjLjJvjgkZH", "payment_method_details"=>{"card"=>{"brand"=>"visa", "checks"=>{"address_line1_check"=>nil, "address_postal_code_check"=>nil, "cvc_check"=>"pass"}, "country"=>"US", "exp_month"=>9, "exp_year"=>2025, "fingerprint"=>"wKSqdEGk3M7OXiXs", "funding"=>"credit", "installments"=>nil, "last4"=>"4242", "mandate"=>nil, "network"=>"visa", "three_d_secure"=>nil, "wallet"=>nil}, "type"=>"card"}, "receipt_email"=>"local@e.com", "receipt_number"=>nil, "receipt_url"=>"https://pay.stripe.com/receipts/payment/CAcaFwoVYWNjdF8xSEdZaWtIdktkRURVUmpMKNTGnZoGMgb2bpUezbA6LBaxVbl6EOzoTBu0sI0w2jaygbi3i0e40QbIbwT8i6IrowZoNkQBmOt7OPG8", "refunded"=>false, "refunds"=>{"object"=>"list", "data"=>[], "has_more"=>false, "total_count"=>0, "url"=>"/v1/charges/ch_3LsFnLHvKdEDURjL0cnUohAh/refunds"}, "review"=>nil, "shipping"=>nil, "source"=>{"id"=>"card_1LsFmtHvKdEDURjLjJvjgkZH", "object"=>"card", "address_city"=>nil, "address_country"=>nil, "address_line1"=>nil, "address_line1_check"=>nil, "address_line2"=>nil, "address_state"=>nil, "address_zip"=>nil, "address_zip_check"=>nil, "brand"=>"Visa", "country"=>"US", "customer"=>"cus_MZUkUH5W5czAUn", "cvc_check"=>"pass", "dynamic_last4"=>nil, "exp_month"=>9, "exp_year"=>2025, "fingerprint"=>"wKSqdEGk3M7OXiXs", "funding"=>"credit", "last4"=>"4242", "metadata"=>{}, "name"=>nil, "tokenization_method"=>"[FILTERED]"}, "source_transfer"=>nil, "statement_descriptor"=>nil, "statement_descriptor_suffix"=>nil, "status"=>"succeeded", "transfer_data"=>nil, "transfer_group"=>nil}}, "livemode"=>false, "pending_webhooks"=>7, "request"=>{"id"=>"req_OnNEvopuCSNx8k", "idempotency_key"=>"[FILTERED]"}, "type"=>"charge.succeeded"}}
+Can't verify CSRF token authenticity.
+Started POST "/api/v2/stripe-webhooks" for 127.0.0.1 at 2022-10-12 20:01:09 -0500
+Processing by Api::V2::StripeWebhooksController#update as JSON
+  Parameters: {"id"=>"evt_3LsFnLHvKdEDURjL0E2kbaTE", "object"=>"event", "api_version"=>"2020-08-27", "created"=>1665622868, "data"=>{"object"=>{"id"=>"pi_3LsFnLHvKdEDURjL0tTxCEQl", "object"=>"payment_intent", "amount"=>59710, "amount_capturable"=>0, "amount_details"=>{"tip"=>{}}, "amount_received"=>59710, "application"=>nil, "application_fee_amount"=>nil, "automatic_payment_methods"=>nil, "canceled_at"=>nil, "cancellation_reason"=>nil, "capture_method"=>"automatic", "charges"=>{"object"=>"list", "data"=>[{"id"=>"ch_3LsFnLHvKdEDURjL0cnUohAh", "object"=>"charge", "amount"=>59710, "amount_captured"=>59710, "amount_refunded"=>0, "amount_updates"=>[], "application"=>nil, "application_fee"=>nil, "application_fee_amount"=>nil, "balance_transaction"=>"txn_3LsFnLHvKdEDURjL025hsFfb", "billing_details"=>{"address"=>{"city"=>nil, "country"=>nil, "line1"=>nil, "line2"=>nil, "postal_code"=>nil, "state"=>nil}, "email"=>nil, "name"=>nil, "phone"=>nil}, "calculated_statement_descriptor"=>"TEWCODE", "captured"=>true, "created"=>1665622867, "currency"=>"usd", "customer"=>"cus_MZUkUH5W5czAUn", "description"=>"Netwerth Card Deposit: ", "destination"=>nil, "dispute"=>nil, "disputed"=>false, "failure_balance_transaction"=>nil, "failure_code"=>nil, "failure_message"=>nil, "fraud_details"=>{}, "invoice"=>nil, "livemode"=>false, "metadata"=>{}, "on_behalf_of"=>nil, "order"=>nil, "outcome"=>{"network_status"=>"approved_by_network", "reason"=>nil, "risk_level"=>"normal", "risk_score"=>38, "seller_message"=>"Payment complete.", "type"=>"authorized"}, "paid"=>true, "payment_intent"=>"pi_3LsFnLHvKdEDURjL0tTxCEQl", "payment_method"=>"card_1LsFmtHvKdEDURjLjJvjgkZH", "payment_method_details"=>{"card"=>{"brand"=>"visa", "checks"=>{"address_line1_check"=>nil, "address_postal_code_check"=>nil, "cvc_check"=>"pass"}, "country"=>"US", "exp_month"=>9, "exp_year"=>2025, "fingerprint"=>"wKSqdEGk3M7OXiXs", "funding"=>"credit", "installments"=>nil, "last4"=>"4242", "mandate"=>nil, "network"=>"visa", "three_d_secure"=>nil, "wallet"=>nil}, "type"=>"card"}, "receipt_email"=>"local@e.com", "receipt_number"=>nil, "receipt_url"=>"https://pay.stripe.com/receipts/payment/CAcaFwoVYWNjdF8xSEdZaWtIdktkRURVUmpMKNXGnZoGMgaV5sQpPNc6LBaXFy8wcbzv-4P_7YixAmCH5L_zZu1ieIV7WBHa8YhzG8KqC-eEaF_tcfOS", "refunded"=>false, "refunds"=>{"object"=>"list", "data"=>[], "has_more"=>false, "total_count"=>0, "url"=>"/v1/charges/ch_3LsFnLHvKdEDURjL0cnUohAh/refunds"}, "review"=>nil, "shipping"=>nil, "source"=>{"id"=>"card_1LsFmtHvKdEDURjLjJvjgkZH", "object"=>"card", "address_city"=>nil, "address_country"=>nil, "address_line1"=>nil, "address_line1_check"=>nil, "address_line2"=>nil, "address_state"=>nil, "address_zip"=>nil, "address_zip_check"=>nil, "brand"=>"Visa", "country"=>"US", "customer"=>"cus_MZUkUH5W5czAUn", "cvc_check"=>"pass", "dynamic_last4"=>nil, "exp_month"=>9, "exp_year"=>2025, "fingerprint"=>"wKSqdEGk3M7OXiXs", "funding"=>"credit", "last4"=>"4242", "metadata"=>{}, "name"=>nil, "tokenization_method"=>"[FILTERED]"}, "source_transfer"=>nil, "statement_descriptor"=>nil, "statement_descriptor_suffix"=>nil, "status"=>"succeeded", "transfer_data"=>nil, "transfer_group"=>nil}], "has_more"=>false, "total_count"=>1, "url"=>"/v1/charges?payment_intent=pi_3LsFnLHvKdEDURjL0tTxCEQl"}, "client_secret"=>"[FILTERED]", "confirmation_method"=>"automatic", "created"=>1665622867, "currency"=>"usd", "customer"=>"cus_MZUkUH5W5czAUn", "description"=>"Netwerth Card Deposit: ", "invoice"=>nil, "last_payment_error"=>nil, "livemode"=>false, "metadata"=>{}, "next_action"=>nil, "on_behalf_of"=>nil, "payment_method"=>nil, "payment_method_options"=>{"card"=>{"installments"=>nil, "mandate_options"=>nil, "network"=>nil, "request_three_d_secure"=>"automatic"}}, "payment_method_types"=>["card"], "processing"=>nil, "receipt_email"=>"local@e.com", "review"=>nil, "setup_future_usage"=>nil, "shipping"=>nil, "source"=>"card_1LsFmtHvKdEDURjLjJvjgkZH", "statement_descriptor"=>nil, "statement_descriptor_suffix"=>nil, "status"=>"succeeded", "transfer_data"=>nil, "transfer_group"=>nil}}, "livemode"=>false, "pending_webhooks"=>4, "request"=>{"id"=>"req_OnNEvopuCSNx8k", "idempotency_key"=>"[FILTERED]"}, "type"=>"payment_intent.succeeded", "stripe_webhook"=>{"id"=>"evt_3LsFnLHvKdEDURjL0E2kbaTE", "object"=>"event", "api_version"=>"2020-08-27", "created"=>1665622868, "data"=>{"object"=>{"id"=>"pi_3LsFnLHvKdEDURjL0tTxCEQl", "object"=>"payment_intent", "amount"=>59710, "amount_capturable"=>0, "amount_details"=>{"tip"=>{}}, "amount_received"=>59710, "application"=>nil, "application_fee_amount"=>nil, "automatic_payment_methods"=>nil, "canceled_at"=>nil, "cancellation_reason"=>nil, "capture_method"=>"automatic", "charges"=>{"object"=>"list", "data"=>[{"id"=>"ch_3LsFnLHvKdEDURjL0cnUohAh", "object"=>"charge", "amount"=>59710, "amount_captured"=>59710, "amount_refunded"=>0, "amount_updates"=>[], "application"=>nil, "application_fee"=>nil, "application_fee_amount"=>nil, "balance_transaction"=>"txn_3LsFnLHvKdEDURjL025hsFfb", "billing_details"=>{"address"=>{"city"=>nil, "country"=>nil, "line1"=>nil, "line2"=>nil, "postal_code"=>nil, "state"=>nil}, "email"=>nil, "name"=>nil, "phone"=>nil}, "calculated_statement_descriptor"=>"TEWCODE", "captured"=>true, "created"=>1665622867, "currency"=>"usd", "customer"=>"cus_MZUkUH5W5czAUn", "description"=>"Netwerth Card Deposit: ", "destination"=>nil, "dispute"=>nil, "disputed"=>false, "failure_balance_transaction"=>nil, "failure_code"=>nil, "failure_message"=>nil, "fraud_details"=>{}, "invoice"=>nil, "livemode"=>false, "metadata"=>{}, "on_behalf_of"=>nil, "order"=>nil, "outcome"=>{"network_status"=>"approved_by_network", "reason"=>nil, "risk_level"=>"normal", "risk_score"=>38, "seller_message"=>"Payment complete.", "type"=>"authorized"}, "paid"=>true, "payment_intent"=>"pi_3LsFnLHvKdEDURjL0tTxCEQl", "payment_method"=>"card_1LsFmtHvKdEDURjLjJvjgkZH", "payment_method_details"=>{"card"=>{"brand"=>"visa", "checks"=>{"address_line1_check"=>nil, "address_postal_code_check"=>nil, "cvc_check"=>"pass"}, "country"=>"US", "exp_month"=>9, "exp_year"=>2025, "fingerprint"=>"wKSqdEGk3M7OXiXs", "funding"=>"credit", "installments"=>nil, "last4"=>"4242", "mandate"=>nil, "network"=>"visa", "three_d_secure"=>nil, "wallet"=>nil}, "type"=>"card"}, "receipt_email"=>"local@e.com", "receipt_number"=>nil, "receipt_url"=>"https://pay.stripe.com/receipts/payment/CAcaFwoVYWNjdF8xSEdZaWtIdktkRURVUmpMKNXGnZoGMgaV5sQpPNc6LBaXFy8wcbzv-4P_7YixAmCH5L_zZu1ieIV7WBHa8YhzG8KqC-eEaF_tcfOS", "refunded"=>false, "refunds"=>{"object"=>"list", "data"=>[], "has_more"=>false, "total_count"=>0, "url"=>"/v1/charges/ch_3LsFnLHvKdEDURjL0cnUohAh/refunds"}, "review"=>nil, "shipping"=>nil, "source"=>{"id"=>"card_1LsFmtHvKdEDURjLjJvjgkZH", "object"=>"card", "address_city"=>nil, "address_country"=>nil, "address_line1"=>nil, "address_line1_check"=>nil, "address_line2"=>nil, "address_state"=>nil, "address_zip"=>nil, "address_zip_check"=>nil, "brand"=>"Visa", "country"=>"US", "customer"=>"cus_MZUkUH5W5czAUn", "cvc_check"=>"pass", "dynamic_last4"=>nil, "exp_month"=>9, "exp_year"=>2025, "fingerprint"=>"wKSqdEGk3M7OXiXs", "funding"=>"credit", "last4"=>"4242", "metadata"=>{}, "name"=>nil, "tokenization_method"=>"[FILTERED]"}, "source_transfer"=>nil, "statement_descriptor"=>nil, "statement_descriptor_suffix"=>nil, "status"=>"succeeded", "transfer_data"=>nil, "transfer_group"=>nil}], "has_more"=>false, "total_count"=>1, "url"=>"/v1/charges?payment_intent=pi_3LsFnLHvKdEDURjL0tTxCEQl"}, "client_secret"=>"[FILTERED]", "confirmation_method"=>"automatic", "created"=>1665622867, "currency"=>"usd", "customer"=>"cus_MZUkUH5W5czAUn", "description"=>"Netwerth Card Deposit: ", "invoice"=>nil, "last_payment_error"=>nil, "livemode"=>false, "metadata"=>{}, "next_action"=>nil, "on_behalf_of"=>nil, "payment_method"=>nil, "payment_method_options"=>{"card"=>{"installments"=>nil, "mandate_options"=>nil, "network"=>nil, "request_three_d_secure"=>"automatic"}}, "payment_method_types"=>["card"], "processing"=>nil, "receipt_email"=>"local@e.com", "review"=>nil, "setup_future_usage"=>nil, "shipping"=>nil, "source"=>"card_1LsFmtHvKdEDURjLjJvjgkZH", "statement_descriptor"=>nil, "statement_descriptor_suffix"=>nil, "status"=>"succeeded", "transfer_data"=>nil, "transfer_group"=>nil}}, "livemode"=>false, "pending_webhooks"=>4, "request"=>{"id"=>"req_OnNEvopuCSNx8k", "idempotency_key"=>"[FILTERED]"}, "type"=>"payment_intent.succeeded"}}
+Can't verify CSRF token authenticity.
+No template found for Api::V2::StripeWebhooksController#update, rendering head :no_content
+Completed 204 No Content in 1ms (ActiveRecord: 0.0ms | Allocations: 267)
+
+
+Started POST "/api/v2/stripe-webhooks" for 127.0.0.1 at 2022-10-12 20:01:09 -0500
+Processing by Api::V2::StripeWebhooksController#update as JSON
+  Parameters: {"id"=>"evt_3LsFnLHvKdEDURjL0lNFFdio", "object"=>"event", "api_version"=>"2020-08-27", "created"=>1665622867, "data"=>{"object"=>{"id"=>"pi_3LsFnLHvKdEDURjL0tTxCEQl", "object"=>"payment_intent", "amount"=>59710, "amount_capturable"=>0, "amount_details"=>{"tip"=>{}}, "amount_received"=>0, "application"=>nil, "application_fee_amount"=>nil, "automatic_payment_methods"=>nil, "canceled_at"=>nil, "cancellation_reason"=>nil, "capture_method"=>"automatic", "charges"=>{"object"=>"list", "data"=>[], "has_more"=>false, "total_count"=>0, "url"=>"/v1/charges?payment_intent=pi_3LsFnLHvKdEDURjL0tTxCEQl"}, "client_secret"=>"[FILTERED]", "confirmation_method"=>"automatic", "created"=>1665622867, "currency"=>"usd", "customer"=>"cus_MZUkUH5W5czAUn", "description"=>"Netwerth Card Deposit: ", "invoice"=>nil, "last_payment_error"=>nil, "livemode"=>false, "metadata"=>{}, "next_action"=>nil, "on_behalf_of"=>nil, "payment_method"=>nil, "payment_method_options"=>{"card"=>{"installments"=>nil, "mandate_options"=>nil, "network"=>nil, "request_three_d_secure"=>"automatic"}}, "payment_method_types"=>["card"], "processing"=>nil, "receipt_email"=>"local@e.com", "review"=>nil, "setup_future_usage"=>nil, "shipping"=>nil, "source"=>nil, "statement_descriptor"=>nil, "statement_descriptor_suffix"=>nil, "status"=>"requires_payment_method", "transfer_data"=>nil, "transfer_group"=>nil}}, "livemode"=>false, "pending_webhooks"=>3, "request"=>{"id"=>"req_OnNEvopuCSNx8k", "idempotency_key"=>"[FILTERED]"}, "type"=>"payment_intent.created", "stripe_webhook"=>{"id"=>"evt_3LsFnLHvKdEDURjL0lNFFdio", "object"=>"event", "api_version"=>"2020-08-27", "created"=>1665622867, "data"=>{"object"=>{"id"=>"pi_3LsFnLHvKdEDURjL0tTxCEQl", "object"=>"payment_intent", "amount"=>59710, "amount_capturable"=>0, "amount_details"=>{"tip"=>{}}, "amount_received"=>0, "application"=>nil, "application_fee_amount"=>nil, "automatic_payment_methods"=>nil, "canceled_at"=>nil, "cancellation_reason"=>nil, "capture_method"=>"automatic", "charges"=>{"object"=>"list", "data"=>[], "has_more"=>false, "total_count"=>0, "url"=>"/v1/charges?payment_intent=pi_3LsFnLHvKdEDURjL0tTxCEQl"}, "client_secret"=>"[FILTERED]", "confirmation_method"=>"automatic", "created"=>1665622867, "currency"=>"usd", "customer"=>"cus_MZUkUH5W5czAUn", "description"=>"Netwerth Card Deposit: ", "invoice"=>nil, "last_payment_error"=>nil, "livemode"=>false, "metadata"=>{}, "next_action"=>nil, "on_behalf_of"=>nil, "payment_method"=>nil, "payment_method_options"=>{"card"=>{"installments"=>nil, "mandate_options"=>nil, "network"=>nil, "request_three_d_secure"=>"automatic"}}, "payment_method_types"=>["card"], "processing"=>nil, "receipt_email"=>"local@e.com", "review"=>nil, "setup_future_usage"=>nil, "shipping"=>nil, "source"=>nil, "statement_descriptor"=>nil, "statement_descriptor_suffix"=>nil, "status"=>"requires_payment_method", "transfer_data"=>nil, "transfer_group"=>nil}}, "livemode"=>false, "pending_webhooks"=>3, "request"=>{"id"=>"req_OnNEvopuCSNx8k", "idempotency_key"=>"[FILTERED]"}, "type"=>"payment_intent.created"}}
+Can't verify CSRF token authenticity.
+No template found for Api::V2::StripeWebhooksController#update, rendering head :no_content
+Completed 204 No Content in 1ms (ActiveRecord: 0.0ms | Allocations: 258)
+
+
+Started POST "/api/v2/stripe-webhooks" for 127.0.0.1 at 2022-10-12 20:01:10 -0500
+Processing by Api::V2::StripeWebhooksController#update as JSON
+  Parameters: {"id"=>"evt_3LsFnLHvKdEDURjL0SA7t2zF", "object"=>"event", "api_version"=>"2020-08-27", "created"=>1665622870, "data"=>{"object"=>{"id"=>"ch_3LsFnLHvKdEDURjL0cnUohAh", "object"=>"charge", "amount"=>59710, "amount_captured"=>59710, "amount_refunded"=>0, "amount_updates"=>[], "application"=>nil, "application_fee"=>nil, "application_fee_amount"=>nil, "balance_transaction"=>"txn_3LsFnLHvKdEDURjL025hsFfb", "billing_details"=>{"address"=>{"city"=>nil, "country"=>nil, "line1"=>nil, "line2"=>nil, "postal_code"=>nil, "state"=>nil}, "email"=>nil, "name"=>nil, "phone"=>nil}, "calculated_statement_descriptor"=>"TEWCODE", "captured"=>true, "created"=>1665622867, "currency"=>"usd", "customer"=>"cus_MZUkUH5W5czAUn", "description"=>"Netwerth Card Deposit: ", "destination"=>nil, "dispute"=>nil, "disputed"=>false, "failure_balance_transaction"=>nil, "failure_code"=>nil, "failure_message"=>nil, "fraud_details"=>{}, "invoice"=>nil, "livemode"=>false, "metadata"=>{}, "on_behalf_of"=>nil, "order"=>nil, "outcome"=>{"network_status"=>"approved_by_network", "reason"=>nil, "risk_level"=>"normal", "risk_score"=>38, "seller_message"=>"Payment complete.", "type"=>"authorized"}, "paid"=>true, "payment_intent"=>"pi_3LsFnLHvKdEDURjL0tTxCEQl", "payment_method"=>"card_1LsFmtHvKdEDURjLjJvjgkZH", "payment_method_details"=>{"card"=>{"brand"=>"visa", "checks"=>{"address_line1_check"=>nil, "address_postal_code_check"=>nil, "cvc_check"=>"pass"}, "country"=>"US", "exp_month"=>9, "exp_year"=>2025, "fingerprint"=>"wKSqdEGk3M7OXiXs", "funding"=>"credit", "installments"=>nil, "last4"=>"4242", "mandate"=>nil, "network"=>"visa", "three_d_secure"=>nil, "wallet"=>nil}, "type"=>"card"}, "receipt_email"=>"local@e.com", "receipt_number"=>nil, "receipt_url"=>"https://pay.stripe.com/receipts/payment/CAcaFwoVYWNjdF8xSEdZaWtIdktkRURVUmpMKNbGnZoGMgaejXTLrXU6LBYbS0_4AU6Luzx_Kl4P0ZypbzeYb9a9Ir2GwJghi5HPonGjscPlaQ1e_IlF", "refunded"=>false, "refunds"=>{"object"=>"list", "data"=>[], "has_more"=>false, "total_count"=>0, "url"=>"/v1/charges/ch_3LsFnLHvKdEDURjL0cnUohAh/refunds"}, "review"=>nil, "shipping"=>nil, "source"=>{"id"=>"card_1LsFmtHvKdEDURjLjJvjgkZH", "object"=>"card", "address_city"=>nil, "address_country"=>nil, "address_line1"=>nil, "address_line1_check"=>nil, "address_line2"=>nil, "address_state"=>nil, "address_zip"=>nil, "address_zip_check"=>nil, "brand"=>"Visa", "country"=>"US", "customer"=>"cus_MZUkUH5W5czAUn", "cvc_check"=>"pass", "dynamic_last4"=>nil, "exp_month"=>9, "exp_year"=>2025, "fingerprint"=>"wKSqdEGk3M7OXiXs", "funding"=>"credit", "last4"=>"4242", "metadata"=>{}, "name"=>nil, "tokenization_method"=>"[FILTERED]"}, "source_transfer"=>nil, "statement_descriptor"=>nil, "statement_descriptor_suffix"=>nil, "status"=>"succeeded", "transfer_data"=>nil, "transfer_group"=>"675007bb"}, "previous_attributes"=>{"receipt_url"=>"https://pay.stripe.com/receipts/payment/CAcaFwoVYWNjdF8xSEdZaWtIdktkRURVUmpMKNbGnZoGMgYgH2TF3YQ6LBar7p7hAWKSVrOArS4Zm5SXsd5ZcLW_9C40CvnbrKrEhduWRhTASGqmMtVu", "transfer_group"=>nil}}, "livemode"=>false, "pending_webhooks"=>6, "request"=>{"id"=>"req_covHccHxyPcJyY", "idempotency_key"=>"[FILTERED]"}, "type"=>"charge.updated", "stripe_webhook"=>{"id"=>"evt_3LsFnLHvKdEDURjL0SA7t2zF", "object"=>"event", "api_version"=>"2020-08-27", "created"=>1665622870, "data"=>{"object"=>{"id"=>"ch_3LsFnLHvKdEDURjL0cnUohAh", "object"=>"charge", "amount"=>59710, "amount_captured"=>59710, "amount_refunded"=>0, "amount_updates"=>[], "application"=>nil, "application_fee"=>nil, "application_fee_amount"=>nil, "balance_transaction"=>"txn_3LsFnLHvKdEDURjL025hsFfb", "billing_details"=>{"address"=>{"city"=>nil, "country"=>nil, "line1"=>nil, "line2"=>nil, "postal_code"=>nil, "state"=>nil}, "email"=>nil, "name"=>nil, "phone"=>nil}, "calculated_statement_descriptor"=>"TEWCODE", "captured"=>true, "created"=>1665622867, "currency"=>"usd", "customer"=>"cus_MZUkUH5W5czAUn", "description"=>"Netwerth Card Deposit: ", "destination"=>nil, "dispute"=>nil, "disputed"=>false, "failure_balance_transaction"=>nil, "failure_code"=>nil, "failure_message"=>nil, "fraud_details"=>{}, "invoice"=>nil, "livemode"=>false, "metadata"=>{}, "on_behalf_of"=>nil, "order"=>nil, "outcome"=>{"network_status"=>"approved_by_network", "reason"=>nil, "risk_level"=>"normal", "risk_score"=>38, "seller_message"=>"Payment complete.", "type"=>"authorized"}, "paid"=>true, "payment_intent"=>"pi_3LsFnLHvKdEDURjL0tTxCEQl", "payment_method"=>"card_1LsFmtHvKdEDURjLjJvjgkZH", "payment_method_details"=>{"card"=>{"brand"=>"visa", "checks"=>{"address_line1_check"=>nil, "address_postal_code_check"=>nil, "cvc_check"=>"pass"}, "country"=>"US", "exp_month"=>9, "exp_year"=>2025, "fingerprint"=>"wKSqdEGk3M7OXiXs", "funding"=>"credit", "installments"=>nil, "last4"=>"4242", "mandate"=>nil, "network"=>"visa", "three_d_secure"=>nil, "wallet"=>nil}, "type"=>"card"}, "receipt_email"=>"local@e.com", "receipt_number"=>nil, "receipt_url"=>"https://pay.stripe.com/receipts/payment/CAcaFwoVYWNjdF8xSEdZaWtIdktkRURVUmpMKNbGnZoGMgaejXTLrXU6LBYbS0_4AU6Luzx_Kl4P0ZypbzeYb9a9Ir2GwJghi5HPonGjscPlaQ1e_IlF", "refunded"=>false, "refunds"=>{"object"=>"list", "data"=>[], "has_more"=>false, "total_count"=>0, "url"=>"/v1/charges/ch_3LsFnLHvKdEDURjL0cnUohAh/refunds"}, "review"=>nil, "shipping"=>nil, "source"=>{"id"=>"card_1LsFmtHvKdEDURjLjJvjgkZH", "object"=>"card", "address_city"=>nil, "address_country"=>nil, "address_line1"=>nil, "address_line1_check"=>nil, "address_line2"=>nil, "address_state"=>nil, "address_zip"=>nil, "address_zip_check"=>nil, "brand"=>"Visa", "country"=>"US", "customer"=>"cus_MZUkUH5W5czAUn", "cvc_check"=>"pass", "dynamic_last4"=>nil, "exp_month"=>9, "exp_year"=>2025, "fingerprint"=>"wKSqdEGk3M7OXiXs", "funding"=>"credit", "last4"=>"4242", "metadata"=>{}, "name"=>nil, "tokenization_method"=>"[FILTERED]"}, "source_transfer"=>nil, "statement_descriptor"=>nil, "statement_descriptor_suffix"=>nil, "status"=>"succeeded", "transfer_data"=>nil, "transfer_group"=>"675007bb"}, "previous_attributes"=>{"receipt_url"=>"https://pay.stripe.com/receipts/payment/CAcaFwoVYWNjdF8xSEdZaWtIdktkRURVUmpMKNbGnZoGMgYgH2TF3YQ6LBar7p7hAWKSVrOArS4Zm5SXsd5ZcLW_9C40CvnbrKrEhduWRhTASGqmMtVu", "transfer_group"=>nil}}, "livemode"=>false, "pending_webhooks"=>6, "request"=>{"id"=>"req_covHccHxyPcJyY", "idempotency_key"=>"[FILTERED]"}, "type"=>"charge.updated"}}
+Can't verify CSRF token authenticity.
+No template found for Api::V2::StripeWebhooksController#update, rendering head :no_content
+Completed 204 No Content in 1ms (ActiveRecord: 0.0ms | Allocations: 259)
+
+
+Started POST "/api/v2/stripe-webhooks" for 127.0.0.1 at 2022-10-12 20:01:12 -0500
+Processing by Api::V2::StripeWebhooksController#update as JSON
+  Parameters: {"id"=>"evt_1LsFnPHvKdEDURjL9sA7gvat", "object"=>"event", "api_version"=>"2020-08-27", "created"=>1665622871, "data"=>{"object"=>{"id"=>"tu_1LsFnPHvKdEDURjL8fsXhBia", "object"=>"topup", "amount"=>44620, "balance_transaction"=>nil, "created"=>1665622871, "currency"=>"usd", "description"=>"ich_1LqLlRHvKdEDURjL39r30qp5 approximate deposit: $579.49", "destination_balance"=>"issuing", "expected_availability_date"=>1665622871, "failure_code"=>nil, "failure_message"=>nil, "livemode"=>false, "metadata"=>{"deposit"=>"true", "cardHolder"=>"ich_1LqLlRHvKdEDURjL39r30qp5"}, "source"=>{"id"=>"src_1LsFnOHvKdEDURjLvYYXlmoj", "object"=>"source", "ach_debit"=>{"country"=>"US", "type"=>"individual", "routing_number"=>"110000000", "last4"=>"6789", "fingerprint"=>"XN2LSvjbVpp7Lq1y", "bank_name"=>"STRIPE TEST BANK"}, "amount"=>nil, "client_secret"=>"[FILTERED]", "code_verification"=>{"attempts_remaining"=>3, "status"=>"succeeded"}, "created"=>1665622870, "currency"=>"usd", "flow"=>"code_verification", "livemode"=>false, "metadata"=>{}, "owner"=>{"address"=>{"city"=>nil, "country"=>"US", "line1"=>nil, "line2"=>nil, "postal_code"=>nil, "state"=>nil}, "email"=>nil, "name"=>"Jenny Rosen", "phone"=>nil, "verified_address"=>nil, "verified_email"=>nil, "verified_name"=>nil, "verified_phone"=>nil}, "statement_descriptor"=>nil, "status"=>"chargeable", "type"=>"ach_debit", "usage"=>"reusable"}, "statement_descriptor"=>"Top-up", "status"=>"pending", "transfer_group"=>"675007bb"}}, "livemode"=>false, "pending_webhooks"=>3, "request"=>{"id"=>"req_MBRQtVELCyWloi", "idempotency_key"=>"[FILTERED]"}, "type"=>"topup.created", "stripe_webhook"=>{"id"=>"evt_1LsFnPHvKdEDURjL9sA7gvat", "object"=>"event", "api_version"=>"2020-08-27", "created"=>1665622871, "data"=>{"object"=>{"id"=>"tu_1LsFnPHvKdEDURjL8fsXhBia", "object"=>"topup", "amount"=>44620, "balance_transaction"=>nil, "created"=>1665622871, "currency"=>"usd", "description"=>"ich_1LqLlRHvKdEDURjL39r30qp5 approximate deposit: $579.49", "destination_balance"=>"issuing", "expected_availability_date"=>1665622871, "failure_code"=>nil, "failure_message"=>nil, "livemode"=>false, "metadata"=>{"deposit"=>"true", "cardHolder"=>"ich_1LqLlRHvKdEDURjL39r30qp5"}, "source"=>{"id"=>"src_1LsFnOHvKdEDURjLvYYXlmoj", "object"=>"source", "ach_debit"=>{"country"=>"US", "type"=>"individual", "routing_number"=>"110000000", "last4"=>"6789", "fingerprint"=>"XN2LSvjbVpp7Lq1y", "bank_name"=>"STRIPE TEST BANK"}, "amount"=>nil, "client_secret"=>"[FILTERED]", "code_verification"=>{"attempts_remaining"=>3, "status"=>"succeeded"}, "created"=>1665622870, "currency"=>"usd", "flow"=>"code_verification", "livemode"=>false, "metadata"=>{}, "owner"=>{"address"=>{"city"=>nil, "country"=>"US", "line1"=>nil, "line2"=>nil, "postal_code"=>nil, "state"=>nil}, "email"=>nil, "name"=>"Jenny Rosen", "phone"=>nil, "verified_address"=>nil, "verified_email"=>nil, "verified_name"=>nil, "verified_phone"=>nil}, "statement_descriptor"=>nil, "status"=>"chargeable", "type"=>"ach_debit", "usage"=>"reusable"}, "statement_descriptor"=>"Top-up", "status"=>"pending", "transfer_group"=>"675007bb"}}, "livemode"=>false, "pending_webhooks"=>3, "request"=>{"id"=>"req_MBRQtVELCyWloi", "idempotency_key"=>"[FILTERED]"}, "type"=>"topup.created"}}
+Can't verify CSRF token authenticity.
+No template found for Api::V2::StripeWebhooksController#update, rendering head :no_content
+Completed 204 No Content in 1ms (ActiveRecord: 0.0ms | Allocations: 259)
+
+
+Started POST "/api/v2/stripe-webhooks" for 127.0.0.1 at 2022-10-12 20:01:12 -0500
+Processing by Api::V2::StripeWebhooksController#update as JSON
+  Parameters: {"id"=>"evt_1LsFnQHvKdEDURjLeL8sPmvR", "object"=>"event", "api_version"=>"2020-08-27", "created"=>1665622871, "data"=>{"object"=>{"id"=>"tu_1LsFnPHvKdEDURjL8fsXhBia", "object"=>"topup", "amount"=>44620, "balance_transaction"=>"txn_1LsFnPHvKdEDURjLQBaBJ2nr", "created"=>1665622871, "currency"=>"usd", "description"=>"ich_1LqLlRHvKdEDURjL39r30qp5 approximate deposit: $579.49", "destination_balance"=>"issuing", "expected_availability_date"=>1665622871, "failure_code"=>nil, "failure_message"=>nil, "livemode"=>false, "metadata"=>{"deposit"=>"true", "cardHolder"=>"ich_1LqLlRHvKdEDURjL39r30qp5"}, "source"=>{"id"=>"src_1LsFnOHvKdEDURjLvYYXlmoj", "object"=>"source", "ach_debit"=>{"country"=>"US", "type"=>"individual", "routing_number"=>"110000000", "last4"=>"6789", "fingerprint"=>"XN2LSvjbVpp7Lq1y", "bank_name"=>"STRIPE TEST BANK"}, "amount"=>nil, "client_secret"=>"[FILTERED]", "code_verification"=>{"attempts_remaining"=>3, "status"=>"succeeded"}, "created"=>1665622870, "currency"=>"usd", "flow"=>"code_verification", "livemode"=>false, "metadata"=>{}, "owner"=>{"address"=>{"city"=>nil, "country"=>"US", "line1"=>nil, "line2"=>nil, "postal_code"=>nil, "state"=>nil}, "email"=>nil, "name"=>"Jenny Rosen", "phone"=>nil, "verified_address"=>nil, "verified_email"=>nil, "verified_name"=>nil, "verified_phone"=>nil}, "statement_descriptor"=>nil, "status"=>"chargeable", "type"=>"ach_debit", "usage"=>"reusable"}, "statement_descriptor"=>"Top-up", "status"=>"succeeded", "transfer_group"=>"675007bb"}}, "livemode"=>false, "pending_webhooks"=>3, "request"=>{"id"=>"req_MBRQtVELCyWloi", "idempotency_key"=>"[FILTERED]"}, "type"=>"topup.succeeded", "stripe_webhook"=>{"id"=>"evt_1LsFnQHvKdEDURjLeL8sPmvR", "object"=>"event", "api_version"=>"2020-08-27", "created"=>1665622871, "data"=>{"object"=>{"id"=>"tu_1LsFnPHvKdEDURjL8fsXhBia", "object"=>"topup", "amount"=>44620, "balance_transaction"=>"txn_1LsFnPHvKdEDURjLQBaBJ2nr", "created"=>1665622871, "currency"=>"usd", "description"=>"ich_1LqLlRHvKdEDURjL39r30qp5 approximate deposit: $579.49", "destination_balance"=>"issuing", "expected_availability_date"=>1665622871, "failure_code"=>nil, "failure_message"=>nil, "livemode"=>false, "metadata"=>{"deposit"=>"true", "cardHolder"=>"ich_1LqLlRHvKdEDURjL39r30qp5"}, "source"=>{"id"=>"src_1LsFnOHvKdEDURjLvYYXlmoj", "object"=>"source", "ach_debit"=>{"country"=>"US", "type"=>"individual", "routing_number"=>"110000000", "last4"=>"6789", "fingerprint"=>"XN2LSvjbVpp7Lq1y", "bank_name"=>"STRIPE TEST BANK"}, "amount"=>nil, "client_secret"=>"[FILTERED]", "code_verification"=>{"attempts_remaining"=>3, "status"=>"succeeded"}, "created"=>1665622870, "currency"=>"usd", "flow"=>"code_verification", "livemode"=>false, "metadata"=>{}, "owner"=>{"address"=>{"city"=>nil, "country"=>"US", "line1"=>nil, "line2"=>nil, "postal_code"=>nil, "state"=>nil}, "email"=>nil, "name"=>"Jenny Rosen", "phone"=>nil, "verified_address"=>nil, "verified_email"=>nil, "verified_name"=>nil, "verified_phone"=>nil}, "statement_descriptor"=>nil, "status"=>"chargeable", "type"=>"ach_debit", "usage"=>"reusable"}, "statement_descriptor"=>"Top-up", "status"=>"succeeded", "transfer_group"=>"675007bb"}}, "livemode"=>false, "pending_webhooks"=>3, "request"=>{"id"=>"req_MBRQtVELCyWloi", "idempotency_key"=>"[FILTERED]"}, "type"=>"topup.succeeded"}}
+Can't verify CSRF token authenticity.
+No template found for Api::V2::StripeWebhooksController#update, rendering head :no_content
+Completed 204 No Content in 1ms (ActiveRecord: 0.0ms | Allocations: 258)
+
+
+Started POST "/api/v2/stripe-webhooks" for 127.0.0.1 at 2022-10-12 20:01:12 -0500
+Processing by Api::V2::StripeWebhooksController#update as JSON
+  Parameters: {"id"=>"evt_1LsFnQHvKdEDURjL1VNFjVvN", "object"=>"event", "api_version"=>"2020-08-27", "created"=>1665622871, "data"=>{"object"=>{"id"=>"src_1LsFnOHvKdEDURjLvYYXlmoj", "object"=>"source", "ach_debit"=>{"country"=>"US", "type"=>"individual", "routing_number"=>"110000000", "last4"=>"6789", "fingerprint"=>"XN2LSvjbVpp7Lq1y", "bank_name"=>"STRIPE TEST BANK"}, "amount"=>nil, "client_secret"=>"[FILTERED]", "code_verification"=>{"attempts_remaining"=>3, "status"=>"succeeded"}, "created"=>1665622870, "currency"=>"usd", "flow"=>"code_verification", "livemode"=>false, "metadata"=>{}, "owner"=>{"address"=>{"city"=>nil, "country"=>"US", "line1"=>nil, "line2"=>nil, "postal_code"=>nil, "state"=>nil}, "email"=>nil, "name"=>"Jenny Rosen", "phone"=>nil, "verified_address"=>nil, "verified_email"=>nil, "verified_name"=>nil, "verified_phone"=>nil}, "statement_descriptor"=>nil, "status"=>"chargeable", "type"=>"ach_debit", "usage"=>"reusable"}}, "livemode"=>false, "pending_webhooks"=>3, "request"=>{"id"=>"req_MBRQtVELCyWloi", "idempotency_key"=>"[FILTERED]"}, "type"=>"source.chargeable", "stripe_webhook"=>{"id"=>"evt_1LsFnQHvKdEDURjL1VNFjVvN", "object"=>"event", "api_version"=>"2020-08-27", "created"=>1665622871, "data"=>{"object"=>{"id"=>"src_1LsFnOHvKdEDURjLvYYXlmoj", "object"=>"source", "ach_debit"=>{"country"=>"US", "type"=>"individual", "routing_number"=>"110000000", "last4"=>"6789", "fingerprint"=>"XN2LSvjbVpp7Lq1y", "bank_name"=>"STRIPE TEST BANK"}, "amount"=>nil, "client_secret"=>"[FILTERED]", "code_verification"=>{"attempts_remaining"=>3, "status"=>"succeeded"}, "created"=>1665622870, "currency"=>"usd", "flow"=>"code_verification", "livemode"=>false, "metadata"=>{}, "owner"=>{"address"=>{"city"=>nil, "country"=>"US", "line1"=>nil, "line2"=>nil, "postal_code"=>nil, "state"=>nil}, "email"=>nil, "name"=>"Jenny Rosen", "phone"=>nil, "verified_address"=>nil, "verified_email"=>nil, "verified_name"=>nil, "verified_phone"=>nil}, "statement_descriptor"=>nil, "status"=>"chargeable", "type"=>"ach_debit", "usage"=>"reusable"}}, "livemode"=>false, "pending_webhooks"=>3, "request"=>{"id"=>"req_MBRQtVELCyWloi", "idempotency_key"=>"[FILTERED]"}, "type"=>"source.chargeable"}}
+Can't verify CSRF token authenticity.
+No template found for Api::V2::StripeWebhooksController#update, rendering head :no_content
+Completed 204 No Content in 1ms (ActiveRecord: 0.0ms | Allocations: 258)
+
+
+Started POST "/api/v2/stripe-webhooks" for 127.0.0.1 at 2022-10-12 20:01:12 -0500
+Processing by Api::V2::StripeWebhooksController#update as JSON
+  Parameters: {"id"=>"evt_1LsFnQHvKdEDURjLvx2hfnS9", "object"=>"event", "api_version"=>"2020-08-27", "created"=>1665622872, "data"=>{"object"=>{"id"=>"ich_1LqLlRHvKdEDURjL39r30qp5", "object"=>"issuing.cardholder", "billing"=>{"address"=>{"city"=>"milwaukee", "country"=>"US", "line1"=>"2423", "line2"=>nil, "postal_code"=>"54328", "state"=>"WI"}}, "company"=>nil, "created"=>1665169157, "email"=>"local@e.com", "individual"=>nil, "livemode"=>false, "metadata"=>{"stripeCustomerID"=>"cus_MZUkUH5W5czAUn"}, "name"=>"asdfw", "phone_number"=>"+12323232322", "requirements"=>{"disabled_reason"=>nil, "past_due"=>[]}, "spending_controls"=>{"allowed_categories"=>[], "blocked_categories"=>[], "spending_limits"=>[{"amount"=>44620, "categories"=>[], "interval"=>"per_authorization"}], "spending_limits_currency"=>"usd"}, "status"=>"active", "type"=>"individual"}, "previous_attributes"=>{"spending_controls"=>{"spending_limits"=>[], "spending_limits_currency"=>nil}}}, "livemode"=>false, "pending_webhooks"=>3, "request"=>{"id"=>"req_0g1KQcTR078CUH", "idempotency_key"=>"[FILTERED]"}, "type"=>"issuing_cardholder.updated", "stripe_webhook"=>{"id"=>"evt_1LsFnQHvKdEDURjLvx2hfnS9", "object"=>"event", "api_version"=>"2020-08-27", "created"=>1665622872, "data"=>{"object"=>{"id"=>"ich_1LqLlRHvKdEDURjL39r30qp5", "object"=>"issuing.cardholder", "billing"=>{"address"=>{"city"=>"milwaukee", "country"=>"US", "line1"=>"2423", "line2"=>nil, "postal_code"=>"54328", "state"=>"WI"}}, "company"=>nil, "created"=>1665169157, "email"=>"local@e.com", "individual"=>nil, "livemode"=>false, "metadata"=>{"stripeCustomerID"=>"cus_MZUkUH5W5czAUn"}, "name"=>"asdfw", "phone_number"=>"+12323232322", "requirements"=>{"disabled_reason"=>nil, "past_due"=>[]}, "spending_controls"=>{"allowed_categories"=>[], "blocked_categories"=>[], "spending_limits"=>[{"amount"=>44620, "categories"=>[], "interval"=>"per_authorization"}], "spending_limits_currency"=>"usd"}, "status"=>"active", "type"=>"individual"}, "previous_attributes"=>{"spending_controls"=>{"spending_limits"=>[], "spending_limits_currency"=>nil}}}, "livemode"=>false, "pending_webhooks"=>3, "request"=>{"id"=>"req_0g1KQcTR078CUH", "idempotency_key"=>"[FILTERED]"}, "type"=>"issuing_cardholder.updated"}}
+Can't verify CSRF token authenticity.
+No template found for Api::V2::StripeWebhooksController#update, rendering head :no_content
+Completed 204 No Content in 1ms (ActiveRecord: 0.0ms | Allocations: 259)
+
+
+Started GET "/api/v2/stripe-charges" for 127.0.0.1 at 2022-10-12 20:01:12 -0500
+Processing by Api::V2::StripeChargesController#index as JSON
+  Parameters: {"stripe_charge"=>{}}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."authentication_token" = $1 LIMIT $2[0m  [["authentication_token", "[FILTERED]"], ["LIMIT", 1]]
+  ↳ app/controllers/api_controller.rb:137:in `findUser'
+No template found for Api::V2::StripeWebhooksController#update, rendering head :no_content
+Completed 204 No Content in 4102ms (ActiveRecord: 0.0ms | Allocations: 45763)
+
+
+Started POST "/api/v2/stripe-webhooks" for 127.0.0.1 at 2022-10-12 20:01:13 -0500
+Processing by Api::V2::StripeWebhooksController#update as JSON
+  Parameters: {"id"=>"evt_1LsFnRHvKdEDURjLo3me92zi", "object"=>"event", "api_version"=>"2020-08-27", "created"=>1665622873, "data"=>{"object"=>{"object"=>"balance", "available"=>[{"amount"=>0, "currency"=>"usd", "source_types"=>{"card"=>0}}], "connect_reserved"=>[{"amount"=>0, "currency"=>"usd"}], "issuing"=>{"available"=>[{"amount"=>219371, "currency"=>"usd"}]}, "livemode"=>false, "pending"=>[{"amount"=>57948, "currency"=>"usd", "source_types"=>{"card"=>57948}}]}}, "livemode"=>false, "pending_webhooks"=>3, "request"=>{"id"=>nil, "idempotency_key"=>"[FILTERED]"}, "type"=>"balance.available", "stripe_webhook"=>{"id"=>"evt_1LsFnRHvKdEDURjLo3me92zi", "object"=>"event", "api_version"=>"2020-08-27", "created"=>1665622873, "data"=>{"object"=>{"object"=>"balance", "available"=>[{"amount"=>0, "currency"=>"usd", "source_types"=>{"card"=>0}}], "connect_reserved"=>[{"amount"=>0, "currency"=>"usd"}], "issuing"=>{"available"=>[{"amount"=>219371, "currency"=>"usd"}]}, "livemode"=>false, "pending"=>[{"amount"=>57948, "currency"=>"usd", "source_types"=>{"card"=>57948}}]}}, "livemode"=>false, "pending_webhooks"=>3, "request"=>{"id"=>nil, "idempotency_key"=>"[FILTERED]"}, "type"=>"balance.available"}}
+Can't verify CSRF token authenticity.
+No template found for Api::V2::StripeWebhooksController#update, rendering head :no_content
+Completed 204 No Content in 1ms (ActiveRecord: 0.0ms | Allocations: 258)
+
+
+Completed 200 OK in 934ms (Views: 0.8ms | ActiveRecord: 0.3ms | Allocations: 23334)
+
+
+Started POST "/api/v2/stripe-webhooks" for 127.0.0.1 at 2022-10-12 20:01:18 -0500
+Processing by Api::V2::StripeWebhooksController#update as JSON
+  Parameters: {"id"=>"evt_1LsFnWHvKdEDURjLTdAXjzYK", "object"=>"event", "api_version"=>"2020-08-27", "created"=>1665622877, "data"=>{"object"=>{"id"=>"tu_1LsFnVHvKdEDURjLYqMk89dz", "object"=>"topup", "amount"=>44620, "balance_transaction"=>nil, "created"=>1665622877, "currency"=>"usd", "description"=>"ich_1LqLlRHvKdEDURjL39r30qp5 approximate deposit: $579.49", "destination_balance"=>"issuing", "expected_availability_date"=>1665622878, "failure_code"=>nil, "failure_message"=>nil, "livemode"=>false, "metadata"=>{"deposit"=>"true", "cardHolder"=>"ich_1LqLlRHvKdEDURjL39r30qp5"}, "source"=>{"id"=>"src_1LsFnVHvKdEDURjLS7GsR6c1", "object"=>"source", "ach_debit"=>{"country"=>"US", "type"=>"individual", "routing_number"=>"110000000", "last4"=>"6789", "fingerprint"=>"XN2LSvjbVpp7Lq1y", "bank_name"=>"STRIPE TEST BANK"}, "amount"=>nil, "client_secret"=>"[FILTERED]", "code_verification"=>{"attempts_remaining"=>3, "status"=>"succeeded"}, "created"=>1665622877, "currency"=>"usd", "flow"=>"code_verification", "livemode"=>false, "metadata"=>{}, "owner"=>{"address"=>{"city"=>nil, "country"=>"US", "line1"=>nil, "line2"=>nil, "postal_code"=>nil, "state"=>nil}, "email"=>nil, "name"=>"Jenny Rosen", "phone"=>nil, "verified_address"=>nil, "verified_email"=>nil, "verified_name"=>nil, "verified_phone"=>nil}, "statement_descriptor"=>nil, "status"=>"chargeable", "type"=>"ach_debit", "usage"=>"reusable"}, "statement_descriptor"=>"Top-up", "status"=>"pending", "transfer_group"=>"675007bb"}}, "livemode"=>false, "pending_webhooks"=>3, "request"=>{"id"=>"req_6sqBsnX9OQCBDv", "idempotency_key"=>"[FILTERED]"}, "type"=>"topup.created", "stripe_webhook"=>{"id"=>"evt_1LsFnWHvKdEDURjLTdAXjzYK", "object"=>"event", "api_version"=>"2020-08-27", "created"=>1665622877, "data"=>{"object"=>{"id"=>"tu_1LsFnVHvKdEDURjLYqMk89dz", "object"=>"topup", "amount"=>44620, "balance_transaction"=>nil, "created"=>1665622877, "currency"=>"usd", "description"=>"ich_1LqLlRHvKdEDURjL39r30qp5 approximate deposit: $579.49", "destination_balance"=>"issuing", "expected_availability_date"=>1665622878, "failure_code"=>nil, "failure_message"=>nil, "livemode"=>false, "metadata"=>{"deposit"=>"true", "cardHolder"=>"ich_1LqLlRHvKdEDURjL39r30qp5"}, "source"=>{"id"=>"src_1LsFnVHvKdEDURjLS7GsR6c1", "object"=>"source", "ach_debit"=>{"country"=>"US", "type"=>"individual", "routing_number"=>"110000000", "last4"=>"6789", "fingerprint"=>"XN2LSvjbVpp7Lq1y", "bank_name"=>"STRIPE TEST BANK"}, "amount"=>nil, "client_secret"=>"[FILTERED]", "code_verification"=>{"attempts_remaining"=>3, "status"=>"succeeded"}, "created"=>1665622877, "currency"=>"usd", "flow"=>"code_verification", "livemode"=>false, "metadata"=>{}, "owner"=>{"address"=>{"city"=>nil, "country"=>"US", "line1"=>nil, "line2"=>nil, "postal_code"=>nil, "state"=>nil}, "email"=>nil, "name"=>"Jenny Rosen", "phone"=>nil, "verified_address"=>nil, "verified_email"=>nil, "verified_name"=>nil, "verified_phone"=>nil}, "statement_descriptor"=>nil, "status"=>"chargeable", "type"=>"ach_debit", "usage"=>"reusable"}, "statement_descriptor"=>"Top-up", "status"=>"pending", "transfer_group"=>"675007bb"}}, "livemode"=>false, "pending_webhooks"=>3, "request"=>{"id"=>"req_6sqBsnX9OQCBDv", "idempotency_key"=>"[FILTERED]"}, "type"=>"topup.created"}}
+Can't verify CSRF token authenticity.
+No template found for Api::V2::StripeWebhooksController#update, rendering head :no_content
+Completed 204 No Content in 1ms (ActiveRecord: 0.0ms | Allocations: 258)
+
+
+Started POST "/api/v2/stripe-webhooks" for 127.0.0.1 at 2022-10-12 20:01:18 -0500
+Processing by Api::V2::StripeWebhooksController#update as JSON
+  Parameters: {"id"=>"evt_1LsFnWHvKdEDURjL2Q6z58Tg", "object"=>"event", "api_version"=>"2020-08-27", "created"=>1665622878, "data"=>{"object"=>{"id"=>"tu_1LsFnVHvKdEDURjLYqMk89dz", "object"=>"topup", "amount"=>44620, "balance_transaction"=>"txn_1LsFnWHvKdEDURjLj1Uy2xeg", "created"=>1665622877, "currency"=>"usd", "description"=>"ich_1LqLlRHvKdEDURjL39r30qp5 approximate deposit: $579.49", "destination_balance"=>"issuing", "expected_availability_date"=>1665622878, "failure_code"=>nil, "failure_message"=>nil, "livemode"=>false, "metadata"=>{"deposit"=>"true", "cardHolder"=>"ich_1LqLlRHvKdEDURjL39r30qp5"}, "source"=>{"id"=>"src_1LsFnVHvKdEDURjLS7GsR6c1", "object"=>"source", "ach_debit"=>{"country"=>"US", "type"=>"individual", "routing_number"=>"110000000", "last4"=>"6789", "fingerprint"=>"XN2LSvjbVpp7Lq1y", "bank_name"=>"STRIPE TEST BANK"}, "amount"=>nil, "client_secret"=>"[FILTERED]", "code_verification"=>{"attempts_remaining"=>3, "status"=>"succeeded"}, "created"=>1665622877, "currency"=>"usd", "flow"=>"code_verification", "livemode"=>false, "metadata"=>{}, "owner"=>{"address"=>{"city"=>nil, "country"=>"US", "line1"=>nil, "line2"=>nil, "postal_code"=>nil, "state"=>nil}, "email"=>nil, "name"=>"Jenny Rosen", "phone"=>nil, "verified_address"=>nil, "verified_email"=>nil, "verified_name"=>nil, "verified_phone"=>nil}, "statement_descriptor"=>nil, "status"=>"chargeable", "type"=>"ach_debit", "usage"=>"reusable"}, "statement_descriptor"=>"Top-up", "status"=>"succeeded", "transfer_group"=>"675007bb"}}, "livemode"=>false, "pending_webhooks"=>3, "request"=>{"id"=>"req_6sqBsnX9OQCBDv", "idempotency_key"=>"[FILTERED]"}, "type"=>"topup.succeeded", "stripe_webhook"=>{"id"=>"evt_1LsFnWHvKdEDURjL2Q6z58Tg", "object"=>"event", "api_version"=>"2020-08-27", "created"=>1665622878, "data"=>{"object"=>{"id"=>"tu_1LsFnVHvKdEDURjLYqMk89dz", "object"=>"topup", "amount"=>44620, "balance_transaction"=>"txn_1LsFnWHvKdEDURjLj1Uy2xeg", "created"=>1665622877, "currency"=>"usd", "description"=>"ich_1LqLlRHvKdEDURjL39r30qp5 approximate deposit: $579.49", "destination_balance"=>"issuing", "expected_availability_date"=>1665622878, "failure_code"=>nil, "failure_message"=>nil, "livemode"=>false, "metadata"=>{"deposit"=>"true", "cardHolder"=>"ich_1LqLlRHvKdEDURjL39r30qp5"}, "source"=>{"id"=>"src_1LsFnVHvKdEDURjLS7GsR6c1", "object"=>"source", "ach_debit"=>{"country"=>"US", "type"=>"individual", "routing_number"=>"110000000", "last4"=>"6789", "fingerprint"=>"XN2LSvjbVpp7Lq1y", "bank_name"=>"STRIPE TEST BANK"}, "amount"=>nil, "client_secret"=>"[FILTERED]", "code_verification"=>{"attempts_remaining"=>3, "status"=>"succeeded"}, "created"=>1665622877, "currency"=>"usd", "flow"=>"code_verification", "livemode"=>false, "metadata"=>{}, "owner"=>{"address"=>{"city"=>nil, "country"=>"US", "line1"=>nil, "line2"=>nil, "postal_code"=>nil, "state"=>nil}, "email"=>nil, "name"=>"Jenny Rosen", "phone"=>nil, "verified_address"=>nil, "verified_email"=>nil, "verified_name"=>nil, "verified_phone"=>nil}, "statement_descriptor"=>nil, "status"=>"chargeable", "type"=>"ach_debit", "usage"=>"reusable"}, "statement_descriptor"=>"Top-up", "status"=>"succeeded", "transfer_group"=>"675007bb"}}, "livemode"=>false, "pending_webhooks"=>3, "request"=>{"id"=>"req_6sqBsnX9OQCBDv", "idempotency_key"=>"[FILTERED]"}, "type"=>"topup.succeeded"}}
+Can't verify CSRF token authenticity.
+No template found for Api::V2::StripeWebhooksController#update, rendering head :no_content
+Completed 204 No Content in 1ms (ActiveRecord: 0.0ms | Allocations: 258)
+
+
+Started POST "/api/v2/stripe-webhooks" for 127.0.0.1 at 2022-10-12 20:01:18 -0500
+Processing by Api::V2::StripeWebhooksController#update as JSON
+  Parameters: {"id"=>"evt_1LsFnWHvKdEDURjLXQ6fNddP", "object"=>"event", "api_version"=>"2020-08-27", "created"=>1665622877, "data"=>{"object"=>{"id"=>"src_1LsFnVHvKdEDURjLS7GsR6c1", "object"=>"source", "ach_debit"=>{"country"=>"US", "type"=>"individual", "routing_number"=>"110000000", "last4"=>"6789", "fingerprint"=>"XN2LSvjbVpp7Lq1y", "bank_name"=>"STRIPE TEST BANK"}, "amount"=>nil, "client_secret"=>"[FILTERED]", "code_verification"=>{"attempts_remaining"=>3, "status"=>"succeeded"}, "created"=>1665622877, "currency"=>"usd", "flow"=>"code_verification", "livemode"=>false, "metadata"=>{}, "owner"=>{"address"=>{"city"=>nil, "country"=>"US", "line1"=>nil, "line2"=>nil, "postal_code"=>nil, "state"=>nil}, "email"=>nil, "name"=>"Jenny Rosen", "phone"=>nil, "verified_address"=>nil, "verified_email"=>nil, "verified_name"=>nil, "verified_phone"=>nil}, "statement_descriptor"=>nil, "status"=>"chargeable", "type"=>"ach_debit", "usage"=>"reusable"}}, "livemode"=>false, "pending_webhooks"=>3, "request"=>{"id"=>"req_6sqBsnX9OQCBDv", "idempotency_key"=>"[FILTERED]"}, "type"=>"source.chargeable", "stripe_webhook"=>{"id"=>"evt_1LsFnWHvKdEDURjLXQ6fNddP", "object"=>"event", "api_version"=>"2020-08-27", "created"=>1665622877, "data"=>{"object"=>{"id"=>"src_1LsFnVHvKdEDURjLS7GsR6c1", "object"=>"source", "ach_debit"=>{"country"=>"US", "type"=>"individual", "routing_number"=>"110000000", "last4"=>"6789", "fingerprint"=>"XN2LSvjbVpp7Lq1y", "bank_name"=>"STRIPE TEST BANK"}, "amount"=>nil, "client_secret"=>"[FILTERED]", "code_verification"=>{"attempts_remaining"=>3, "status"=>"succeeded"}, "created"=>1665622877, "currency"=>"usd", "flow"=>"code_verification", "livemode"=>false, "metadata"=>{}, "owner"=>{"address"=>{"city"=>nil, "country"=>"US", "line1"=>nil, "line2"=>nil, "postal_code"=>nil, "state"=>nil}, "email"=>nil, "name"=>"Jenny Rosen", "phone"=>nil, "verified_address"=>nil, "verified_email"=>nil, "verified_name"=>nil, "verified_phone"=>nil}, "statement_descriptor"=>nil, "status"=>"chargeable", "type"=>"ach_debit", "usage"=>"reusable"}}, "livemode"=>false, "pending_webhooks"=>3, "request"=>{"id"=>"req_6sqBsnX9OQCBDv", "idempotency_key"=>"[FILTERED]"}, "type"=>"source.chargeable"}}
+Can't verify CSRF token authenticity.
+No template found for Api::V2::StripeWebhooksController#update, rendering head :no_content
+Completed 204 No Content in 1ms (ActiveRecord: 0.0ms | Allocations: 258)
+
+
+Started POST "/api/v2/stripe-webhooks" for 127.0.0.1 at 2022-10-12 20:01:19 -0500
+Processing by Api::V2::StripeWebhooksController#update as JSON
+  Parameters: {"id"=>"evt_1LsFnXHvKdEDURjLBRpwAUBY", "object"=>"event", "api_version"=>"2020-08-27", "created"=>1665622878, "data"=>{"object"=>{"id"=>"ich_1LqLlRHvKdEDURjL39r30qp5", "object"=>"issuing.cardholder", "billing"=>{"address"=>{"city"=>"milwaukee", "country"=>"US", "line1"=>"2423", "line2"=>nil, "postal_code"=>"54328", "state"=>"WI"}}, "company"=>nil, "created"=>1665169157, "email"=>"local@e.com", "individual"=>nil, "livemode"=>false, "metadata"=>{"stripeCustomerID"=>"cus_MZUkUH5W5czAUn"}, "name"=>"asdfw", "phone_number"=>"+12323232322", "requirements"=>{"disabled_reason"=>nil, "past_due"=>[]}, "spending_controls"=>{"allowed_categories"=>[], "blocked_categories"=>[], "spending_limits"=>[{"amount"=>89240, "categories"=>[], "interval"=>"per_authorization"}], "spending_limits_currency"=>"usd"}, "status"=>"active", "type"=>"individual"}, "previous_attributes"=>{"spending_controls"=>{"spending_limits"=>[{"amount"=>44620, "categories"=>[], "interval"=>"per_authorization"}]}}}, "livemode"=>false, "pending_webhooks"=>3, "request"=>{"id"=>"req_0sI2qoB4FO9Yno", "idempotency_key"=>"[FILTERED]"}, "type"=>"issuing_cardholder.updated", "stripe_webhook"=>{"id"=>"evt_1LsFnXHvKdEDURjLBRpwAUBY", "object"=>"event", "api_version"=>"2020-08-27", "created"=>1665622878, "data"=>{"object"=>{"id"=>"ich_1LqLlRHvKdEDURjL39r30qp5", "object"=>"issuing.cardholder", "billing"=>{"address"=>{"city"=>"milwaukee", "country"=>"US", "line1"=>"2423", "line2"=>nil, "postal_code"=>"54328", "state"=>"WI"}}, "company"=>nil, "created"=>1665169157, "email"=>"local@e.com", "individual"=>nil, "livemode"=>false, "metadata"=>{"stripeCustomerID"=>"cus_MZUkUH5W5czAUn"}, "name"=>"asdfw", "phone_number"=>"+12323232322", "requirements"=>{"disabled_reason"=>nil, "past_due"=>[]}, "spending_controls"=>{"allowed_categories"=>[], "blocked_categories"=>[], "spending_limits"=>[{"amount"=>89240, "categories"=>[], "interval"=>"per_authorization"}], "spending_limits_currency"=>"usd"}, "status"=>"active", "type"=>"individual"}, "previous_attributes"=>{"spending_controls"=>{"spending_limits"=>[{"amount"=>44620, "categories"=>[], "interval"=>"per_authorization"}]}}}, "livemode"=>false, "pending_webhooks"=>3, "request"=>{"id"=>"req_0sI2qoB4FO9Yno", "idempotency_key"=>"[FILTERED]"}, "type"=>"issuing_cardholder.updated"}}
+Can't verify CSRF token authenticity.
+No template found for Api::V2::StripeWebhooksController#update, rendering head :no_content
+Completed 204 No Content in 1ms (ActiveRecord: 0.0ms | Allocations: 258)
+
+
+Started POST "/api/v2/stripe-webhooks" for 127.0.0.1 at 2022-10-12 20:01:19 -0500
+Processing by Api::V2::StripeWebhooksController#update as JSON
+  Parameters: {"id"=>"evt_1LsFnXHvKdEDURjLuaSKkP0X", "object"=>"event", "api_version"=>"2020-08-27", "created"=>1665622879, "data"=>{"object"=>{"object"=>"balance", "available"=>[{"amount"=>0, "currency"=>"usd", "source_types"=>{"card"=>0}}], "connect_reserved"=>[{"amount"=>0, "currency"=>"usd"}], "issuing"=>{"available"=>[{"amount"=>263991, "currency"=>"usd"}]}, "livemode"=>false, "pending"=>[{"amount"=>57948, "currency"=>"usd", "source_types"=>{"card"=>57948}}]}}, "livemode"=>false, "pending_webhooks"=>3, "request"=>{"id"=>nil, "idempotency_key"=>"[FILTERED]"}, "type"=>"balance.available", "stripe_webhook"=>{"id"=>"evt_1LsFnXHvKdEDURjLuaSKkP0X", "object"=>"event", "api_version"=>"2020-08-27", "created"=>1665622879, "data"=>{"object"=>{"object"=>"balance", "available"=>[{"amount"=>0, "currency"=>"usd", "source_types"=>{"card"=>0}}], "connect_reserved"=>[{"amount"=>0, "currency"=>"usd"}], "issuing"=>{"available"=>[{"amount"=>263991, "currency"=>"usd"}]}, "livemode"=>false, "pending"=>[{"amount"=>57948, "currency"=>"usd", "source_types"=>{"card"=>57948}}]}}, "livemode"=>false, "pending_webhooks"=>3, "request"=>{"id"=>nil, "idempotency_key"=>"[FILTERED]"}, "type"=>"balance.available"}}
+Can't verify CSRF token authenticity.
+No template found for Api::V2::StripeWebhooksController#update, rendering head :no_content
+Completed 204 No Content in 1ms (ActiveRecord: 0.0ms | Allocations: 258)
+
+
+Started POST "/api/v2/stripe-charges" for 127.0.0.1 at 2022-10-12 20:06:17 -0500
+Processing by Api::V2::StripeChargesController#create as JSON
+  Parameters: {"amount"=>"1000", "stripe_charge"=>{"amount"=>"1000"}}
+Can't verify CSRF token authenticity.
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."authentication_token" = $1 LIMIT $2[0m  [["authentication_token", "[FILTERED]"], ["LIMIT", 1]]
+  ↳ app/controllers/api_controller.rb:137:in `findUser'
+[31mUnpermitted parameters: :format, :stripe_charge. Context: { controller: Api::V2::StripeChargesController, action: create, request: #<ActionDispatch::Request:0x00007f37806ec418>, params: {"amount"=>"1000", "format"=>:json, "controller"=>"api/v2/stripe_charges", "action"=>"create", "stripe_charge"=>{"amount"=>"1000"}} }[0m
+[31mUnpermitted parameters: :format, :stripe_charge. Context: { controller: Api::V2::StripeChargesController, action: create, request: #<ActionDispatch::Request:0x00007f37806ec418>, params: {"amount"=>"1000", "format"=>:json, "controller"=>"api/v2/stripe_charges", "action"=>"create", "stripe_charge"=>{"amount"=>"1000"}} }[0m
+Completed 200 OK in 1517ms (Views: 1.3ms | ActiveRecord: 2.0ms | Allocations: 16023)
+
+
+Started POST "/api/v2/stripe-webhooks" for 127.0.0.1 at 2022-10-12 20:06:19 -0500
+Processing by Api::V2::StripeWebhooksController#update as JSON
+  Parameters: {"id"=>"evt_3LsFsLHvKdEDURjL1QBcMQfX", "object"=>"event", "api_version"=>"2020-08-27", "created"=>1665623178, "data"=>{"object"=>{"id"=>"ch_3LsFsLHvKdEDURjL1LuvvHWe", "object"=>"charge", "amount"=>102930, "amount_captured"=>102930, "amount_refunded"=>0, "amount_updates"=>[], "application"=>nil, "application_fee"=>nil, "application_fee_amount"=>nil, "balance_transaction"=>"txn_3LsFsLHvKdEDURjL1sWzUOPk", "billing_details"=>{"address"=>{"city"=>nil, "country"=>nil, "line1"=>nil, "line2"=>nil, "postal_code"=>nil, "state"=>nil}, "email"=>nil, "name"=>nil, "phone"=>nil}, "calculated_statement_descriptor"=>"TEWCODE", "captured"=>true, "created"=>1665623178, "currency"=>"usd", "customer"=>"cus_MZUkUH5W5czAUn", "description"=>"Netwerth Card Deposit: ", "destination"=>nil, "dispute"=>nil, "disputed"=>false, "failure_balance_transaction"=>nil, "failure_code"=>nil, "failure_message"=>nil, "fraud_details"=>{}, "invoice"=>nil, "livemode"=>false, "metadata"=>{}, "on_behalf_of"=>nil, "order"=>nil, "outcome"=>{"network_status"=>"approved_by_network", "reason"=>nil, "risk_level"=>"normal", "risk_score"=>57, "seller_message"=>"Payment complete.", "type"=>"authorized"}, "paid"=>true, "payment_intent"=>"pi_3LsFsLHvKdEDURjL1A2cDsQh", "payment_method"=>"card_1LsFmtHvKdEDURjLjJvjgkZH", "payment_method_details"=>{"card"=>{"brand"=>"visa", "checks"=>{"address_line1_check"=>nil, "address_postal_code_check"=>nil, "cvc_check"=>"pass"}, "country"=>"US", "exp_month"=>9, "exp_year"=>2025, "fingerprint"=>"wKSqdEGk3M7OXiXs", "funding"=>"credit", "installments"=>nil, "last4"=>"4242", "mandate"=>nil, "network"=>"visa", "three_d_secure"=>nil, "wallet"=>nil}, "type"=>"card"}, "receipt_email"=>"local@e.com", "receipt_number"=>nil, "receipt_url"=>"https://pay.stripe.com/receipts/payment/CAcaFwoVYWNjdF8xSEdZaWtIdktkRURVUmpMKIrJnZoGMgZ2wii2KCw6LBbgxP70dpPNHxu3vnHz2Ty1EMHANUFPirystLwycZhrfhY9XNvu1yIR3gtV", "refunded"=>false, "refunds"=>{"object"=>"list", "data"=>[], "has_more"=>false, "total_count"=>0, "url"=>"/v1/charges/ch_3LsFsLHvKdEDURjL1LuvvHWe/refunds"}, "review"=>nil, "shipping"=>nil, "source"=>{"id"=>"card_1LsFmtHvKdEDURjLjJvjgkZH", "object"=>"card", "address_city"=>nil, "address_country"=>nil, "address_line1"=>nil, "address_line1_check"=>nil, "address_line2"=>nil, "address_state"=>nil, "address_zip"=>nil, "address_zip_check"=>nil, "brand"=>"Visa", "country"=>"US", "customer"=>"cus_MZUkUH5W5czAUn", "cvc_check"=>"pass", "dynamic_last4"=>nil, "exp_month"=>9, "exp_year"=>2025, "fingerprint"=>"wKSqdEGk3M7OXiXs", "funding"=>"credit", "last4"=>"4242", "metadata"=>{}, "name"=>nil, "tokenization_method"=>"[FILTERED]"}, "source_transfer"=>nil, "statement_descriptor"=>nil, "statement_descriptor_suffix"=>nil, "status"=>"succeeded", "transfer_data"=>nil, "transfer_group"=>nil}}, "livemode"=>false, "pending_webhooks"=>7, "request"=>{"id"=>"req_2TlXvyAqWX8ddS", "idempotency_key"=>"[FILTERED]"}, "type"=>"charge.succeeded", "stripe_webhook"=>{"id"=>"evt_3LsFsLHvKdEDURjL1QBcMQfX", "object"=>"event", "api_version"=>"2020-08-27", "created"=>1665623178, "data"=>{"object"=>{"id"=>"ch_3LsFsLHvKdEDURjL1LuvvHWe", "object"=>"charge", "amount"=>102930, "amount_captured"=>102930, "amount_refunded"=>0, "amount_updates"=>[], "application"=>nil, "application_fee"=>nil, "application_fee_amount"=>nil, "balance_transaction"=>"txn_3LsFsLHvKdEDURjL1sWzUOPk", "billing_details"=>{"address"=>{"city"=>nil, "country"=>nil, "line1"=>nil, "line2"=>nil, "postal_code"=>nil, "state"=>nil}, "email"=>nil, "name"=>nil, "phone"=>nil}, "calculated_statement_descriptor"=>"TEWCODE", "captured"=>true, "created"=>1665623178, "currency"=>"usd", "customer"=>"cus_MZUkUH5W5czAUn", "description"=>"Netwerth Card Deposit: ", "destination"=>nil, "dispute"=>nil, "disputed"=>false, "failure_balance_transaction"=>nil, "failure_code"=>nil, "failure_message"=>nil, "fraud_details"=>{}, "invoice"=>nil, "livemode"=>false, "metadata"=>{}, "on_behalf_of"=>nil, "order"=>nil, "outcome"=>{"network_status"=>"approved_by_network", "reason"=>nil, "risk_level"=>"normal", "risk_score"=>57, "seller_message"=>"Payment complete.", "type"=>"authorized"}, "paid"=>true, "payment_intent"=>"pi_3LsFsLHvKdEDURjL1A2cDsQh", "payment_method"=>"card_1LsFmtHvKdEDURjLjJvjgkZH", "payment_method_details"=>{"card"=>{"brand"=>"visa", "checks"=>{"address_line1_check"=>nil, "address_postal_code_check"=>nil, "cvc_check"=>"pass"}, "country"=>"US", "exp_month"=>9, "exp_year"=>2025, "fingerprint"=>"wKSqdEGk3M7OXiXs", "funding"=>"credit", "installments"=>nil, "last4"=>"4242", "mandate"=>nil, "network"=>"visa", "three_d_secure"=>nil, "wallet"=>nil}, "type"=>"card"}, "receipt_email"=>"local@e.com", "receipt_number"=>nil, "receipt_url"=>"https://pay.stripe.com/receipts/payment/CAcaFwoVYWNjdF8xSEdZaWtIdktkRURVUmpMKIrJnZoGMgZ2wii2KCw6LBbgxP70dpPNHxu3vnHz2Ty1EMHANUFPirystLwycZhrfhY9XNvu1yIR3gtV", "refunded"=>false, "refunds"=>{"object"=>"list", "data"=>[], "has_more"=>false, "total_count"=>0, "url"=>"/v1/charges/ch_3LsFsLHvKdEDURjL1LuvvHWe/refunds"}, "review"=>nil, "shipping"=>nil, "source"=>{"id"=>"card_1LsFmtHvKdEDURjLjJvjgkZH", "object"=>"card", "address_city"=>nil, "address_country"=>nil, "address_line1"=>nil, "address_line1_check"=>nil, "address_line2"=>nil, "address_state"=>nil, "address_zip"=>nil, "address_zip_check"=>nil, "brand"=>"Visa", "country"=>"US", "customer"=>"cus_MZUkUH5W5czAUn", "cvc_check"=>"pass", "dynamic_last4"=>nil, "exp_month"=>9, "exp_year"=>2025, "fingerprint"=>"wKSqdEGk3M7OXiXs", "funding"=>"credit", "last4"=>"4242", "metadata"=>{}, "name"=>nil, "tokenization_method"=>"[FILTERED]"}, "source_transfer"=>nil, "statement_descriptor"=>nil, "statement_descriptor_suffix"=>nil, "status"=>"succeeded", "transfer_data"=>nil, "transfer_group"=>nil}}, "livemode"=>false, "pending_webhooks"=>7, "request"=>{"id"=>"req_2TlXvyAqWX8ddS", "idempotency_key"=>"[FILTERED]"}, "type"=>"charge.succeeded"}}
+Can't verify CSRF token authenticity.
+Started POST "/api/v2/stripe-webhooks" for 127.0.0.1 at 2022-10-12 20:06:19 -0500
+Processing by Api::V2::StripeWebhooksController#update as JSON
+  Parameters: {"id"=>"evt_3LsFsLHvKdEDURjL1sjTUAPO", "object"=>"event", "api_version"=>"2020-08-27", "created"=>1665623178, "data"=>{"object"=>{"id"=>"pi_3LsFsLHvKdEDURjL1A2cDsQh", "object"=>"payment_intent", "amount"=>102930, "amount_capturable"=>0, "amount_details"=>{"tip"=>{}}, "amount_received"=>102930, "application"=>nil, "application_fee_amount"=>nil, "automatic_payment_methods"=>nil, "canceled_at"=>nil, "cancellation_reason"=>nil, "capture_method"=>"automatic", "charges"=>{"object"=>"list", "data"=>[{"id"=>"ch_3LsFsLHvKdEDURjL1LuvvHWe", "object"=>"charge", "amount"=>102930, "amount_captured"=>102930, "amount_refunded"=>0, "amount_updates"=>[], "application"=>nil, "application_fee"=>nil, "application_fee_amount"=>nil, "balance_transaction"=>"txn_3LsFsLHvKdEDURjL1sWzUOPk", "billing_details"=>{"address"=>{"city"=>nil, "country"=>nil, "line1"=>nil, "line2"=>nil, "postal_code"=>nil, "state"=>nil}, "email"=>nil, "name"=>nil, "phone"=>nil}, "calculated_statement_descriptor"=>"TEWCODE", "captured"=>true, "created"=>1665623178, "currency"=>"usd", "customer"=>"cus_MZUkUH5W5czAUn", "description"=>"Netwerth Card Deposit: ", "destination"=>nil, "dispute"=>nil, "disputed"=>false, "failure_balance_transaction"=>nil, "failure_code"=>nil, "failure_message"=>nil, "fraud_details"=>{}, "invoice"=>nil, "livemode"=>false, "metadata"=>{}, "on_behalf_of"=>nil, "order"=>nil, "outcome"=>{"network_status"=>"approved_by_network", "reason"=>nil, "risk_level"=>"normal", "risk_score"=>57, "seller_message"=>"Payment complete.", "type"=>"authorized"}, "paid"=>true, "payment_intent"=>"pi_3LsFsLHvKdEDURjL1A2cDsQh", "payment_method"=>"card_1LsFmtHvKdEDURjLjJvjgkZH", "payment_method_details"=>{"card"=>{"brand"=>"visa", "checks"=>{"address_line1_check"=>nil, "address_postal_code_check"=>nil, "cvc_check"=>"pass"}, "country"=>"US", "exp_month"=>9, "exp_year"=>2025, "fingerprint"=>"wKSqdEGk3M7OXiXs", "funding"=>"credit", "installments"=>nil, "last4"=>"4242", "mandate"=>nil, "network"=>"visa", "three_d_secure"=>nil, "wallet"=>nil}, "type"=>"card"}, "receipt_email"=>"local@e.com", "receipt_number"=>nil, "receipt_url"=>"https://pay.stripe.com/receipts/payment/CAcaFwoVYWNjdF8xSEdZaWtIdktkRURVUmpMKIvJnZoGMgbZZ5lSsdo6LBYcUFwCZ6n59B765YehV-NHwiGERnKKBekVaXB3XU2fSiSo-uYYOzJ3Ibpm", "refunded"=>false, "refunds"=>{"object"=>"list", "data"=>[], "has_more"=>false, "total_count"=>0, "url"=>"/v1/charges/ch_3LsFsLHvKdEDURjL1LuvvHWe/refunds"}, "review"=>nil, "shipping"=>nil, "source"=>{"id"=>"card_1LsFmtHvKdEDURjLjJvjgkZH", "object"=>"card", "address_city"=>nil, "address_country"=>nil, "address_line1"=>nil, "address_line1_check"=>nil, "address_line2"=>nil, "address_state"=>nil, "address_zip"=>nil, "address_zip_check"=>nil, "brand"=>"Visa", "country"=>"US", "customer"=>"cus_MZUkUH5W5czAUn", "cvc_check"=>"pass", "dynamic_last4"=>nil, "exp_month"=>9, "exp_year"=>2025, "fingerprint"=>"wKSqdEGk3M7OXiXs", "funding"=>"credit", "last4"=>"4242", "metadata"=>{}, "name"=>nil, "tokenization_method"=>"[FILTERED]"}, "source_transfer"=>nil, "statement_descriptor"=>nil, "statement_descriptor_suffix"=>nil, "status"=>"succeeded", "transfer_data"=>nil, "transfer_group"=>nil}], "has_more"=>false, "total_count"=>1, "url"=>"/v1/charges?payment_intent=pi_3LsFsLHvKdEDURjL1A2cDsQh"}, "client_secret"=>"[FILTERED]", "confirmation_method"=>"automatic", "created"=>1665623177, "currency"=>"usd", "customer"=>"cus_MZUkUH5W5czAUn", "description"=>"Netwerth Card Deposit: ", "invoice"=>nil, "last_payment_error"=>nil, "livemode"=>false, "metadata"=>{}, "next_action"=>nil, "on_behalf_of"=>nil, "payment_method"=>nil, "payment_method_options"=>{"card"=>{"installments"=>nil, "mandate_options"=>nil, "network"=>nil, "request_three_d_secure"=>"automatic"}}, "payment_method_types"=>["card"], "processing"=>nil, "receipt_email"=>"local@e.com", "review"=>nil, "setup_future_usage"=>nil, "shipping"=>nil, "source"=>"card_1LsFmtHvKdEDURjLjJvjgkZH", "statement_descriptor"=>nil, "statement_descriptor_suffix"=>nil, "status"=>"succeeded", "transfer_data"=>nil, "transfer_group"=>nil}}, "livemode"=>false, "pending_webhooks"=>4, "request"=>{"id"=>"req_2TlXvyAqWX8ddS", "idempotency_key"=>"[FILTERED]"}, "type"=>"payment_intent.succeeded", "stripe_webhook"=>{"id"=>"evt_3LsFsLHvKdEDURjL1sjTUAPO", "object"=>"event", "api_version"=>"2020-08-27", "created"=>1665623178, "data"=>{"object"=>{"id"=>"pi_3LsFsLHvKdEDURjL1A2cDsQh", "object"=>"payment_intent", "amount"=>102930, "amount_capturable"=>0, "amount_details"=>{"tip"=>{}}, "amount_received"=>102930, "application"=>nil, "application_fee_amount"=>nil, "automatic_payment_methods"=>nil, "canceled_at"=>nil, "cancellation_reason"=>nil, "capture_method"=>"automatic", "charges"=>{"object"=>"list", "data"=>[{"id"=>"ch_3LsFsLHvKdEDURjL1LuvvHWe", "object"=>"charge", "amount"=>102930, "amount_captured"=>102930, "amount_refunded"=>0, "amount_updates"=>[], "application"=>nil, "application_fee"=>nil, "application_fee_amount"=>nil, "balance_transaction"=>"txn_3LsFsLHvKdEDURjL1sWzUOPk", "billing_details"=>{"address"=>{"city"=>nil, "country"=>nil, "line1"=>nil, "line2"=>nil, "postal_code"=>nil, "state"=>nil}, "email"=>nil, "name"=>nil, "phone"=>nil}, "calculated_statement_descriptor"=>"TEWCODE", "captured"=>true, "created"=>1665623178, "currency"=>"usd", "customer"=>"cus_MZUkUH5W5czAUn", "description"=>"Netwerth Card Deposit: ", "destination"=>nil, "dispute"=>nil, "disputed"=>false, "failure_balance_transaction"=>nil, "failure_code"=>nil, "failure_message"=>nil, "fraud_details"=>{}, "invoice"=>nil, "livemode"=>false, "metadata"=>{}, "on_behalf_of"=>nil, "order"=>nil, "outcome"=>{"network_status"=>"approved_by_network", "reason"=>nil, "risk_level"=>"normal", "risk_score"=>57, "seller_message"=>"Payment complete.", "type"=>"authorized"}, "paid"=>true, "payment_intent"=>"pi_3LsFsLHvKdEDURjL1A2cDsQh", "payment_method"=>"card_1LsFmtHvKdEDURjLjJvjgkZH", "payment_method_details"=>{"card"=>{"brand"=>"visa", "checks"=>{"address_line1_check"=>nil, "address_postal_code_check"=>nil, "cvc_check"=>"pass"}, "country"=>"US", "exp_month"=>9, "exp_year"=>2025, "fingerprint"=>"wKSqdEGk3M7OXiXs", "funding"=>"credit", "installments"=>nil, "last4"=>"4242", "mandate"=>nil, "network"=>"visa", "three_d_secure"=>nil, "wallet"=>nil}, "type"=>"card"}, "receipt_email"=>"local@e.com", "receipt_number"=>nil, "receipt_url"=>"https://pay.stripe.com/receipts/payment/CAcaFwoVYWNjdF8xSEdZaWtIdktkRURVUmpMKIvJnZoGMgbZZ5lSsdo6LBYcUFwCZ6n59B765YehV-NHwiGERnKKBekVaXB3XU2fSiSo-uYYOzJ3Ibpm", "refunded"=>false, "refunds"=>{"object"=>"list", "data"=>[], "has_more"=>false, "total_count"=>0, "url"=>"/v1/charges/ch_3LsFsLHvKdEDURjL1LuvvHWe/refunds"}, "review"=>nil, "shipping"=>nil, "source"=>{"id"=>"card_1LsFmtHvKdEDURjLjJvjgkZH", "object"=>"card", "address_city"=>nil, "address_country"=>nil, "address_line1"=>nil, "address_line1_check"=>nil, "address_line2"=>nil, "address_state"=>nil, "address_zip"=>nil, "address_zip_check"=>nil, "brand"=>"Visa", "country"=>"US", "customer"=>"cus_MZUkUH5W5czAUn", "cvc_check"=>"pass", "dynamic_last4"=>nil, "exp_month"=>9, "exp_year"=>2025, "fingerprint"=>"wKSqdEGk3M7OXiXs", "funding"=>"credit", "last4"=>"4242", "metadata"=>{}, "name"=>nil, "tokenization_method"=>"[FILTERED]"}, "source_transfer"=>nil, "statement_descriptor"=>nil, "statement_descriptor_suffix"=>nil, "status"=>"succeeded", "transfer_data"=>nil, "transfer_group"=>nil}], "has_more"=>false, "total_count"=>1, "url"=>"/v1/charges?payment_intent=pi_3LsFsLHvKdEDURjL1A2cDsQh"}, "client_secret"=>"[FILTERED]", "confirmation_method"=>"automatic", "created"=>1665623177, "currency"=>"usd", "customer"=>"cus_MZUkUH5W5czAUn", "description"=>"Netwerth Card Deposit: ", "invoice"=>nil, "last_payment_error"=>nil, "livemode"=>false, "metadata"=>{}, "next_action"=>nil, "on_behalf_of"=>nil, "payment_method"=>nil, "payment_method_options"=>{"card"=>{"installments"=>nil, "mandate_options"=>nil, "network"=>nil, "request_three_d_secure"=>"automatic"}}, "payment_method_types"=>["card"], "processing"=>nil, "receipt_email"=>"local@e.com", "review"=>nil, "setup_future_usage"=>nil, "shipping"=>nil, "source"=>"card_1LsFmtHvKdEDURjLjJvjgkZH", "statement_descriptor"=>nil, "statement_descriptor_suffix"=>nil, "status"=>"succeeded", "transfer_data"=>nil, "transfer_group"=>nil}}, "livemode"=>false, "pending_webhooks"=>4, "request"=>{"id"=>"req_2TlXvyAqWX8ddS", "idempotency_key"=>"[FILTERED]"}, "type"=>"payment_intent.succeeded"}}
+Can't verify CSRF token authenticity.
+No template found for Api::V2::StripeWebhooksController#update, rendering head :no_content
+Completed 204 No Content in 1ms (ActiveRecord: 0.0ms | Allocations: 275)
+
+
+Started POST "/api/v2/stripe-webhooks" for 127.0.0.1 at 2022-10-12 20:06:19 -0500
+Processing by Api::V2::StripeWebhooksController#update as JSON
+  Parameters: {"id"=>"evt_3LsFsLHvKdEDURjL13DWofX4", "object"=>"event", "api_version"=>"2020-08-27", "created"=>1665623177, "data"=>{"object"=>{"id"=>"pi_3LsFsLHvKdEDURjL1A2cDsQh", "object"=>"payment_intent", "amount"=>102930, "amount_capturable"=>0, "amount_details"=>{"tip"=>{}}, "amount_received"=>0, "application"=>nil, "application_fee_amount"=>nil, "automatic_payment_methods"=>nil, "canceled_at"=>nil, "cancellation_reason"=>nil, "capture_method"=>"automatic", "charges"=>{"object"=>"list", "data"=>[], "has_more"=>false, "total_count"=>0, "url"=>"/v1/charges?payment_intent=pi_3LsFsLHvKdEDURjL1A2cDsQh"}, "client_secret"=>"[FILTERED]", "confirmation_method"=>"automatic", "created"=>1665623177, "currency"=>"usd", "customer"=>"cus_MZUkUH5W5czAUn", "description"=>"Netwerth Card Deposit: ", "invoice"=>nil, "last_payment_error"=>nil, "livemode"=>false, "metadata"=>{}, "next_action"=>nil, "on_behalf_of"=>nil, "payment_method"=>nil, "payment_method_options"=>{"card"=>{"installments"=>nil, "mandate_options"=>nil, "network"=>nil, "request_three_d_secure"=>"automatic"}}, "payment_method_types"=>["card"], "processing"=>nil, "receipt_email"=>"local@e.com", "review"=>nil, "setup_future_usage"=>nil, "shipping"=>nil, "source"=>nil, "statement_descriptor"=>nil, "statement_descriptor_suffix"=>nil, "status"=>"requires_payment_method", "transfer_data"=>nil, "transfer_group"=>nil}}, "livemode"=>false, "pending_webhooks"=>3, "request"=>{"id"=>"req_2TlXvyAqWX8ddS", "idempotency_key"=>"[FILTERED]"}, "type"=>"payment_intent.created", "stripe_webhook"=>{"id"=>"evt_3LsFsLHvKdEDURjL13DWofX4", "object"=>"event", "api_version"=>"2020-08-27", "created"=>1665623177, "data"=>{"object"=>{"id"=>"pi_3LsFsLHvKdEDURjL1A2cDsQh", "object"=>"payment_intent", "amount"=>102930, "amount_capturable"=>0, "amount_details"=>{"tip"=>{}}, "amount_received"=>0, "application"=>nil, "application_fee_amount"=>nil, "automatic_payment_methods"=>nil, "canceled_at"=>nil, "cancellation_reason"=>nil, "capture_method"=>"automatic", "charges"=>{"object"=>"list", "data"=>[], "has_more"=>false, "total_count"=>0, "url"=>"/v1/charges?payment_intent=pi_3LsFsLHvKdEDURjL1A2cDsQh"}, "client_secret"=>"[FILTERED]", "confirmation_method"=>"automatic", "created"=>1665623177, "currency"=>"usd", "customer"=>"cus_MZUkUH5W5czAUn", "description"=>"Netwerth Card Deposit: ", "invoice"=>nil, "last_payment_error"=>nil, "livemode"=>false, "metadata"=>{}, "next_action"=>nil, "on_behalf_of"=>nil, "payment_method"=>nil, "payment_method_options"=>{"card"=>{"installments"=>nil, "mandate_options"=>nil, "network"=>nil, "request_three_d_secure"=>"automatic"}}, "payment_method_types"=>["card"], "processing"=>nil, "receipt_email"=>"local@e.com", "review"=>nil, "setup_future_usage"=>nil, "shipping"=>nil, "source"=>nil, "statement_descriptor"=>nil, "statement_descriptor_suffix"=>nil, "status"=>"requires_payment_method", "transfer_data"=>nil, "transfer_group"=>nil}}, "livemode"=>false, "pending_webhooks"=>3, "request"=>{"id"=>"req_2TlXvyAqWX8ddS", "idempotency_key"=>"[FILTERED]"}, "type"=>"payment_intent.created"}}
+Can't verify CSRF token authenticity.
+No template found for Api::V2::StripeWebhooksController#update, rendering head :no_content
+Completed 204 No Content in 1ms (ActiveRecord: 0.0ms | Allocations: 258)
+
+
+Started GET "/api/v2/customers/cus_MZUkUH5W5czAUn" for 127.0.0.1 at 2022-10-12 20:06:21 -0500
+Processing by Api::V2::StripeCustomersController#show as JSON
+  Parameters: {"id"=>"cus_MZUkUH5W5czAUn", "stripe_customer"=>{}}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."authentication_token" = $1 LIMIT $2[0m  [["authentication_token", "[FILTERED]"], ["LIMIT", 1]]
+  ↳ app/controllers/api_controller.rb:137:in `findUser'
+Started POST "/api/v2/stripe-webhooks" for 127.0.0.1 at 2022-10-12 20:06:21 -0500
+Processing by Api::V2::StripeWebhooksController#update as JSON
+  Parameters: {"id"=>"evt_3LsFsLHvKdEDURjL1OeNPNqj", "object"=>"event", "api_version"=>"2020-08-27", "created"=>1665623180, "data"=>{"object"=>{"id"=>"ch_3LsFsLHvKdEDURjL1LuvvHWe", "object"=>"charge", "amount"=>102930, "amount_captured"=>102930, "amount_refunded"=>0, "amount_updates"=>[], "application"=>nil, "application_fee"=>nil, "application_fee_amount"=>nil, "balance_transaction"=>"txn_3LsFsLHvKdEDURjL1sWzUOPk", "billing_details"=>{"address"=>{"city"=>nil, "country"=>nil, "line1"=>nil, "line2"=>nil, "postal_code"=>nil, "state"=>nil}, "email"=>nil, "name"=>nil, "phone"=>nil}, "calculated_statement_descriptor"=>"TEWCODE", "captured"=>true, "created"=>1665623178, "currency"=>"usd", "customer"=>"cus_MZUkUH5W5czAUn", "description"=>"Netwerth Card Deposit: ", "destination"=>nil, "dispute"=>nil, "disputed"=>false, "failure_balance_transaction"=>nil, "failure_code"=>nil, "failure_message"=>nil, "fraud_details"=>{}, "invoice"=>nil, "livemode"=>false, "metadata"=>{}, "on_behalf_of"=>nil, "order"=>nil, "outcome"=>{"network_status"=>"approved_by_network", "reason"=>nil, "risk_level"=>"normal", "risk_score"=>57, "seller_message"=>"Payment complete.", "type"=>"authorized"}, "paid"=>true, "payment_intent"=>"pi_3LsFsLHvKdEDURjL1A2cDsQh", "payment_method"=>"card_1LsFmtHvKdEDURjLjJvjgkZH", "payment_method_details"=>{"card"=>{"brand"=>"visa", "checks"=>{"address_line1_check"=>nil, "address_postal_code_check"=>nil, "cvc_check"=>"pass"}, "country"=>"US", "exp_month"=>9, "exp_year"=>2025, "fingerprint"=>"wKSqdEGk3M7OXiXs", "funding"=>"credit", "installments"=>nil, "last4"=>"4242", "mandate"=>nil, "network"=>"visa", "three_d_secure"=>nil, "wallet"=>nil}, "type"=>"card"}, "receipt_email"=>"local@e.com", "receipt_number"=>nil, "receipt_url"=>"https://pay.stripe.com/receipts/payment/CAcaFwoVYWNjdF8xSEdZaWtIdktkRURVUmpMKIzJnZoGMgYj1-wfLGE6LBbo5nMJhlAcqKHbXYgZEuXA7qe3AlRSBZz3BGXNkvSbhL9LyRlovjNA4cMh", "refunded"=>false, "refunds"=>{"object"=>"list", "data"=>[], "has_more"=>false, "total_count"=>0, "url"=>"/v1/charges/ch_3LsFsLHvKdEDURjL1LuvvHWe/refunds"}, "review"=>nil, "shipping"=>nil, "source"=>{"id"=>"card_1LsFmtHvKdEDURjLjJvjgkZH", "object"=>"card", "address_city"=>nil, "address_country"=>nil, "address_line1"=>nil, "address_line1_check"=>nil, "address_line2"=>nil, "address_state"=>nil, "address_zip"=>nil, "address_zip_check"=>nil, "brand"=>"Visa", "country"=>"US", "customer"=>"cus_MZUkUH5W5czAUn", "cvc_check"=>"pass", "dynamic_last4"=>nil, "exp_month"=>9, "exp_year"=>2025, "fingerprint"=>"wKSqdEGk3M7OXiXs", "funding"=>"credit", "last4"=>"4242", "metadata"=>{}, "name"=>nil, "tokenization_method"=>"[FILTERED]"}, "source_transfer"=>nil, "statement_descriptor"=>nil, "statement_descriptor_suffix"=>nil, "status"=>"succeeded", "transfer_data"=>nil, "transfer_group"=>"7ca0f553"}, "previous_attributes"=>{"receipt_url"=>"https://pay.stripe.com/receipts/payment/CAcaFwoVYWNjdF8xSEdZaWtIdktkRURVUmpMKIzJnZoGMgZImCSVKy46LBbQ02qL9DieOoXphU1BBm-nBQ79tpFhPFwo2iAb8_i6ngEpeCV3LDdluuuP", "transfer_group"=>nil}}, "livemode"=>false, "pending_webhooks"=>6, "request"=>{"id"=>"req_zCjPcCcncYrRtK", "idempotency_key"=>"[FILTERED]"}, "type"=>"charge.updated", "stripe_webhook"=>{"id"=>"evt_3LsFsLHvKdEDURjL1OeNPNqj", "object"=>"event", "api_version"=>"2020-08-27", "created"=>1665623180, "data"=>{"object"=>{"id"=>"ch_3LsFsLHvKdEDURjL1LuvvHWe", "object"=>"charge", "amount"=>102930, "amount_captured"=>102930, "amount_refunded"=>0, "amount_updates"=>[], "application"=>nil, "application_fee"=>nil, "application_fee_amount"=>nil, "balance_transaction"=>"txn_3LsFsLHvKdEDURjL1sWzUOPk", "billing_details"=>{"address"=>{"city"=>nil, "country"=>nil, "line1"=>nil, "line2"=>nil, "postal_code"=>nil, "state"=>nil}, "email"=>nil, "name"=>nil, "phone"=>nil}, "calculated_statement_descriptor"=>"TEWCODE", "captured"=>true, "created"=>1665623178, "currency"=>"usd", "customer"=>"cus_MZUkUH5W5czAUn", "description"=>"Netwerth Card Deposit: ", "destination"=>nil, "dispute"=>nil, "disputed"=>false, "failure_balance_transaction"=>nil, "failure_code"=>nil, "failure_message"=>nil, "fraud_details"=>{}, "invoice"=>nil, "livemode"=>false, "metadata"=>{}, "on_behalf_of"=>nil, "order"=>nil, "outcome"=>{"network_status"=>"approved_by_network", "reason"=>nil, "risk_level"=>"normal", "risk_score"=>57, "seller_message"=>"Payment complete.", "type"=>"authorized"}, "paid"=>true, "payment_intent"=>"pi_3LsFsLHvKdEDURjL1A2cDsQh", "payment_method"=>"card_1LsFmtHvKdEDURjLjJvjgkZH", "payment_method_details"=>{"card"=>{"brand"=>"visa", "checks"=>{"address_line1_check"=>nil, "address_postal_code_check"=>nil, "cvc_check"=>"pass"}, "country"=>"US", "exp_month"=>9, "exp_year"=>2025, "fingerprint"=>"wKSqdEGk3M7OXiXs", "funding"=>"credit", "installments"=>nil, "last4"=>"4242", "mandate"=>nil, "network"=>"visa", "three_d_secure"=>nil, "wallet"=>nil}, "type"=>"card"}, "receipt_email"=>"local@e.com", "receipt_number"=>nil, "receipt_url"=>"https://pay.stripe.com/receipts/payment/CAcaFwoVYWNjdF8xSEdZaWtIdktkRURVUmpMKIzJnZoGMgYj1-wfLGE6LBbo5nMJhlAcqKHbXYgZEuXA7qe3AlRSBZz3BGXNkvSbhL9LyRlovjNA4cMh", "refunded"=>false, "refunds"=>{"object"=>"list", "data"=>[], "has_more"=>false, "total_count"=>0, "url"=>"/v1/charges/ch_3LsFsLHvKdEDURjL1LuvvHWe/refunds"}, "review"=>nil, "shipping"=>nil, "source"=>{"id"=>"card_1LsFmtHvKdEDURjLjJvjgkZH", "object"=>"card", "address_city"=>nil, "address_country"=>nil, "address_line1"=>nil, "address_line1_check"=>nil, "address_line2"=>nil, "address_state"=>nil, "address_zip"=>nil, "address_zip_check"=>nil, "brand"=>"Visa", "country"=>"US", "customer"=>"cus_MZUkUH5W5czAUn", "cvc_check"=>"pass", "dynamic_last4"=>nil, "exp_month"=>9, "exp_year"=>2025, "fingerprint"=>"wKSqdEGk3M7OXiXs", "funding"=>"credit", "last4"=>"4242", "metadata"=>{}, "name"=>nil, "tokenization_method"=>"[FILTERED]"}, "source_transfer"=>nil, "statement_descriptor"=>nil, "statement_descriptor_suffix"=>nil, "status"=>"succeeded", "transfer_data"=>nil, "transfer_group"=>"7ca0f553"}, "previous_attributes"=>{"receipt_url"=>"https://pay.stripe.com/receipts/payment/CAcaFwoVYWNjdF8xSEdZaWtIdktkRURVUmpMKIzJnZoGMgZImCSVKy46LBbQ02qL9DieOoXphU1BBm-nBQ79tpFhPFwo2iAb8_i6ngEpeCV3LDdluuuP", "transfer_group"=>nil}}, "livemode"=>false, "pending_webhooks"=>6, "request"=>{"id"=>"req_zCjPcCcncYrRtK", "idempotency_key"=>"[FILTERED]"}, "type"=>"charge.updated"}}
+Can't verify CSRF token authenticity.
+No template found for Api::V2::StripeWebhooksController#update, rendering head :no_content
+Completed 204 No Content in 1ms (ActiveRecord: 0.0ms | Allocations: 284)
+
+
+Completed 200 OK in 581ms (Views: 0.5ms | ActiveRecord: 0.2ms | Allocations: 7960)
+
+
+Started POST "/api/v2/stripe-webhooks" for 127.0.0.1 at 2022-10-12 20:06:22 -0500
+Processing by Api::V2::StripeWebhooksController#update as JSON
+  Parameters: {"id"=>"evt_1LsFsPHvKdEDURjLoFbQydwK", "object"=>"event", "api_version"=>"2020-08-27", "created"=>1665623181, "data"=>{"object"=>{"id"=>"tu_1LsFsPHvKdEDURjLwo7jlXxY", "object"=>"topup", "amount"=>76935, "balance_transaction"=>nil, "created"=>1665623181, "currency"=>"usd", "description"=>"ich_1LqLlRHvKdEDURjL39r30qp5 approximate deposit: $999.16", "destination_balance"=>"issuing", "expected_availability_date"=>1665623181, "failure_code"=>nil, "failure_message"=>nil, "livemode"=>false, "metadata"=>{"cardHolder"=>"ich_1LqLlRHvKdEDURjL39r30qp5", "deposit"=>"true"}, "source"=>{"id"=>"src_1LsFsPHvKdEDURjLxFj1B9K6", "object"=>"source", "ach_debit"=>{"country"=>"US", "type"=>"individual", "routing_number"=>"110000000", "last4"=>"6789", "fingerprint"=>"XN2LSvjbVpp7Lq1y", "bank_name"=>"STRIPE TEST BANK"}, "amount"=>nil, "client_secret"=>"[FILTERED]", "code_verification"=>{"attempts_remaining"=>3, "status"=>"succeeded"}, "created"=>1665623181, "currency"=>"usd", "flow"=>"code_verification", "livemode"=>false, "metadata"=>{}, "owner"=>{"address"=>{"city"=>nil, "country"=>"US", "line1"=>nil, "line2"=>nil, "postal_code"=>nil, "state"=>nil}, "email"=>nil, "name"=>"Jenny Rosen", "phone"=>nil, "verified_address"=>nil, "verified_email"=>nil, "verified_name"=>nil, "verified_phone"=>nil}, "statement_descriptor"=>nil, "status"=>"chargeable", "type"=>"ach_debit", "usage"=>"reusable"}, "statement_descriptor"=>"Top-up", "status"=>"pending", "transfer_group"=>"7ca0f553"}}, "livemode"=>false, "pending_webhooks"=>3, "request"=>{"id"=>"req_MvBdhLIc47RS96", "idempotency_key"=>"[FILTERED]"}, "type"=>"topup.created", "stripe_webhook"=>{"id"=>"evt_1LsFsPHvKdEDURjLoFbQydwK", "object"=>"event", "api_version"=>"2020-08-27", "created"=>1665623181, "data"=>{"object"=>{"id"=>"tu_1LsFsPHvKdEDURjLwo7jlXxY", "object"=>"topup", "amount"=>76935, "balance_transaction"=>nil, "created"=>1665623181, "currency"=>"usd", "description"=>"ich_1LqLlRHvKdEDURjL39r30qp5 approximate deposit: $999.16", "destination_balance"=>"issuing", "expected_availability_date"=>1665623181, "failure_code"=>nil, "failure_message"=>nil, "livemode"=>false, "metadata"=>{"cardHolder"=>"ich_1LqLlRHvKdEDURjL39r30qp5", "deposit"=>"true"}, "source"=>{"id"=>"src_1LsFsPHvKdEDURjLxFj1B9K6", "object"=>"source", "ach_debit"=>{"country"=>"US", "type"=>"individual", "routing_number"=>"110000000", "last4"=>"6789", "fingerprint"=>"XN2LSvjbVpp7Lq1y", "bank_name"=>"STRIPE TEST BANK"}, "amount"=>nil, "client_secret"=>"[FILTERED]", "code_verification"=>{"attempts_remaining"=>3, "status"=>"succeeded"}, "created"=>1665623181, "currency"=>"usd", "flow"=>"code_verification", "livemode"=>false, "metadata"=>{}, "owner"=>{"address"=>{"city"=>nil, "country"=>"US", "line1"=>nil, "line2"=>nil, "postal_code"=>nil, "state"=>nil}, "email"=>nil, "name"=>"Jenny Rosen", "phone"=>nil, "verified_address"=>nil, "verified_email"=>nil, "verified_name"=>nil, "verified_phone"=>nil}, "statement_descriptor"=>nil, "status"=>"chargeable", "type"=>"ach_debit", "usage"=>"reusable"}, "statement_descriptor"=>"Top-up", "status"=>"pending", "transfer_group"=>"7ca0f553"}}, "livemode"=>false, "pending_webhooks"=>3, "request"=>{"id"=>"req_MvBdhLIc47RS96", "idempotency_key"=>"[FILTERED]"}, "type"=>"topup.created"}}
+Can't verify CSRF token authenticity.
+No template found for Api::V2::StripeWebhooksController#update, rendering head :no_content
+Completed 204 No Content in 1ms (ActiveRecord: 0.0ms | Allocations: 258)
+
+
+Started POST "/api/v2/stripe-webhooks" for 127.0.0.1 at 2022-10-12 20:06:22 -0500
+Processing by Api::V2::StripeWebhooksController#update as JSON
+  Parameters: {"id"=>"evt_1LsFsQHvKdEDURjLsqawHPKC", "object"=>"event", "api_version"=>"2020-08-27", "created"=>1665623181, "data"=>{"object"=>{"id"=>"tu_1LsFsPHvKdEDURjLwo7jlXxY", "object"=>"topup", "amount"=>76935, "balance_transaction"=>"txn_1LsFsPHvKdEDURjL3mhVcSza", "created"=>1665623181, "currency"=>"usd", "description"=>"ich_1LqLlRHvKdEDURjL39r30qp5 approximate deposit: $999.16", "destination_balance"=>"issuing", "expected_availability_date"=>1665623181, "failure_code"=>nil, "failure_message"=>nil, "livemode"=>false, "metadata"=>{"cardHolder"=>"ich_1LqLlRHvKdEDURjL39r30qp5", "deposit"=>"true"}, "source"=>{"id"=>"src_1LsFsPHvKdEDURjLxFj1B9K6", "object"=>"source", "ach_debit"=>{"country"=>"US", "type"=>"individual", "routing_number"=>"110000000", "last4"=>"6789", "fingerprint"=>"XN2LSvjbVpp7Lq1y", "bank_name"=>"STRIPE TEST BANK"}, "amount"=>nil, "client_secret"=>"[FILTERED]", "code_verification"=>{"attempts_remaining"=>3, "status"=>"succeeded"}, "created"=>1665623181, "currency"=>"usd", "flow"=>"code_verification", "livemode"=>false, "metadata"=>{}, "owner"=>{"address"=>{"city"=>nil, "country"=>"US", "line1"=>nil, "line2"=>nil, "postal_code"=>nil, "state"=>nil}, "email"=>nil, "name"=>"Jenny Rosen", "phone"=>nil, "verified_address"=>nil, "verified_email"=>nil, "verified_name"=>nil, "verified_phone"=>nil}, "statement_descriptor"=>nil, "status"=>"chargeable", "type"=>"ach_debit", "usage"=>"reusable"}, "statement_descriptor"=>"Top-up", "status"=>"succeeded", "transfer_group"=>"7ca0f553"}}, "livemode"=>false, "pending_webhooks"=>3, "request"=>{"id"=>"req_MvBdhLIc47RS96", "idempotency_key"=>"[FILTERED]"}, "type"=>"topup.succeeded", "stripe_webhook"=>{"id"=>"evt_1LsFsQHvKdEDURjLsqawHPKC", "object"=>"event", "api_version"=>"2020-08-27", "created"=>1665623181, "data"=>{"object"=>{"id"=>"tu_1LsFsPHvKdEDURjLwo7jlXxY", "object"=>"topup", "amount"=>76935, "balance_transaction"=>"txn_1LsFsPHvKdEDURjL3mhVcSza", "created"=>1665623181, "currency"=>"usd", "description"=>"ich_1LqLlRHvKdEDURjL39r30qp5 approximate deposit: $999.16", "destination_balance"=>"issuing", "expected_availability_date"=>1665623181, "failure_code"=>nil, "failure_message"=>nil, "livemode"=>false, "metadata"=>{"cardHolder"=>"ich_1LqLlRHvKdEDURjL39r30qp5", "deposit"=>"true"}, "source"=>{"id"=>"src_1LsFsPHvKdEDURjLxFj1B9K6", "object"=>"source", "ach_debit"=>{"country"=>"US", "type"=>"individual", "routing_number"=>"110000000", "last4"=>"6789", "fingerprint"=>"XN2LSvjbVpp7Lq1y", "bank_name"=>"STRIPE TEST BANK"}, "amount"=>nil, "client_secret"=>"[FILTERED]", "code_verification"=>{"attempts_remaining"=>3, "status"=>"succeeded"}, "created"=>1665623181, "currency"=>"usd", "flow"=>"code_verification", "livemode"=>false, "metadata"=>{}, "owner"=>{"address"=>{"city"=>nil, "country"=>"US", "line1"=>nil, "line2"=>nil, "postal_code"=>nil, "state"=>nil}, "email"=>nil, "name"=>"Jenny Rosen", "phone"=>nil, "verified_address"=>nil, "verified_email"=>nil, "verified_name"=>nil, "verified_phone"=>nil}, "statement_descriptor"=>nil, "status"=>"chargeable", "type"=>"ach_debit", "usage"=>"reusable"}, "statement_descriptor"=>"Top-up", "status"=>"succeeded", "transfer_group"=>"7ca0f553"}}, "livemode"=>false, "pending_webhooks"=>3, "request"=>{"id"=>"req_MvBdhLIc47RS96", "idempotency_key"=>"[FILTERED]"}, "type"=>"topup.succeeded"}}
+Can't verify CSRF token authenticity.
+No template found for Api::V2::StripeWebhooksController#update, rendering head :no_content
+Completed 204 No Content in 1ms (ActiveRecord: 0.0ms | Allocations: 258)
+
+
+Started POST "/api/v2/stripe-webhooks" for 127.0.0.1 at 2022-10-12 20:06:22 -0500
+Processing by Api::V2::StripeWebhooksController#update as JSON
+  Parameters: {"id"=>"evt_1LsFsQHvKdEDURjL0dWt9MRR", "object"=>"event", "api_version"=>"2020-08-27", "created"=>1665623181, "data"=>{"object"=>{"id"=>"src_1LsFsPHvKdEDURjLxFj1B9K6", "object"=>"source", "ach_debit"=>{"country"=>"US", "type"=>"individual", "routing_number"=>"110000000", "last4"=>"6789", "fingerprint"=>"XN2LSvjbVpp7Lq1y", "bank_name"=>"STRIPE TEST BANK"}, "amount"=>nil, "client_secret"=>"[FILTERED]", "code_verification"=>{"attempts_remaining"=>3, "status"=>"succeeded"}, "created"=>1665623181, "currency"=>"usd", "flow"=>"code_verification", "livemode"=>false, "metadata"=>{}, "owner"=>{"address"=>{"city"=>nil, "country"=>"US", "line1"=>nil, "line2"=>nil, "postal_code"=>nil, "state"=>nil}, "email"=>nil, "name"=>"Jenny Rosen", "phone"=>nil, "verified_address"=>nil, "verified_email"=>nil, "verified_name"=>nil, "verified_phone"=>nil}, "statement_descriptor"=>nil, "status"=>"chargeable", "type"=>"ach_debit", "usage"=>"reusable"}}, "livemode"=>false, "pending_webhooks"=>3, "request"=>{"id"=>"req_MvBdhLIc47RS96", "idempotency_key"=>"[FILTERED]"}, "type"=>"source.chargeable", "stripe_webhook"=>{"id"=>"evt_1LsFsQHvKdEDURjL0dWt9MRR", "object"=>"event", "api_version"=>"2020-08-27", "created"=>1665623181, "data"=>{"object"=>{"id"=>"src_1LsFsPHvKdEDURjLxFj1B9K6", "object"=>"source", "ach_debit"=>{"country"=>"US", "type"=>"individual", "routing_number"=>"110000000", "last4"=>"6789", "fingerprint"=>"XN2LSvjbVpp7Lq1y", "bank_name"=>"STRIPE TEST BANK"}, "amount"=>nil, "client_secret"=>"[FILTERED]", "code_verification"=>{"attempts_remaining"=>3, "status"=>"succeeded"}, "created"=>1665623181, "currency"=>"usd", "flow"=>"code_verification", "livemode"=>false, "metadata"=>{}, "owner"=>{"address"=>{"city"=>nil, "country"=>"US", "line1"=>nil, "line2"=>nil, "postal_code"=>nil, "state"=>nil}, "email"=>nil, "name"=>"Jenny Rosen", "phone"=>nil, "verified_address"=>nil, "verified_email"=>nil, "verified_name"=>nil, "verified_phone"=>nil}, "statement_descriptor"=>nil, "status"=>"chargeable", "type"=>"ach_debit", "usage"=>"reusable"}}, "livemode"=>false, "pending_webhooks"=>3, "request"=>{"id"=>"req_MvBdhLIc47RS96", "idempotency_key"=>"[FILTERED]"}, "type"=>"source.chargeable"}}
+Can't verify CSRF token authenticity.
+No template found for Api::V2::StripeWebhooksController#update, rendering head :no_content
+Completed 204 No Content in 1ms (ActiveRecord: 0.0ms | Allocations: 258)
+
+
+Started POST "/api/v2/stripe-webhooks" for 127.0.0.1 at 2022-10-12 20:06:22 -0500
+Processing by Api::V2::StripeWebhooksController#update as JSON
+  Parameters: {"id"=>"evt_1LsFsQHvKdEDURjLFSs28cqs", "object"=>"event", "api_version"=>"2020-08-27", "created"=>1665623182, "data"=>{"object"=>{"id"=>"ich_1LqLlRHvKdEDURjL39r30qp5", "object"=>"issuing.cardholder", "billing"=>{"address"=>{"city"=>"milwaukee", "country"=>"US", "line1"=>"2423", "line2"=>nil, "postal_code"=>"54328", "state"=>"WI"}}, "company"=>nil, "created"=>1665169157, "email"=>"local@e.com", "individual"=>nil, "livemode"=>false, "metadata"=>{"stripeCustomerID"=>"cus_MZUkUH5W5czAUn"}, "name"=>"asdfw", "phone_number"=>"+12323232322", "requirements"=>{"disabled_reason"=>nil, "past_due"=>[]}, "spending_controls"=>{"allowed_categories"=>[], "blocked_categories"=>[], "spending_limits"=>[{"amount"=>166175, "categories"=>[], "interval"=>"per_authorization"}], "spending_limits_currency"=>"usd"}, "status"=>"active", "type"=>"individual"}, "previous_attributes"=>{"spending_controls"=>{"spending_limits"=>[{"amount"=>89240, "categories"=>[], "interval"=>"per_authorization"}]}}}, "livemode"=>false, "pending_webhooks"=>3, "request"=>{"id"=>"req_0Kx08nCnsVajd9", "idempotency_key"=>"[FILTERED]"}, "type"=>"issuing_cardholder.updated", "stripe_webhook"=>{"id"=>"evt_1LsFsQHvKdEDURjLFSs28cqs", "object"=>"event", "api_version"=>"2020-08-27", "created"=>1665623182, "data"=>{"object"=>{"id"=>"ich_1LqLlRHvKdEDURjL39r30qp5", "object"=>"issuing.cardholder", "billing"=>{"address"=>{"city"=>"milwaukee", "country"=>"US", "line1"=>"2423", "line2"=>nil, "postal_code"=>"54328", "state"=>"WI"}}, "company"=>nil, "created"=>1665169157, "email"=>"local@e.com", "individual"=>nil, "livemode"=>false, "metadata"=>{"stripeCustomerID"=>"cus_MZUkUH5W5czAUn"}, "name"=>"asdfw", "phone_number"=>"+12323232322", "requirements"=>{"disabled_reason"=>nil, "past_due"=>[]}, "spending_controls"=>{"allowed_categories"=>[], "blocked_categories"=>[], "spending_limits"=>[{"amount"=>166175, "categories"=>[], "interval"=>"per_authorization"}], "spending_limits_currency"=>"usd"}, "status"=>"active", "type"=>"individual"}, "previous_attributes"=>{"spending_controls"=>{"spending_limits"=>[{"amount"=>89240, "categories"=>[], "interval"=>"per_authorization"}]}}}, "livemode"=>false, "pending_webhooks"=>3, "request"=>{"id"=>"req_0Kx08nCnsVajd9", "idempotency_key"=>"[FILTERED]"}, "type"=>"issuing_cardholder.updated"}}
+Can't verify CSRF token authenticity.
+No template found for Api::V2::StripeWebhooksController#update, rendering head :no_content
+Completed 204 No Content in 1ms (ActiveRecord: 0.0ms | Allocations: 258)
+
+
+Started GET "/api/v2/stripe-charges" for 127.0.0.1 at 2022-10-12 20:06:23 -0500
+Processing by Api::V2::StripeChargesController#index as JSON
+  Parameters: {"stripe_charge"=>{}}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."authentication_token" = $1 LIMIT $2[0m  [["authentication_token", "[FILTERED]"], ["LIMIT", 1]]
+  ↳ app/controllers/api_controller.rb:137:in `findUser'
+No template found for Api::V2::StripeWebhooksController#update, rendering head :no_content
+Completed 204 No Content in 3986ms (ActiveRecord: 0.0ms | Allocations: 55490)
+
+
+Started POST "/api/v2/stripe-webhooks" for 127.0.0.1 at 2022-10-12 20:06:23 -0500
+Processing by Api::V2::StripeWebhooksController#update as JSON
+  Parameters: {"id"=>"evt_1LsFsRHvKdEDURjLyG9IIX9h", "object"=>"event", "api_version"=>"2020-08-27", "created"=>1665623183, "data"=>{"object"=>{"object"=>"balance", "available"=>[{"amount"=>0, "currency"=>"usd", "source_types"=>{"card"=>0}}], "connect_reserved"=>[{"amount"=>0, "currency"=>"usd"}], "issuing"=>{"available"=>[{"amount"=>340926, "currency"=>"usd"}]}, "livemode"=>false, "pending"=>[{"amount"=>157863, "currency"=>"usd", "source_types"=>{"card"=>157863}}]}}, "livemode"=>false, "pending_webhooks"=>3, "request"=>{"id"=>nil, "idempotency_key"=>"[FILTERED]"}, "type"=>"balance.available", "stripe_webhook"=>{"id"=>"evt_1LsFsRHvKdEDURjLyG9IIX9h", "object"=>"event", "api_version"=>"2020-08-27", "created"=>1665623183, "data"=>{"object"=>{"object"=>"balance", "available"=>[{"amount"=>0, "currency"=>"usd", "source_types"=>{"card"=>0}}], "connect_reserved"=>[{"amount"=>0, "currency"=>"usd"}], "issuing"=>{"available"=>[{"amount"=>340926, "currency"=>"usd"}]}, "livemode"=>false, "pending"=>[{"amount"=>157863, "currency"=>"usd", "source_types"=>{"card"=>157863}}]}}, "livemode"=>false, "pending_webhooks"=>3, "request"=>{"id"=>nil, "idempotency_key"=>"[FILTERED]"}, "type"=>"balance.available"}}
+Can't verify CSRF token authenticity.
+No template found for Api::V2::StripeWebhooksController#update, rendering head :no_content
+Completed 204 No Content in 1ms (ActiveRecord: 0.0ms | Allocations: 258)
+
+
+Completed 200 OK in 1429ms (Views: 2.3ms | ActiveRecord: 0.2ms | Allocations: 26243)
+
+
+Started POST "/api/v2/stripe-webhooks" for 127.0.0.1 at 2022-10-12 20:06:40 -0500
+Processing by Api::V2::StripeWebhooksController#update as JSON
+  Parameters: {"id"=>"evt_1LsFsiHvKdEDURjL3anGjj8Y", "object"=>"event", "api_version"=>"2020-08-27", "created"=>1665623199, "data"=>{"object"=>{"id"=>"tu_1LsFshHvKdEDURjLa8oWbkBX", "object"=>"topup", "amount"=>76935, "balance_transaction"=>nil, "created"=>1665623199, "currency"=>"usd", "description"=>"ich_1LqLlRHvKdEDURjL39r30qp5 approximate deposit: $999.16", "destination_balance"=>"issuing", "expected_availability_date"=>1665623199, "failure_code"=>nil, "failure_message"=>nil, "livemode"=>false, "metadata"=>{"cardHolder"=>"ich_1LqLlRHvKdEDURjL39r30qp5", "deposit"=>"true"}, "source"=>{"id"=>"src_1LsFsgHvKdEDURjLTzSis15f", "object"=>"source", "ach_debit"=>{"country"=>"US", "type"=>"individual", "routing_number"=>"110000000", "last4"=>"6789", "fingerprint"=>"XN2LSvjbVpp7Lq1y", "bank_name"=>"STRIPE TEST BANK"}, "amount"=>nil, "client_secret"=>"[FILTERED]", "code_verification"=>{"attempts_remaining"=>3, "status"=>"succeeded"}, "created"=>1665623198, "currency"=>"usd", "flow"=>"code_verification", "livemode"=>false, "metadata"=>{}, "owner"=>{"address"=>{"city"=>nil, "country"=>"US", "line1"=>nil, "line2"=>nil, "postal_code"=>nil, "state"=>nil}, "email"=>nil, "name"=>"Jenny Rosen", "phone"=>nil, "verified_address"=>nil, "verified_email"=>nil, "verified_name"=>nil, "verified_phone"=>nil}, "statement_descriptor"=>nil, "status"=>"chargeable", "type"=>"ach_debit", "usage"=>"reusable"}, "statement_descriptor"=>"Top-up", "status"=>"pending", "transfer_group"=>"7ca0f553"}}, "livemode"=>false, "pending_webhooks"=>3, "request"=>{"id"=>"req_iSU1cFTIiZEmgY", "idempotency_key"=>"[FILTERED]"}, "type"=>"topup.created", "stripe_webhook"=>{"id"=>"evt_1LsFsiHvKdEDURjL3anGjj8Y", "object"=>"event", "api_version"=>"2020-08-27", "created"=>1665623199, "data"=>{"object"=>{"id"=>"tu_1LsFshHvKdEDURjLa8oWbkBX", "object"=>"topup", "amount"=>76935, "balance_transaction"=>nil, "created"=>1665623199, "currency"=>"usd", "description"=>"ich_1LqLlRHvKdEDURjL39r30qp5 approximate deposit: $999.16", "destination_balance"=>"issuing", "expected_availability_date"=>1665623199, "failure_code"=>nil, "failure_message"=>nil, "livemode"=>false, "metadata"=>{"cardHolder"=>"ich_1LqLlRHvKdEDURjL39r30qp5", "deposit"=>"true"}, "source"=>{"id"=>"src_1LsFsgHvKdEDURjLTzSis15f", "object"=>"source", "ach_debit"=>{"country"=>"US", "type"=>"individual", "routing_number"=>"110000000", "last4"=>"6789", "fingerprint"=>"XN2LSvjbVpp7Lq1y", "bank_name"=>"STRIPE TEST BANK"}, "amount"=>nil, "client_secret"=>"[FILTERED]", "code_verification"=>{"attempts_remaining"=>3, "status"=>"succeeded"}, "created"=>1665623198, "currency"=>"usd", "flow"=>"code_verification", "livemode"=>false, "metadata"=>{}, "owner"=>{"address"=>{"city"=>nil, "country"=>"US", "line1"=>nil, "line2"=>nil, "postal_code"=>nil, "state"=>nil}, "email"=>nil, "name"=>"Jenny Rosen", "phone"=>nil, "verified_address"=>nil, "verified_email"=>nil, "verified_name"=>nil, "verified_phone"=>nil}, "statement_descriptor"=>nil, "status"=>"chargeable", "type"=>"ach_debit", "usage"=>"reusable"}, "statement_descriptor"=>"Top-up", "status"=>"pending", "transfer_group"=>"7ca0f553"}}, "livemode"=>false, "pending_webhooks"=>3, "request"=>{"id"=>"req_iSU1cFTIiZEmgY", "idempotency_key"=>"[FILTERED]"}, "type"=>"topup.created"}}
+Can't verify CSRF token authenticity.
+No template found for Api::V2::StripeWebhooksController#update, rendering head :no_content
+Completed 204 No Content in 1ms (ActiveRecord: 0.0ms | Allocations: 258)
+
+
+Started POST "/api/v2/stripe-webhooks" for 127.0.0.1 at 2022-10-12 20:06:40 -0500
+Processing by Api::V2::StripeWebhooksController#update as JSON
+  Parameters: {"id"=>"evt_1LsFsiHvKdEDURjLzyV8bL0H", "object"=>"event", "api_version"=>"2020-08-27", "created"=>1665623199, "data"=>{"object"=>{"id"=>"tu_1LsFshHvKdEDURjLa8oWbkBX", "object"=>"topup", "amount"=>76935, "balance_transaction"=>"txn_1LsFshHvKdEDURjLdYBFOWBR", "created"=>1665623199, "currency"=>"usd", "description"=>"ich_1LqLlRHvKdEDURjL39r30qp5 approximate deposit: $999.16", "destination_balance"=>"issuing", "expected_availability_date"=>1665623199, "failure_code"=>nil, "failure_message"=>nil, "livemode"=>false, "metadata"=>{"cardHolder"=>"ich_1LqLlRHvKdEDURjL39r30qp5", "deposit"=>"true"}, "source"=>{"id"=>"src_1LsFsgHvKdEDURjLTzSis15f", "object"=>"source", "ach_debit"=>{"country"=>"US", "type"=>"individual", "routing_number"=>"110000000", "last4"=>"6789", "fingerprint"=>"XN2LSvjbVpp7Lq1y", "bank_name"=>"STRIPE TEST BANK"}, "amount"=>nil, "client_secret"=>"[FILTERED]", "code_verification"=>{"attempts_remaining"=>3, "status"=>"succeeded"}, "created"=>1665623198, "currency"=>"usd", "flow"=>"code_verification", "livemode"=>false, "metadata"=>{}, "owner"=>{"address"=>{"city"=>nil, "country"=>"US", "line1"=>nil, "line2"=>nil, "postal_code"=>nil, "state"=>nil}, "email"=>nil, "name"=>"Jenny Rosen", "phone"=>nil, "verified_address"=>nil, "verified_email"=>nil, "verified_name"=>nil, "verified_phone"=>nil}, "statement_descriptor"=>nil, "status"=>"chargeable", "type"=>"ach_debit", "usage"=>"reusable"}, "statement_descriptor"=>"Top-up", "status"=>"succeeded", "transfer_group"=>"7ca0f553"}}, "livemode"=>false, "pending_webhooks"=>3, "request"=>{"id"=>"req_iSU1cFTIiZEmgY", "idempotency_key"=>"[FILTERED]"}, "type"=>"topup.succeeded", "stripe_webhook"=>{"id"=>"evt_1LsFsiHvKdEDURjLzyV8bL0H", "object"=>"event", "api_version"=>"2020-08-27", "created"=>1665623199, "data"=>{"object"=>{"id"=>"tu_1LsFshHvKdEDURjLa8oWbkBX", "object"=>"topup", "amount"=>76935, "balance_transaction"=>"txn_1LsFshHvKdEDURjLdYBFOWBR", "created"=>1665623199, "currency"=>"usd", "description"=>"ich_1LqLlRHvKdEDURjL39r30qp5 approximate deposit: $999.16", "destination_balance"=>"issuing", "expected_availability_date"=>1665623199, "failure_code"=>nil, "failure_message"=>nil, "livemode"=>false, "metadata"=>{"cardHolder"=>"ich_1LqLlRHvKdEDURjL39r30qp5", "deposit"=>"true"}, "source"=>{"id"=>"src_1LsFsgHvKdEDURjLTzSis15f", "object"=>"source", "ach_debit"=>{"country"=>"US", "type"=>"individual", "routing_number"=>"110000000", "last4"=>"6789", "fingerprint"=>"XN2LSvjbVpp7Lq1y", "bank_name"=>"STRIPE TEST BANK"}, "amount"=>nil, "client_secret"=>"[FILTERED]", "code_verification"=>{"attempts_remaining"=>3, "status"=>"succeeded"}, "created"=>1665623198, "currency"=>"usd", "flow"=>"code_verification", "livemode"=>false, "metadata"=>{}, "owner"=>{"address"=>{"city"=>nil, "country"=>"US", "line1"=>nil, "line2"=>nil, "postal_code"=>nil, "state"=>nil}, "email"=>nil, "name"=>"Jenny Rosen", "phone"=>nil, "verified_address"=>nil, "verified_email"=>nil, "verified_name"=>nil, "verified_phone"=>nil}, "statement_descriptor"=>nil, "status"=>"chargeable", "type"=>"ach_debit", "usage"=>"reusable"}, "statement_descriptor"=>"Top-up", "status"=>"succeeded", "transfer_group"=>"7ca0f553"}}, "livemode"=>false, "pending_webhooks"=>3, "request"=>{"id"=>"req_iSU1cFTIiZEmgY", "idempotency_key"=>"[FILTERED]"}, "type"=>"topup.succeeded"}}
+Can't verify CSRF token authenticity.
+No template found for Api::V2::StripeWebhooksController#update, rendering head :no_content
+Completed 204 No Content in 1ms (ActiveRecord: 0.0ms | Allocations: 258)
+
+
+Started POST "/api/v2/stripe-webhooks" for 127.0.0.1 at 2022-10-12 20:06:40 -0500
+Processing by Api::V2::StripeWebhooksController#update as JSON
+  Parameters: {"id"=>"evt_1LsFsiHvKdEDURjLkAsGFIRn", "object"=>"event", "api_version"=>"2020-08-27", "created"=>1665623199, "data"=>{"object"=>{"id"=>"src_1LsFsgHvKdEDURjLTzSis15f", "object"=>"source", "ach_debit"=>{"country"=>"US", "type"=>"individual", "routing_number"=>"110000000", "last4"=>"6789", "fingerprint"=>"XN2LSvjbVpp7Lq1y", "bank_name"=>"STRIPE TEST BANK"}, "amount"=>nil, "client_secret"=>"[FILTERED]", "code_verification"=>{"attempts_remaining"=>3, "status"=>"succeeded"}, "created"=>1665623198, "currency"=>"usd", "flow"=>"code_verification", "livemode"=>false, "metadata"=>{}, "owner"=>{"address"=>{"city"=>nil, "country"=>"US", "line1"=>nil, "line2"=>nil, "postal_code"=>nil, "state"=>nil}, "email"=>nil, "name"=>"Jenny Rosen", "phone"=>nil, "verified_address"=>nil, "verified_email"=>nil, "verified_name"=>nil, "verified_phone"=>nil}, "statement_descriptor"=>nil, "status"=>"chargeable", "type"=>"ach_debit", "usage"=>"reusable"}}, "livemode"=>false, "pending_webhooks"=>3, "request"=>{"id"=>"req_iSU1cFTIiZEmgY", "idempotency_key"=>"[FILTERED]"}, "type"=>"source.chargeable", "stripe_webhook"=>{"id"=>"evt_1LsFsiHvKdEDURjLkAsGFIRn", "object"=>"event", "api_version"=>"2020-08-27", "created"=>1665623199, "data"=>{"object"=>{"id"=>"src_1LsFsgHvKdEDURjLTzSis15f", "object"=>"source", "ach_debit"=>{"country"=>"US", "type"=>"individual", "routing_number"=>"110000000", "last4"=>"6789", "fingerprint"=>"XN2LSvjbVpp7Lq1y", "bank_name"=>"STRIPE TEST BANK"}, "amount"=>nil, "client_secret"=>"[FILTERED]", "code_verification"=>{"attempts_remaining"=>3, "status"=>"succeeded"}, "created"=>1665623198, "currency"=>"usd", "flow"=>"code_verification", "livemode"=>false, "metadata"=>{}, "owner"=>{"address"=>{"city"=>nil, "country"=>"US", "line1"=>nil, "line2"=>nil, "postal_code"=>nil, "state"=>nil}, "email"=>nil, "name"=>"Jenny Rosen", "phone"=>nil, "verified_address"=>nil, "verified_email"=>nil, "verified_name"=>nil, "verified_phone"=>nil}, "statement_descriptor"=>nil, "status"=>"chargeable", "type"=>"ach_debit", "usage"=>"reusable"}}, "livemode"=>false, "pending_webhooks"=>3, "request"=>{"id"=>"req_iSU1cFTIiZEmgY", "idempotency_key"=>"[FILTERED]"}, "type"=>"source.chargeable"}}
+Can't verify CSRF token authenticity.
+No template found for Api::V2::StripeWebhooksController#update, rendering head :no_content
+Completed 204 No Content in 1ms (ActiveRecord: 0.0ms | Allocations: 258)
+
+
+Started POST "/api/v2/stripe-webhooks" for 127.0.0.1 at 2022-10-12 20:06:40 -0500
+Processing by Api::V2::StripeWebhooksController#update as JSON
+  Parameters: {"id"=>"evt_1LsFsiHvKdEDURjLP8ULZ6v4", "object"=>"event", "api_version"=>"2020-08-27", "created"=>1665623200, "data"=>{"object"=>{"id"=>"ich_1LqLlRHvKdEDURjL39r30qp5", "object"=>"issuing.cardholder", "billing"=>{"address"=>{"city"=>"milwaukee", "country"=>"US", "line1"=>"2423", "line2"=>nil, "postal_code"=>"54328", "state"=>"WI"}}, "company"=>nil, "created"=>1665169157, "email"=>"local@e.com", "individual"=>nil, "livemode"=>false, "metadata"=>{"stripeCustomerID"=>"cus_MZUkUH5W5czAUn"}, "name"=>"asdfw", "phone_number"=>"+12323232322", "requirements"=>{"disabled_reason"=>nil, "past_due"=>[]}, "spending_controls"=>{"allowed_categories"=>[], "blocked_categories"=>[], "spending_limits"=>[{"amount"=>243110, "categories"=>[], "interval"=>"per_authorization"}], "spending_limits_currency"=>"usd"}, "status"=>"active", "type"=>"individual"}, "previous_attributes"=>{"spending_controls"=>{"spending_limits"=>[{"amount"=>166175, "categories"=>[], "interval"=>"per_authorization"}]}}}, "livemode"=>false, "pending_webhooks"=>3, "request"=>{"id"=>"req_xIUqbruKuVJa93", "idempotency_key"=>"[FILTERED]"}, "type"=>"issuing_cardholder.updated", "stripe_webhook"=>{"id"=>"evt_1LsFsiHvKdEDURjLP8ULZ6v4", "object"=>"event", "api_version"=>"2020-08-27", "created"=>1665623200, "data"=>{"object"=>{"id"=>"ich_1LqLlRHvKdEDURjL39r30qp5", "object"=>"issuing.cardholder", "billing"=>{"address"=>{"city"=>"milwaukee", "country"=>"US", "line1"=>"2423", "line2"=>nil, "postal_code"=>"54328", "state"=>"WI"}}, "company"=>nil, "created"=>1665169157, "email"=>"local@e.com", "individual"=>nil, "livemode"=>false, "metadata"=>{"stripeCustomerID"=>"cus_MZUkUH5W5czAUn"}, "name"=>"asdfw", "phone_number"=>"+12323232322", "requirements"=>{"disabled_reason"=>nil, "past_due"=>[]}, "spending_controls"=>{"allowed_categories"=>[], "blocked_categories"=>[], "spending_limits"=>[{"amount"=>243110, "categories"=>[], "interval"=>"per_authorization"}], "spending_limits_currency"=>"usd"}, "status"=>"active", "type"=>"individual"}, "previous_attributes"=>{"spending_controls"=>{"spending_limits"=>[{"amount"=>166175, "categories"=>[], "interval"=>"per_authorization"}]}}}, "livemode"=>false, "pending_webhooks"=>3, "request"=>{"id"=>"req_xIUqbruKuVJa93", "idempotency_key"=>"[FILTERED]"}, "type"=>"issuing_cardholder.updated"}}
+Can't verify CSRF token authenticity.
+No template found for Api::V2::StripeWebhooksController#update, rendering head :no_content
+Completed 204 No Content in 0ms (ActiveRecord: 0.0ms | Allocations: 258)
+
+
+Started POST "/api/v2/stripe-webhooks" for 127.0.0.1 at 2022-10-12 20:06:41 -0500
+Processing by Api::V2::StripeWebhooksController#update as JSON
+  Parameters: {"id"=>"evt_1LsFsjHvKdEDURjLMwJADufe", "object"=>"event", "api_version"=>"2020-08-27", "created"=>1665623201, "data"=>{"object"=>{"object"=>"balance", "available"=>[{"amount"=>0, "currency"=>"usd", "source_types"=>{"card"=>0}}], "connect_reserved"=>[{"amount"=>0, "currency"=>"usd"}], "issuing"=>{"available"=>[{"amount"=>417861, "currency"=>"usd"}]}, "livemode"=>false, "pending"=>[{"amount"=>157863, "currency"=>"usd", "source_types"=>{"card"=>157863}}]}}, "livemode"=>false, "pending_webhooks"=>3, "request"=>{"id"=>nil, "idempotency_key"=>"[FILTERED]"}, "type"=>"balance.available", "stripe_webhook"=>{"id"=>"evt_1LsFsjHvKdEDURjLMwJADufe", "object"=>"event", "api_version"=>"2020-08-27", "created"=>1665623201, "data"=>{"object"=>{"object"=>"balance", "available"=>[{"amount"=>0, "currency"=>"usd", "source_types"=>{"card"=>0}}], "connect_reserved"=>[{"amount"=>0, "currency"=>"usd"}], "issuing"=>{"available"=>[{"amount"=>417861, "currency"=>"usd"}]}, "livemode"=>false, "pending"=>[{"amount"=>157863, "currency"=>"usd", "source_types"=>{"card"=>157863}}]}}, "livemode"=>false, "pending_webhooks"=>3, "request"=>{"id"=>nil, "idempotency_key"=>"[FILTERED]"}, "type"=>"balance.available"}}
+Can't verify CSRF token authenticity.
+No template found for Api::V2::StripeWebhooksController#update, rendering head :no_content
+Completed 204 No Content in 1ms (ActiveRecord: 0.0ms | Allocations: 258)
+
+
+DEPRECATION WARNING: Rails 7.0 has deprecated Enumerable.sum in favor of Ruby's native implementation available since 2.4. Sum of non-numeric elements requires an initial argument. (called from <main> at (irb):8)
+DEPRECATION WARNING: Rails 7.0 has deprecated Enumerable.sum in favor of Ruby's native implementation available since 2.4. Sum of non-numeric elements requires an initial argument. (called from <main> at (irb):9)
+DEPRECATION WARNING: Rails 7.0 has deprecated Enumerable.sum in favor of Ruby's native implementation available since 2.4. Sum of non-numeric elements requires an initial argument. (called from <main> at (irb):10)
